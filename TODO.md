@@ -176,7 +176,7 @@ Then repeat from Step 2 for your next task.
 
 ## PHASE 1 — Setup (All 3 people, do this together first)
 
-- [ ] Person A: accept all GitHub collaborator invites for teammates
+- [x] Person A: accept all GitHub collaborator invites for teammates
 - [ ] All 3: install Git on your laptop (see Git Setup section above)
 - [ ] All 3: clone the repo and run `npm install`
 - [ ] All 3: run `npm run dev` and confirm the app opens in your browser
@@ -192,7 +192,7 @@ Then repeat from Step 2 for your next task.
 
 ### 2A — Scrape Real Sudbury Resources ⭐ (Do this first — everything depends on it)
 
-- [ ] Sign up at apify.com and get your API key
+- [x] Sign up at apify.com and get your API key
 - [ ] Go to **211ontario.ca** and search "Greater Sudbury"
 - [ ] Scrape or manually collect resources from each category:
   - [ ] Food banks / meal programs
@@ -216,10 +216,10 @@ Then repeat from Step 2 for your next task.
 
 ### 2B — Set Up NVIDIA Nemotron (AI Matching)
 
-- [ ] Get NVIDIA API key from build.nvidia.com (see API Keys section)
-- [ ] Add `VITE_NVIDIA_API_KEY` to your `.env` file
-- [ ] Create `src/lib/matchResources.ts`
-- [ ] Paste in this starter code:
+- [x] Get NVIDIA API key from build.nvidia.com (see API Keys section)
+- [x] Add `VITE_NVIDIA_API_KEY` to your `.env` file
+- [x] Create `src/lib/matchResources.ts`
+- [x] Paste in this starter code:
 
 ```javascript
 export async function matchResources(userAnswers: {
