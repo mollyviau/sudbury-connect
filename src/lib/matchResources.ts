@@ -1,6 +1,8 @@
 import { askNemotron } from './nvidiaChat';
 import {
+  displayCategory,
   displayDescription,
+  displayLanguages,
   displayName,
   loadResources,
   resourceMatchesUserCategories,
@@ -48,6 +50,11 @@ function scoreResource(resource: ResourceRecord, answers: UserAnswers): number {
 
   if (resource.languages.includes(answers.language)) score += 5;
 
+  if (answers.language === 'French') {
+    if (resource.descriptionFr?.trim()) score += 15;
+    else score -= 10;
+  }
+
   return score;
 }
 
@@ -57,10 +64,10 @@ function toMatchedResource(resource: ResourceRecord, language: UserAnswers['lang
     description: displayDescription(resource, language),
     phone: resource.phone,
     hours: resource.hours,
-    languages: resource.languages,
+    languages: displayLanguages(resource.languages, language),
     address: resource.address || undefined,
     website: resource.website,
-    category: resource.dataCategory,
+    category: displayCategory(resource, language),
   };
 }
 

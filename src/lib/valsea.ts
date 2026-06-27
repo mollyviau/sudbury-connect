@@ -1,6 +1,16 @@
 import type { Language } from '../types';
 
-const API_BASE = import.meta.env.DEV ? '/api/valsea' : 'https://api.valsea.ai';
+const API_BASE = '/api/valsea';
+
+let activeAudio: HTMLAudioElement | null = null;
+
+export function stopValseaSpeech(): void {
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.currentTime = 0;
+    activeAudio = null;
+  }
+}
 
 function getApiKey(): string {
   const key = import.meta.env.VITE_VALSEA_API_KEY;
@@ -59,9 +69,16 @@ export async function speakText(text: string, language: Language): Promise<void>
   const url = URL.createObjectURL(blob);
   try {
     const audio = new Audio(url);
+    activeAudio = audio;
     await new Promise<void>((resolve, reject) => {
-      audio.onended = () => resolve();
-      audio.onerror = () => reject(new Error('Audio playback failed'));
+      audio.onended = () => {
+        activeAudio = null;
+        resolve();
+      };
+      audio.onerror = () => {
+        activeAudio = null;
+        reject(new Error('Audio playback failed'));
+      };
       audio.play().catch(reject);
     });
   } finally {

@@ -145,7 +145,6 @@
 .big-btn,
 .primary-btn,
 .secondary-btn,
-.pager-btn,
 .voice-btn {
   font: inherit;
   font-size: 14px;
@@ -175,8 +174,7 @@
 
 .big-btn:hover,
 .primary-btn:hover,
-.secondary-btn:hover,
-.pager-btn:hover:not(:disabled) {
+.secondary-btn:hover {
   border-color: var(--accent-border);
 }
 
@@ -312,8 +310,9 @@
   flex-direction: column;
   flex: 1;
   min-height: 0;
-  gap: 6px;
-  overflow: hidden;
+  gap: 8px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .result-card {
@@ -321,9 +320,7 @@
   border-radius: 8px;
   padding: 10px;
   background: var(--code-bg);
-  flex: 1;
-  min-height: 0;
-  overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -339,10 +336,6 @@
   margin: 0;
   font-size: 13px;
   line-height: 1.35;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .result-card .detail {
@@ -364,33 +357,6 @@
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-}
-
-.result-pager {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.pager-btn {
-  min-width: 44px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.pager-btn:disabled {
-  opacity: 0.35;
-  cursor: not-allowed;
-}
-
-.result-pager-count {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-h);
-  min-width: 3.5em;
-  text-align: center;
 }
 
 .no-results {
@@ -517,5 +483,72 @@
 
   .emergency-number {
     font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    overflow: visible;
+    min-height: 100dvh;
+  }
+
+  .app-content {
+    overflow: visible;
+    flex: none;
+    padding: 16px 20px 24px;
+  }
+
+  .screen {
+    overflow: visible;
+    flex: none;
+    min-height: auto;
+    gap: 12px;
+  }
+
+  .screen h2,
+  .screen .section-heading {
+    font-size: 18px;
+  }
+
+  .screen-results {
+    gap: 12px;
+  }
+
+  .results {
+    overflow: visible;
+    flex: none;
+    min-height: auto;
+    gap: 12px;
+  }
+
+  .result-card {
+    padding: 16px 18px;
+    border-radius: 12px;
+  }
+
+  .result-card h2 {
+    font-size: 20px;
+  }
+
+  .result-description,
+  .result-card .detail {
+    font-size: 15px;
+  }
+
+  .big-btn,
+  .primary-btn {
+    min-height: 48px;
+    font-size: 16px;
+  }
+
+  .category-grid .big-btn {
+    min-height: 44px;
+    font-size: 15px;
+  }
+
+  .who-grid .big-btn,
+  .area-grid .big-btn {
+    min-height: 42px;
+    font-size: 13px;
   }
 }

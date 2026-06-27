@@ -4,7 +4,12 @@ import { VoiceButton } from './components/VoiceButton';
 import { EmergencyFooter } from './components/EmergencyFooter';
 import { matchResources } from './lib/matchResources';
 import { parseFullVoiceInput } from './lib/parseVoiceInput';
-import { buildResultSpeechSegments, readSegments, stopReading } from './lib/readAloud';
+import {
+  buildResultSpeechSegments,
+  primeSpeechVoices,
+  readSegments,
+  stopReading,
+} from './lib/readAloud';
 import type { AppScreen, Language, MatchedResource } from './types';
 import {
   AREA_OPTIONS,
@@ -27,16 +32,15 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [voiceFeedback, setVoiceFeedback] = useState<string | null>(null);
   const [readingAloud, setReadingAloud] = useState(false);
-  const [resultIndex, setResultIndex] = useState(0);
 
   const strings = t(language);
 
+  useEffect(() => {
+    if (screen === 5) primeSpeechVoices();
+  }, [screen, language]);
+
   const DEFAULT_WHO = 'individual';
   const DEFAULT_AREA = 'any';
-
-  useEffect(() => {
-    setResultIndex(0);
-  }, [results]);
 
   function resolvedWho(value = whoAreYou) {
     return value || DEFAULT_WHO;
@@ -155,18 +159,17 @@ export default function App() {
   }
 
   function readResultsAloud() {
-    const current = results[resultIndex];
-    if (!current) return;
+    if (results.length === 0) return;
 
-    const segments = buildResultSpeechSegments([current], {
+    const segments = buildResultSpeechSegments(results, {
       whatTheyOffer: strings.whatTheyOffer,
       phone: strings.phone,
       hours: strings.hours,
       address: strings.address,
     });
 
-    setReadingAloud(true);
     readSegments(segments, language, () => setReadingAloud(false));
+    setReadingAloud(true);
   }
 
   function handleStopReading() {
@@ -342,34 +345,31 @@ export default function App() {
                 <p className="no-results-hint">{strings.noResultsHint}</p>
               </div>
             ) : (
-              <>
-                <article className="result-card">
-                  <h2>{results[resultIndex].name}</h2>
-                  {results[resultIndex].category && (
-                    <p className="result-category">{results[resultIndex].category}</p>
+              results.map((resource) => (
+                <article key={`${resource.name}-${resource.phone}`} className="result-card">
+                  <h2>{resource.name}</h2>
+                  {resource.category && (
+                    <p className="result-category">{resource.category}</p>
                   )}
-                  <p className="result-description">{results[resultIndex].description}</p>
-                  {results[resultIndex].address && (
-                    <p className="detail">📍 {results[resultIndex].address}</p>
+                  <p className="result-description">{resource.description}</p>
+                  {resource.address && (
+                    <p className="detail">📍 {resource.address}</p>
                   )}
                   <p className="detail">
                     📞{' '}
-                    {results[resultIndex].phone.startsWith('See') ||
-                    results[resultIndex].phone.includes('@') ? (
-                      results[resultIndex].phone
+                    {resource.phone.startsWith('See') || resource.phone.includes('@') ? (
+                      resource.phone
                     ) : (
-                      <a href={`tel:${results[resultIndex].phone.replace(/\D/g, '')}`}>
-                        {results[resultIndex].phone}
-                      </a>
+                      <a href={`tel:${resource.phone.replace(/\D/g, '')}`}>{resource.phone}</a>
                     )}
                   </p>
-                  <p className="detail">🕐 {results[resultIndex].hours}</p>
-                  <p className="detail">🗣️ {results[resultIndex].languages.join(', ')}</p>
-                  {results[resultIndex].website && (
+                  <p className="detail">🕐 {resource.hours}</p>
+                  <p className="detail">🗣️ {resource.languages.join(', ')}</p>
+                  {resource.website && (
                     <p className="detail">
                       🌐{' '}
                       <a
-                        href={results[resultIndex].website!.split(/\s+/)[0]}
+                        href={resource.website.split(/\s+/)[0]}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -378,32 +378,7 @@ export default function App() {
                     </p>
                   )}
                 </article>
-                {results.length > 1 && (
-                  <div className="result-pager">
-                    <button
-                      type="button"
-                      className="pager-btn"
-                      disabled={resultIndex === 0}
-                      onClick={() => setResultIndex((i) => i - 1)}
-                      aria-label={strings.prevResult}
-                    >
-                      ←
-                    </button>
-                    <span className="result-pager-count">
-                      {resultIndex + 1} / {results.length}
-                    </span>
-                    <button
-                      type="button"
-                      className="pager-btn"
-                      disabled={resultIndex >= results.length - 1}
-                      onClick={() => setResultIndex((i) => i + 1)}
-                      aria-label={strings.nextResult}
-                    >
-                      →
-                    </button>
-                  </div>
-                )}
-              </>
+              ))
             )}
           </div>
         </section>

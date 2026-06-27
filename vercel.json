@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/valsea/:path*",
+      "destination": "https://api.valsea.ai/:path*"
+    }
+  ]
+}

@@ -133,6 +133,37 @@ export function displayName(resource: ResourceRecord, _language: Language): stri
   return resource.name;
 }
 
+const DATA_CATEGORY_LABELS: Record<string, { en: string; fr: string }> = {
+  'Food Bank & Meal Program': {
+    en: 'Food Bank & Meal Program',
+    fr: 'Banque alimentaire et programme de repas',
+  },
+  'Mental Health & Addictions': {
+    en: 'Mental Health & Addictions',
+    fr: 'Santé mentale et dépendances',
+  },
+  'Housing & Shelter': { en: 'Housing & Shelter', fr: 'Logement et hébergement' },
+  'Employment & Training': { en: 'Employment & Training', fr: 'Emploi et formation' },
+  'Legal Aid': { en: 'Legal Aid', fr: 'Aide juridique' },
+  'Senior Services': { en: 'Senior Services', fr: 'Services aux aînés' },
+  'Family & Children': { en: 'Family & Children', fr: 'Famille et enfants' },
+};
+
+export function displayCategory(resource: ResourceRecord, language: Language): string {
+  const labels = DATA_CATEGORY_LABELS[resource.dataCategory];
+  if (!labels) return resource.dataCategory;
+  return language === 'French' ? labels.fr : labels.en;
+}
+
+export function displayLanguages(languages: string[], language: Language): string[] {
+  if (language !== 'French') return languages;
+  return languages.map((lang) => {
+    if (lang.toLowerCase().includes('english')) return 'Anglais';
+    if (lang.toLowerCase().includes('french')) return 'Français';
+    return lang;
+  });
+}
+
 export function displayDescription(resource: ResourceRecord, language: Language): string {
   return language === 'French' && resource.descriptionFr
     ? resource.descriptionFr
