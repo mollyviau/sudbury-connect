@@ -27,30 +27,29 @@
 }
 
 /*
- * Accessibility-first palette (WCAG 2.2 AA targets):
- * - Page background: cool light grey — white cards stay clearly visible
- * - Body text #1a1a1a on white: ~16:1
- * - Muted text #374151 on white: ~10:1
- * - Borders #6b7280: ~4.5:1 vs page bg and white cards
+ * Brand palette from logo-principal-clair.svg:
+ * - Page background: #F0F7FF (logo light blue)
+ * - Primary: #185FA5 · Headings accent: #0C447C
+ * - White cards + #6b7280 borders keep UI contrast (WCAG AA)
  */
 :root {
   --radius: 0.75rem;
-  --background: #e8eaed;
+  --background: #f0f7ff;
   --foreground: #1a1a1a;
   --card: #ffffff;
   --card-foreground: #1a1a1a;
-  --primary: #1a56db;
+  --primary: #185fa5;
   --primary-foreground: #ffffff;
-  --secondary: #dfe3e8;
-  --secondary-foreground: #1a1a1a;
-  --muted: #d1d5db;
+  --secondary: #e3effc;
+  --secondary-foreground: #0c447c;
+  --muted: #d6e8fa;
   --muted-foreground: #374151;
   --accent: #046c48;
   --accent-foreground: #ffffff;
   --destructive: #c2410c;
   --destructive-foreground: #ffffff;
   --border: #6b7280;
-  --ring: #1a56db;
+  --ring: #185fa5;
 }
 
 @layer base {

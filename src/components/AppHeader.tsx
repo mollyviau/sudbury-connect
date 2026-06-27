@@ -1,5 +1,6 @@
 import type { Language } from '../types';
 import { t } from '../i18n';
+import { Logo } from './Logo';
 
 type AppHeaderProps = {
   language: Language;
@@ -28,18 +29,7 @@ export function AppHeader({ language, showHome, onHome, isLanguageScreen }: AppH
           )}
         </div>
         <div className="flex items-center justify-center gap-3 text-center">
-          <div
-            aria-hidden
-            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary text-2xl text-primary-foreground"
-          >
-            🤝
-          </div>
-          <div>
-            <p className="font-display text-xl font-bold leading-none text-foreground sm:text-2xl">
-              {strings.appTitle}
-            </p>
-            <p className="mt-1 text-sm text-muted-foreground sm:text-base">{strings.tagline}</p>
-          </div>
+          <Logo size="header" />
         </div>
         <div className="w-24 shrink-0" aria-hidden />
       </div>

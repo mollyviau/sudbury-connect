@@ -1,0 +1,7 @@
+<svg width="220" height="52" viewBox="0 0 220 52" xmlns="http://www.w3.org/2000/svg">
+  <rect width="52" height="52" rx="13" fill="none" stroke="#185FA5" stroke-width="2"/>
+  <path d="M26,8 C18,8 8,16 8,26 C8,33 13,39 26,44 C39,39 44,33 44,26 C44,16 34,8 26,8 Z" fill="#185FA5"/>
+  <path d="M26,30 C26,30 18,25 18,21 C18,18 21,16 26,18 C31,16 34,18 34,21 C34,25 26,30 26,30 Z" fill="#FFFFFF"/>
+  <text x="66" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="20" fill="#0C447C">Sudbury</text>
+  <text x="66" y="42" font-family="system-ui, sans-serif" font-weight="400" font-size="15" fill="#185FA5">Connect</text>
+</svg>

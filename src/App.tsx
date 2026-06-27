@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { AppHeader } from './components/AppHeader';
+import { Logo } from './components/Logo';
 import { VoiceButton } from './components/VoiceButton';
 import { EmergencyFooter } from './components/EmergencyFooter';
 import { matchResources } from './lib/matchResources';
@@ -273,11 +274,9 @@ export default function App() {
     return (
       <div className="flex min-h-dvh flex-col bg-background text-foreground">
         <div className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-10">
-          <div className="text-center">
-            <h1 className="font-display text-4xl font-bold text-foreground sm:text-5xl">
-              Sudbury Connect
-            </h1>
-            <p className="mt-3 text-xl text-muted-foreground">{PICK_LANGUAGE_BILINGUAL}</p>
+          <div className="flex flex-col items-center text-center">
+            <Logo size="splash" className="mb-2" />
+            <p className="text-xl text-muted-foreground">{PICK_LANGUAGE_BILINGUAL}</p>
           </div>
           <div className="grid w-full max-w-2xl gap-5 sm:grid-cols-2">
             <button
