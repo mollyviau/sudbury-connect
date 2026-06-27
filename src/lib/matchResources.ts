@@ -58,7 +58,9 @@ function toMatchedResource(resource: ResourceRecord, language: UserAnswers['lang
     phone: resource.phone,
     hours: resource.hours,
     languages: resource.languages,
-    category: resource.category,
+    address: resource.address || undefined,
+    website: resource.website,
+    category: resource.dataCategory,
   };
 }
 

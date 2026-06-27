@@ -1,0 +1,5205 @@
+{
+  "metadata": {
+    "source": "211ontario.ca, greatersudbury.ca, organization websites, EarthCare Sudbury, NISA Community Resources",
+    "description": "Community resources for Greater Sudbury — Sudbury Connect Hackathon 2026",
+    "total": 312,
+    "categories": {
+      "Food Bank & Meal Program": 46,
+      "Mental Health & Addictions": 54,
+      "Housing & Shelter": 44,
+      "Employment & Training": 40,
+      "Legal Aid": 32,
+      "Senior Services": 42,
+      "Family & Children": 54
+    }
+  },
+  "resources": [
+    {
+      "id": 1,
+      "name": "Inner-City Home — Downtown Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-1551",
+      "hours": "Monday–Friday 1:00 PM–3:45 PM",
+      "area": "Downtown Sudbury",
+      "address": "251 Elm Street, Sudbury",
+      "description": "Provides emergency food hampers to households in the Greater Sudbury area on a walk-in basis.",
+      "descriptionFr": "Fournit des paniers alimentaires d'urgence aux ménages de la région du Grand Sudbury sur une base de premier arrivé, premier servi.",
+      "website": "https://innercityhome.com"
+    },
+    {
+      "id": 2,
+      "name": "Inner-City Home — New Sudbury Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-1551",
+      "hours": "Tuesdays 10:00 AM–1:00 PM",
+      "area": "New Sudbury",
+      "address": "1169 Dollard Avenue, Sudbury",
+      "description": "Satellite food bank serving New Sudbury residents with emergency food hampers every Tuesday.",
+      "descriptionFr": "Banque alimentaire satellite au service des résidents du Nouveau Sudbury avec des paniers alimentaires d'urgence chaque mardi.",
+      "website": "https://innercityhome.com"
+    },
+    {
+      "id": 3,
+      "name": "Salvation Army Sudbury — Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4090",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "450 Notre Dame Avenue, Sudbury",
+      "description": "Emergency food bank offering food hampers, pet food, toiletries and cleaning supplies to families and individuals in need.",
+      "descriptionFr": "Banque alimentaire d'urgence offrant des paniers alimentaires, de la nourriture pour animaux, des articles de toilette et des produits de nettoyage.",
+      "website": "https://www.salvationarmy.ca"
+    },
+    {
+      "id": 4,
+      "name": "Sudbury Food Bank (Warehouse / Member Agency Hub)",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Member agencies",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-9663",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Sudbury",
+      "address": "1105 Webbwood Drive, Sudbury",
+      "description": "Central food distributor supplying food to 47 member agencies that feed over 14,000 people per month across Greater Sudbury.",
+      "descriptionFr": "Distributeur central de nourriture alimentant 47 organismes membres qui nourrissent plus de 14 000 personnes par mois dans le Grand Sudbury.",
+      "website": "https://www.sudburyfoodbank.ca"
+    },
+    {
+      "id": 5,
+      "name": "Better Beginnings Better Future — Emergency Food Cupboard",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Families with children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Donovan / Flour Mill",
+      "address": "450 Morin Street, Sudbury",
+      "description": "Emergency food cupboard and Good Food Box program serving families with children in the Donovan and Flour Mill neighbourhoods.",
+      "descriptionFr": "Garde-manger alimentaire d'urgence et programme de la Bonne Boîte au service des familles avec enfants dans les quartiers Donovan et Flour Mill.",
+      "website": "https://betterbeginningssudbury.ca"
+    },
+    {
+      "id": 6,
+      "name": "Elizabeth Fry Society — Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Elizabeth Fry clients (women and gender-diverse individuals)",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-1364",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "324 Elm Street, Sudbury",
+      "description": "Food bank available to Elizabeth Fry Society clients, primarily women and gender-diverse individuals involved in the justice system.",
+      "descriptionFr": "Banque alimentaire disponible pour les clients de la Société Elizabeth Fry, principalement les femmes et les personnes de genre divers.",
+      "website": "https://efrysudbury.com"
+    },
+    {
+      "id": 7,
+      "name": "Garson Food Bank — Lion's Club",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Garson area residents",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-693-0196",
+      "hours": "Every Tuesday 12:00 PM–3:00 PM",
+      "area": "Garson",
+      "address": "600 O'Neil Drive West, Garson",
+      "description": "Community food bank run by the Lion's Club serving residents in the Garson area every Tuesday afternoon.",
+      "descriptionFr": "Banque alimentaire communautaire gérée par le Club Lions au service des résidents de Garson chaque mardi après-midi.",
+      "website": ""
+    },
+    {
+      "id": 8,
+      "name": "Hanmer Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Hanmer area residents",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-969-4402",
+      "hours": "Last two Wednesdays of the month 12:30 PM–3:00 PM",
+      "area": "Hanmer / Valley East",
+      "address": "4611 St. Joseph Street, Hanmer",
+      "description": "Monthly food bank open the last two Wednesdays of each month for Hanmer and Valley East residents.",
+      "descriptionFr": "Banque alimentaire mensuelle ouverte les deux derniers mercredis du mois pour les résidents de Hanmer et de la Vallée-Est.",
+      "website": ""
+    },
+    {
+      "id": 9,
+      "name": "Capreol Food Bank — Bread & Roses Trinity United",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Capreol area residents",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-858-2591",
+      "hours": "Call for schedule",
+      "area": "Capreol",
+      "address": "72 Young Street, Capreol",
+      "description": "Local food bank and Good Food Box program serving residents in the Capreol area.",
+      "descriptionFr": "Banque alimentaire locale et programme de la Bonne Boîte au service des résidents de Capreol.",
+      "website": "http://goodfoodboxsudbury.ca"
+    },
+    {
+      "id": 10,
+      "name": "Markstay Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Markstay-Warren area residents",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-853-4553",
+      "hours": "Every second Thursday 12:00 PM–1:00 PM",
+      "area": "Markstay",
+      "address": "15 Hagar Street, Markstay",
+      "description": "Small community food bank serving the Markstay-Warren area every second Thursday of the month.",
+      "descriptionFr": "Petite banque alimentaire communautaire au service de la région de Markstay-Warren chaque deuxième jeudi du mois.",
+      "website": ""
+    },
+    {
+      "id": 11,
+      "name": "St. Vincent de Paul Society — Food & Material Aid",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone in need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-897-1212",
+      "hours": "Monday, Tuesday, Thursday 9:00 AM–4:00 PM",
+      "area": "Chelmsford / Sudbury",
+      "address": "Chelmsford",
+      "description": "Provides food hampers, clothing and household items to individuals and families facing financial hardship.",
+      "descriptionFr": "Fournit des paniers alimentaires, des vêtements et des articles ménagers aux personnes et aux familles en difficulté financière.",
+      "website": ""
+    },
+    {
+      "id": 12,
+      "name": "Minnow Lake — Meals on Wheels / Good Food Box",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Seniors and low-income residents",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-525-4554",
+      "hours": "Call for schedule",
+      "area": "Minnow Lake",
+      "address": "1127 Bancroft Drive, Sudbury",
+      "description": "Delivers nutritious meals to seniors and low-income residents, and distributes Good Food Box produce packages.",
+      "descriptionFr": "Livre des repas nutritifs aux aînés et aux résidents à faible revenu, et distribue des colis de la Bonne Boîte.",
+      "website": "http://goodfoodboxsudbury.ca"
+    },
+    {
+      "id": 13,
+      "name": "Shkagamik-Kwe Health Centre — Good Food Box",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Indigenous people and low-income residents",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-1596",
+      "hours": "Call for pickup schedule",
+      "area": "Downtown Sudbury",
+      "address": "105 Elm Street, Suite E4, Sudbury",
+      "description": "Good Food Box program offering fresh produce at wholesale prices, serving Indigenous and low-income community members.",
+      "descriptionFr": "Programme de la Bonne Boîte offrant des produits frais à prix de gros, au service des membres autochtones et des communautés à faible revenu.",
+      "website": "http://goodfoodboxsudbury.ca"
+    },
+    {
+      "id": 14,
+      "name": "St. Matthews Lutheran Church — Meal Program",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-2933",
+      "hours": "Monday, Tuesday, Wednesday, Friday 9:00 AM–2:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "Downtown Sudbury",
+      "description": "Provides hot meals and snacks to anyone who walks through the door, no questions asked.",
+      "descriptionFr": "Offre des repas chauds et des collations à toute personne qui franchit la porte, sans poser de questions.",
+      "website": ""
+    },
+    {
+      "id": 15,
+      "name": "CMHA Sudbury/Manitoulin — Mental Health Services",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults 16+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM; Crisis line 24/7",
+      "area": "Greater Sudbury",
+      "address": "127 Cedar Street, Sudbury",
+      "description": "Offers community mental health programs, crisis intervention, peer support, housing case management and addiction recovery services.",
+      "descriptionFr": "Offre des programmes de santé mentale communautaire, une intervention en cas de crise, du soutien par les pairs, une gestion de cas de logement et des services de rétablissement des dépendances.",
+      "website": "https://sm.cmha.ca"
+    },
+    {
+      "id": 16,
+      "name": "HSN Crisis Help — 24/7 Crisis Line",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone of all ages",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-7100",
+      "hours": "24 hours a day, 7 days a week",
+      "area": "Greater Sudbury",
+      "address": "Walk-in: 127 Cedar Street, Sudbury (8:30 AM–10:00 PM)",
+      "description": "Free crisis mental health service for anyone in Sudbury and Manitoulin districts — available 24/7 by phone, walk-in or mobile response.",
+      "descriptionFr": "Service de crise en santé mentale gratuit pour toute personne dans les districts de Sudbury et Manitoulin — disponible 24h/24, 7j/7 par téléphone, sans rendez-vous ou intervention mobile.",
+      "website": "https://www.crisishelp.ca"
+    },
+    {
+      "id": 17,
+      "name": "Youth Wellness Hub Sudbury",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Youth ages 12–25",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-222-3052",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM (drop-in available)",
+      "area": "Downtown Sudbury",
+      "address": "Sudbury (call for address)",
+      "description": "Free drop-in mental health, addiction, primary care and wellness services for youth aged 12 to 25.",
+      "descriptionFr": "Services gratuits de santé mentale, de dépendance, de soins primaires et de bien-être en accès libre pour les jeunes de 12 à 25 ans.",
+      "website": ""
+    },
+    {
+      "id": 18,
+      "name": "mindSPACE — Child & Youth Mental Health",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Children and youth under 18",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-815-7126",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Greater Sudbury (call or email for appointment)",
+      "description": "Free and confidential mental health services for children and youth under 18, available by appointment in person or virtually.",
+      "descriptionFr": "Services de santé mentale gratuits et confidentiels pour les enfants et les jeunes de moins de 18 ans, disponibles sur rendez-vous en personne ou virtuellement.",
+      "website": ""
+    },
+    {
+      "id": 19,
+      "name": "Compass / Boussole — Child & Youth Mental Health",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Children, youth and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4343",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides child and youth mental health services including assessment, therapy and crisis support, in person, by phone or video.",
+      "descriptionFr": "Fournit des services de santé mentale pour enfants et jeunes incluant l'évaluation, la thérapie et le soutien en cas de crise, en personne, par téléphone ou vidéo.",
+      "website": ""
+    },
+    {
+      "id": 20,
+      "name": "Northern Initiative for Social Action (NISA) — Warm Line",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults with lived mental health experience",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-856-9276",
+      "hours": "Daily 8:00 AM–11:00 PM",
+      "area": "Greater Sudbury / Northeastern Ontario",
+      "address": "Phone-based service",
+      "description": "Peer-run telephone warm line offering emotional support and conversation to people experiencing mental health challenges.",
+      "descriptionFr": "Ligne d'écoute téléphonique gérée par des pairs offrant un soutien émotionnel et une conversation aux personnes confrontées à des problèmes de santé mentale.",
+      "website": ""
+    },
+    {
+      "id": 21,
+      "name": "Sudbury & Area Victim Services",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Victims of crime or tragic circumstances",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1285",
+      "hours": "24-hour crisis response available",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides immediate crisis response, counselling and referrals to individuals and families affected by crime or trauma.",
+      "descriptionFr": "Fournit une réponse de crise immédiate, du counseling et des références aux personnes et aux familles touchées par un crime ou un traumatisme.",
+      "website": ""
+    },
+    {
+      "id": 22,
+      "name": "ConnexOntario — Mental Health Helpline",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-531-2600",
+      "hours": "24 hours a day, 7 days a week",
+      "area": "Province-wide (serves Sudbury)",
+      "address": "Phone and online service",
+      "description": "Free 24/7 information and referral service connecting people to mental health, addiction and crisis support across Ontario.",
+      "descriptionFr": "Service d'information et de référence 24h/24, 7j/7, gratuit, qui oriente les gens vers un soutien en santé mentale, en dépendance et en situation de crise en Ontario.",
+      "website": "https://connexontario.ca"
+    },
+    {
+      "id": 23,
+      "name": "Suicide Crisis Helpline — 988",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone in crisis",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "9-8-8",
+      "hours": "24 hours a day, 7 days a week",
+      "area": "Province-wide (serves Sudbury)",
+      "address": "Phone-based service",
+      "description": "National suicide and crisis hotline — call or text 988 to reach a trained counsellor immediately.",
+      "descriptionFr": "Ligne nationale de crise et de prévention du suicide — appelez ou envoyez un message texte au 988 pour joindre immédiatement un conseiller formé.",
+      "website": ""
+    },
+    {
+      "id": 24,
+      "name": "The Point — Harm Reduction Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People who use drugs",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-522-9200",
+      "hours": "Call for hours",
+      "area": "Greater Sudbury",
+      "address": "Multiple locations in Sudbury",
+      "description": "Free and confidential harm reduction supplies and services to reduce health risks for people who use drugs.",
+      "descriptionFr": "Fournitures et services de réduction des méfaits gratuits et confidentiels pour réduire les risques pour la santé des personnes qui consomment des drogues.",
+      "website": "https://phsd.ca/thepoint"
+    },
+    {
+      "id": 25,
+      "name": "Health Sciences North — Addiction Services",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults with substance use concerns",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-7100 ext. 4221",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM (referral required)",
+      "area": "Greater Sudbury",
+      "address": "41 Ramsey Lake Road, Sudbury",
+      "description": "Provides assessment, treatment and referral for adults dealing with alcohol, drug or gambling addiction.",
+      "descriptionFr": "Fournit une évaluation, un traitement et des référencements pour les adultes aux prises avec une dépendance à l'alcool, aux drogues ou au jeu.",
+      "website": "https://hsnsudbury.ca"
+    },
+    {
+      "id": 26,
+      "name": "CMHA Off The Street — Emergency Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone 16+ experiencing homelessness",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Daily 10:00 PM–8:00 AM",
+      "area": "Downtown Sudbury",
+      "address": "200 Larch Street, Sudbury",
+      "description": "Emergency shelter with 35 cots for people 16 and older of any gender experiencing homelessness, open nightly with snacks and outreach.",
+      "descriptionFr": "Refuge d'urgence avec 35 lits pour les personnes de 16 ans et plus de tout genre sans abri, ouvert chaque nuit avec des collations et un service de proximité.",
+      "website": "https://sm.cmha.ca/programs/off-the-street-emergency-shelter"
+    },
+    {
+      "id": 27,
+      "name": "Cedar Place — Women's Emergency Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women 20+ and families with children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1285",
+      "hours": "Open 24 hours a day, 7 days a week",
+      "area": "Downtown Sudbury",
+      "address": "261 Cedar Street, Sudbury",
+      "description": "24-hour emergency shelter for women aged 20 and older, or families with children, offering meals, showers and housing referrals.",
+      "descriptionFr": "Refuge d'urgence ouvert 24h/24 pour les femmes de 20 ans et plus ou les familles avec enfants, offrant des repas, des douches et des références en logement.",
+      "website": ""
+    },
+    {
+      "id": 28,
+      "name": "Elizabeth Fry Society — Women's Emergency Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women and gender-diverse individuals 16+",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-1364",
+      "hours": "Daily 9:00 PM–9:00 AM",
+      "area": "Downtown Sudbury",
+      "address": "307 Cedar Street, Sudbury",
+      "description": "Provides 16 emergency shelter beds nightly for women and gender-diverse individuals aged 16 and over.",
+      "descriptionFr": "Fournit 16 lits d'hébergement d'urgence chaque nuit pour les femmes et les personnes de genre divers de 16 ans et plus.",
+      "website": "https://efrysudbury.com"
+    },
+    {
+      "id": 29,
+      "name": "YWCA Genevra House — Domestic Violence Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women fleeing abuse, women 50+ fleeing caregiver abuse",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-2210",
+      "hours": "24 hours a day, 7 days a week",
+      "area": "Sudbury",
+      "address": "Confidential address, Sudbury",
+      "description": "Emergency safe house for women escaping intimate partner violence or caregiver abuse, providing secure shelter and support.",
+      "descriptionFr": "Maison de sécurité d'urgence pour les femmes fuyant la violence conjugale ou les mauvais traitements d'un aidant, offrant un abri sécurisé et du soutien.",
+      "website": "https://www.ywcasudbury.ca"
+    },
+    {
+      "id": 30,
+      "name": "Greater Sudbury Housing Registry — Community Housing Waitlist",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income individuals and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455 ext. 4678",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM (closed 11:30 AM–1:00 PM)",
+      "area": "Greater Sudbury",
+      "address": "199 Larch Street, Suite 603, Sudbury",
+      "description": "Manages the waitlist for rent-geared-to-income housing in Greater Sudbury and processes housing assistance applications.",
+      "descriptionFr": "Gère la liste d'attente pour les logements à loyer indexé sur le revenu dans le Grand Sudbury et traite les demandes d'aide au logement.",
+      "website": "https://www.greatersudbury.ca"
+    },
+    {
+      "id": 31,
+      "name": "Homelessness Network — Central Intake",
+      "category": "Housing & Shelter",
+      "whoItServes": "People experiencing or at risk of homelessness",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-6422 option 4",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Coordinates access to emergency shelter, housing case management and homeless prevention services across Greater Sudbury.",
+      "descriptionFr": "Coordonne l'accès aux refuges d'urgence, à la gestion de cas de logement et aux services de prévention de l'itinérance dans le Grand Sudbury.",
+      "website": "https://homelessnessnetwork.ca"
+    },
+    {
+      "id": 32,
+      "name": "John Howard Society of Sudbury — Housing Support",
+      "category": "Housing & Shelter",
+      "whoItServes": "People involved in the justice system",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-9576",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Downtown Sudbury",
+      "address": "204 Pine Street, Sudbury",
+      "description": "Provides housing case management and intensive support to help people transitioning from correctional facilities find stable housing.",
+      "descriptionFr": "Fournit une gestion de cas de logement et un soutien intensif pour aider les personnes qui sortent d'établissements correctionnels à trouver un logement stable.",
+      "website": ""
+    },
+    {
+      "id": 33,
+      "name": "Association des jeunes de la rue — Street Outreach",
+      "category": "Housing & Shelter",
+      "whoItServes": "Youth and adults experiencing homelessness",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-669-1502",
+      "hours": "Evenings and weekends (call for schedule)",
+      "area": "Greater Sudbury",
+      "address": "Street-based outreach across Sudbury",
+      "description": "Mobile street outreach team connecting unhoused people to shelter, food, healthcare and housing supports.",
+      "descriptionFr": "Équipe de proximité mobile qui met en relation les personnes sans abri avec des refuges, de la nourriture, des soins de santé et des soutiens au logement.",
+      "website": ""
+    },
+    {
+      "id": 34,
+      "name": "Ontario Works Sudbury — Financial & Housing Assistance",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income individuals and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-2489",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "199 Larch Street, 9th Floor, Sudbury",
+      "description": "Provides financial assistance, emergency rent support and referrals to help individuals and families meet basic housing needs.",
+      "descriptionFr": "Fournit une aide financière, un soutien d'urgence au loyer et des références pour aider les personnes et les familles à satisfaire leurs besoins de logement de base.",
+      "website": "https://www.greatersudbury.ca/live/ontario-works1"
+    },
+    {
+      "id": 35,
+      "name": "YMCA of Northeastern Ontario — Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "Job seekers, newcomers, people with disabilities",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-2324",
+      "hours": "Monday 8:00 AM–4:30 PM; Tuesday 8:00 AM–7:00 PM; Wednesday–Friday 8:00 AM–4:30 PM",
+      "area": "Downtown Sudbury",
+      "address": "10 Elm Street, Suite 132, Sudbury",
+      "description": "Free employment counselling, resume help, job placement, skills training and immigrant settlement services for all job seekers.",
+      "descriptionFr": "Orientation professionnelle gratuite, aide à la rédaction de CV, placement en emploi, formation professionnelle et services d'établissement pour les immigrants pour tous les chercheurs d'emploi.",
+      "website": "https://www.ymcaneo.ca/employment-services"
+    },
+    {
+      "id": 36,
+      "name": "March of Dimes Canada — Employment Services Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "People with disabilities",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-3377",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "10 Elm Street, Sudbury",
+      "description": "Offers job assessments, skills training, job placement and on-the-job support specifically for people living with disabilities.",
+      "descriptionFr": "Offre des évaluations d'emploi, une formation professionnelle, un placement en emploi et un soutien en milieu de travail spécifiquement pour les personnes handicapées.",
+      "website": "https://www.marchofdimes.ca"
+    },
+    {
+      "id": 37,
+      "name": "Employment Ontario — Elm Street Centre",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone seeking employment",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-387-5656",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Downtown Sudbury",
+      "address": "10 Elm Street, Sudbury",
+      "description": "Government-funded employment services including job search, resume writing, skills upgrading and career counselling.",
+      "descriptionFr": "Services d'emploi financés par le gouvernement, notamment la recherche d'emploi, la rédaction de curriculum vitae, la mise à niveau des compétences et l'orientation professionnelle.",
+      "website": "https://www.ontario.ca/page/employment-ontario"
+    },
+    {
+      "id": 38,
+      "name": "Ontario Disability Support Program (ODSP) — Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "Adults with disabilities",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-4515",
+      "hours": "Monday–Friday 8:30 AM–5:00 PM",
+      "area": "Sudbury",
+      "address": "199 Larch Street, 5th Floor, Sudbury",
+      "description": "Provides income support and employment assistance to help adults with disabilities live independently and find meaningful work.",
+      "descriptionFr": "Fournit un soutien au revenu et une aide à l'emploi pour aider les adultes handicapés à vivre de façon autonome et à trouver un emploi significatif.",
+      "website": "https://www.ontario.ca/page/odsp"
+    },
+    {
+      "id": 39,
+      "name": "Workforce Development Board of Sudbury & Manitoulin",
+      "category": "Employment & Training",
+      "whoItServes": "Job seekers and employers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-560-5556",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Connects job seekers to training programs, apprenticeships and employment opportunities across the Sudbury and Manitoulin region.",
+      "descriptionFr": "Met en relation les chercheurs d'emploi avec des programmes de formation, des apprentissages et des possibilités d'emploi dans les régions de Sudbury et de Manitoulin.",
+      "website": ""
+    },
+    {
+      "id": 40,
+      "name": "Cambrian College — Employment & Continuing Education",
+      "category": "Employment & Training",
+      "whoItServes": "Adults seeking skills upgrading or career change",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-566-8101",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "New Sudbury",
+      "address": "1400 Barrydowne Road, Sudbury",
+      "description": "Offers career training programs, continuing education courses and apprenticeship pathways for adults looking to upgrade their skills.",
+      "descriptionFr": "Offre des programmes de formation professionnelle, des cours de formation continue et des voies d'apprentissage pour les adultes souhaitant améliorer leurs compétences.",
+      "website": "https://www.cambriancollege.ca"
+    },
+    {
+      "id": 41,
+      "name": "Service Canada Centre — Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-206-7218",
+      "hours": "Monday–Friday 8:30 AM–4:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "19 Lisgar Street, Suite 307, Sudbury",
+      "description": "Provides access to Employment Insurance, Canada Pension Plan, Old Age Security and federal job programs.",
+      "descriptionFr": "Donne accès à l'assurance-emploi, au Régime de pensions du Canada, à la Sécurité de la vieillesse et aux programmes d'emploi fédéraux.",
+      "website": "https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html"
+    },
+    {
+      "id": 42,
+      "name": "Centre de santé communautaire du Grand Sudbury — Emploi",
+      "category": "Employment & Training",
+      "whoItServes": "Francophone job seekers",
+      "languages": [
+        "French",
+        "English"
+      ],
+      "phone": "705-524-5579",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Francophone community health centre offering employment support, social navigation and integration services in French.",
+      "descriptionFr": "Centre de santé communautaire francophone offrant du soutien à l'emploi, de la navigation sociale et des services d'intégration en français.",
+      "website": ""
+    },
+    {
+      "id": 43,
+      "name": "Legal Aid Ontario — Sudbury Area Office",
+      "category": "Legal Aid",
+      "whoItServes": "Low-income individuals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-8182",
+      "hours": "Monday–Friday 8:30 AM–5:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "199 Larch Street, Sudbury",
+      "description": "Provides government-funded legal help in criminal and family law to low-income Ontarians who qualify financially.",
+      "descriptionFr": "Fournit une aide juridique financée par le gouvernement en matière de droit pénal et familial aux Ontariens à faible revenu qui remplissent les conditions financières requises.",
+      "website": "https://www.legalaid.on.ca/legal-aid-offices/sudbury-area-office"
+    },
+    {
+      "id": 44,
+      "name": "Sudbury Community Legal Clinic",
+      "category": "Legal Aid",
+      "whoItServes": "Low-income individuals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-3200",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Non-profit legal clinic offering free advice and representation on tenant rights, Ontario Works, ODSP and human rights issues.",
+      "descriptionFr": "Clinique juridique à but non lucratif offrant des conseils gratuits et une représentation en matière de droits des locataires, d'Ontario au travail, de POSPH et de droits de la personne.",
+      "website": "https://www.sudburylegalclinic.com"
+    },
+    {
+      "id": 45,
+      "name": "Francophone Legal Advice Line",
+      "category": "Legal Aid",
+      "whoItServes": "Francophone low-income individuals",
+      "languages": [
+        "French"
+      ],
+      "phone": "1-877-687-2847",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM",
+      "area": "Greater Sudbury / Province-wide",
+      "address": "Phone-based service",
+      "description": "Free legal advice line in French for low-income Francophones needing guidance on family, housing and benefits issues.",
+      "descriptionFr": "Ligne de conseils juridiques gratuits en français pour les francophones à faible revenu ayant besoin de conseils sur des questions de famille, de logement et de prestations.",
+      "website": ""
+    },
+    {
+      "id": 46,
+      "name": "Landlord and Tenant Board — Duty Counsel Sudbury",
+      "category": "Legal Aid",
+      "whoItServes": "Tenants and landlords",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-8182",
+      "hours": "On hearing days (call for schedule)",
+      "area": "Downtown Sudbury",
+      "address": "199 Larch Street, Sudbury",
+      "description": "Duty counsel provides free legal help to unrepresented tenants or landlords at Landlord and Tenant Board hearings.",
+      "descriptionFr": "L'avocat de service fournit une aide juridique gratuite aux locataires ou propriétaires non représentés lors des audiences de la Commission de la location immobilière.",
+      "website": "https://tribunalsontario.ca/ltb"
+    },
+    {
+      "id": 47,
+      "name": "Office of the Public Guardian and Trustee — Sudbury",
+      "category": "Legal Aid",
+      "whoItServes": "Vulnerable adults unable to manage their own affairs",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-3185",
+      "hours": "Monday–Friday 8:30 AM–5:00 PM",
+      "area": "Sudbury",
+      "address": "199 Larch Street, Suite 602, Sudbury",
+      "description": "Protects vulnerable adults by managing legal, personal and financial affairs when no other substitute decision-maker is available.",
+      "descriptionFr": "Protège les adultes vulnérables en gérant leurs affaires juridiques, personnelles et financières lorsqu'aucun autre mandataire spécial n'est disponible.",
+      "website": ""
+    },
+    {
+      "id": 48,
+      "name": "Law Society Referral Service",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone needing a lawyer",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-268-8326",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM",
+      "area": "Province-wide (serves Sudbury)",
+      "address": "Phone and online referral service",
+      "description": "Connects you with a local lawyer or paralegal who will provide a free 30-minute consultation to assess your legal situation.",
+      "descriptionFr": "Vous met en contact avec un avocat ou un parajuriste local qui vous accordera une consultation gratuite de 30 minutes pour évaluer votre situation juridique.",
+      "website": "https://lsrs.lso.ca"
+    },
+    {
+      "id": 49,
+      "name": "Human Rights Legal Support Centre",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone facing discrimination",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-625-5179",
+      "hours": "Monday–Friday 8:00 AM–5:00 PM",
+      "area": "Province-wide (serves Sudbury)",
+      "address": "Phone-based service",
+      "description": "Free legal advice and support for people who have experienced discrimination based on race, disability, gender, age or other grounds.",
+      "descriptionFr": "Conseils juridiques gratuits et soutien pour les personnes victimes de discrimination fondée sur la race, le handicap, le sexe, l'âge ou d'autres motifs.",
+      "website": "https://hrlsc.on.ca"
+    },
+    {
+      "id": 50,
+      "name": "Family Law Duty Counsel — Sudbury Courthouse",
+      "category": "Legal Aid",
+      "whoItServes": "Low-income individuals with family law matters",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-670-9282",
+      "hours": "On court days (call for schedule)",
+      "area": "Downtown Sudbury",
+      "address": "159 Cedar Street, Suite 201, Sudbury",
+      "description": "Free on-site legal advice at the courthouse for unrepresented people dealing with custody, access, support or child protection cases.",
+      "descriptionFr": "Conseils juridiques gratuits sur place au palais de justice pour les personnes non représentées confrontées à des affaires de garde, d'accès, de pension alimentaire ou de protection de l'enfance.",
+      "website": ""
+    },
+    {
+      "id": 51,
+      "name": "VON Canada — Meals on Wheels Sudbury",
+      "category": "Senior Services",
+      "whoItServes": "Seniors and adults with disabilities",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-8324",
+      "hours": "Monday–Friday delivery",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Delivers nutritious hot and frozen meals to seniors and adults with disabilities who have difficulty preparing food at home.",
+      "descriptionFr": "Livre des repas nutritifs chauds et congelés aux personnes âgées et aux adultes handicapés qui ont du mal à préparer des repas à la maison.",
+      "website": "https://www.von.ca"
+    },
+    {
+      "id": 52,
+      "name": "CMHA — Older Adult Peer Support Program",
+      "category": "Senior Services",
+      "whoItServes": "Adults 55+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Call for group schedule",
+      "area": "Greater Sudbury",
+      "address": "127 Cedar Street, Sudbury",
+      "description": "Peer-led support group for older adults dealing with loneliness, mental health challenges or major life transitions.",
+      "descriptionFr": "Groupe de soutien dirigé par des pairs pour les personnes âgées aux prises avec la solitude, des problèmes de santé mentale ou des transitions de vie majeures.",
+      "website": "https://sm.cmha.ca"
+    },
+    {
+      "id": 53,
+      "name": "Greater Sudbury Seniors Community Network",
+      "category": "Senior Services",
+      "whoItServes": "Seniors 65+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455 ext. 2449",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "City Hall, 200 Brady Street, Sudbury",
+      "description": "Network of organizations working together to identify and address the needs and concerns of seniors across Greater Sudbury.",
+      "descriptionFr": "Réseau d'organisations travaillant ensemble pour identifier et répondre aux besoins et aux préoccupations des personnes âgées dans le Grand Sudbury.",
+      "website": "https://www.greatersudbury.ca"
+    },
+    {
+      "id": 54,
+      "name": "St. Joseph's Villa — Long-Term Care",
+      "category": "Senior Services",
+      "whoItServes": "Seniors requiring long-term care",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-3000",
+      "hours": "Administrative: Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "70 rue Van Horne Street, Sudbury",
+      "description": "Provides long-term residential care, palliative care and short-stay programs for seniors who can no longer live independently.",
+      "descriptionFr": "Fournit des soins résidentiels de longue durée, des soins palliatifs et des programmes de court séjour pour les personnes âgées qui ne peuvent plus vivre de façon autonome.",
+      "website": "https://www.stjosephsvillasudbury.com"
+    },
+    {
+      "id": 55,
+      "name": "Sudbury Home Support — Transportation for Seniors",
+      "category": "Senior Services",
+      "whoItServes": "Seniors with mobility challenges",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-6350",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides volunteer-driven transportation to medical appointments and essential errands for seniors who cannot drive.",
+      "descriptionFr": "Fournit un transport bénévole pour les rendez-vous médicaux et les courses essentielles aux personnes âgées qui ne peuvent pas conduire.",
+      "website": ""
+    },
+    {
+      "id": 56,
+      "name": "CNIB Sudbury — Vision Loss Services",
+      "category": "Senior Services",
+      "whoItServes": "People with vision loss, many seniors",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-2468",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "1545 Regent Street South, Suite 104, Sudbury",
+      "description": "Supports people living with vision loss through skills training, peer support and access to specialized materials and technology.",
+      "descriptionFr": "Soutient les personnes vivant avec une perte de vision grâce à une formation aux compétences, au soutien par les pairs et à l'accès à des matériaux et à des technologies spécialisés.",
+      "website": "https://www.cnib.ca"
+    },
+    {
+      "id": 57,
+      "name": "Alzheimer Society of Sudbury-Manitoulin",
+      "category": "Senior Services",
+      "whoItServes": "People with dementia and their caregivers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1765",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides support, education and referrals for people living with Alzheimer's disease or other dementias and their families.",
+      "descriptionFr": "Fournit du soutien, de l'éducation et des références pour les personnes atteintes de la maladie d'Alzheimer ou d'autres démences et leurs familles.",
+      "website": "https://www.alzheimer.ca/sudbury"
+    },
+    {
+      "id": 58,
+      "name": "Finlandia Village — Retirement & Long-Term Care",
+      "category": "Senior Services",
+      "whoItServes": "Seniors requiring retirement or long-term care",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-7659",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Old Wanup Road, Sudbury",
+      "description": "Offers retirement living, assisted living and long-term care in a community setting for older adults.",
+      "descriptionFr": "Offre une vie à la retraite, une vie assistée et des soins de longue durée dans un cadre communautaire pour les adultes âgés.",
+      "website": "https://www.finlandiavillage.ca"
+    },
+    {
+      "id": 59,
+      "name": "Seniors' Tax Assistance Program — City of Sudbury",
+      "category": "Senior Services",
+      "whoItServes": "Low-income seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455",
+      "hours": "By appointment (January–April)",
+      "area": "Greater Sudbury",
+      "address": "City of Greater Sudbury offices",
+      "description": "Free tax return preparation service for low-income seniors to ensure access to full government benefits and credits.",
+      "descriptionFr": "Service gratuit de préparation des déclarations de revenus pour les personnes âgées à faible revenu afin de garantir l'accès aux prestations et aux crédits gouvernementaux.",
+      "website": "https://www.greatersudbury.ca"
+    },
+    {
+      "id": 60,
+      "name": "Parkinson Society Sudbury — Support Group",
+      "category": "Senior Services",
+      "whoItServes": "People with Parkinson's and their families",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-800-565-3000",
+      "hours": "Monthly meetings (call for schedule)",
+      "area": "Sudbury",
+      "address": "Greater Sudbury Public Library, 1346 Lasalle Blvd",
+      "description": "Monthly peer support and information meetings for people living with Parkinson's disease and their caregivers.",
+      "descriptionFr": "Réunions mensuelles de soutien par les pairs et d'information pour les personnes atteintes de la maladie de Parkinson et leurs aidants.",
+      "website": ""
+    },
+    {
+      "id": 61,
+      "name": "Children's Aid Society of the District of Sudbury and Manitoulin",
+      "category": "Family & Children",
+      "whoItServes": "Children, youth and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7434",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM; 24-hour emergency line",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides child protection services and family support programs to ensure the safety and well-being of children and youth.",
+      "descriptionFr": "Fournit des services de protection de l'enfance et des programmes de soutien aux familles pour assurer la sécurité et le bien-être des enfants et des jeunes.",
+      "website": "https://www.casdsm.on.ca"
+    },
+    {
+      "id": 62,
+      "name": "Child and Family Centre (CFC) Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Children, youth and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4343",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Offers children's mental health, family therapy and early intervention programs to help families and kids thrive.",
+      "descriptionFr": "Offre des programmes de santé mentale pour enfants, de thérapie familiale et d'intervention précoce pour aider les familles et les enfants à s'épanouir.",
+      "website": ""
+    },
+    {
+      "id": 63,
+      "name": "Better Beginnings Better Future — Family Programs",
+      "category": "Family & Children",
+      "whoItServes": "Families with children 0–12 in at-risk neighbourhoods",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Donovan / Flour Mill / New Sudbury",
+      "address": "450 Morin Street, Sudbury",
+      "description": "Community-based programs supporting children's healthy development and family well-being in underserved Sudbury neighbourhoods.",
+      "descriptionFr": "Programmes communautaires soutenant le développement sain des enfants et le bien-être des familles dans les quartiers défavorisés de Sudbury.",
+      "website": "https://betterbeginningssudbury.ca"
+    },
+    {
+      "id": 64,
+      "name": "City of Greater Sudbury — Children Services / EarlyON",
+      "category": "Family & Children",
+      "whoItServes": "Families with children 0–6",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455 ext. 4279",
+      "hours": "Call for location hours",
+      "area": "Greater Sudbury (multiple locations)",
+      "address": "Multiple locations across Greater Sudbury",
+      "description": "EarlyON centres offer free drop-in programs, parenting support and child development activities for families with young children.",
+      "descriptionFr": "Les centres EarlyON offrent des programmes de présence libre gratuits, du soutien à la parentalité et des activités de développement de l'enfant pour les familles avec de jeunes enfants.",
+      "website": "https://www.greatersudbury.ca/live/child-care-and-early-learning"
+    },
+    {
+      "id": 65,
+      "name": "YWCA Sudbury — Programs for Women and Families",
+      "category": "Family & Children",
+      "whoItServes": "Women, girls and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-2210",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Provides housing, violence prevention, youth leadership and empowerment programs for women, girls and families.",
+      "descriptionFr": "Fournit des programmes de logement, de prévention de la violence, de leadership des jeunes et d'autonomisation pour les femmes, les filles et les familles.",
+      "website": "https://www.ywcasudbury.ca"
+    },
+    {
+      "id": 66,
+      "name": "Sudbury Manitoulin Children's Foundation",
+      "category": "Family & Children",
+      "whoItServes": "Children and youth with special needs",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-560-0400",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides funding and program support for children and youth with developmental disabilities and their families.",
+      "descriptionFr": "Fournit du financement et un soutien programmatique pour les enfants et les jeunes ayant des déficiences intellectuelles et leurs familles.",
+      "website": ""
+    },
+    {
+      "id": 67,
+      "name": "Community Living Greater Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "People with developmental disabilities and their families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-522-6025",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Supports people with developmental disabilities to live meaningful, independent lives in the community.",
+      "descriptionFr": "Soutient les personnes ayant des déficiences intellectuelles pour qu'elles mènent une vie épanouissante et indépendante au sein de la communauté.",
+      "website": ""
+    },
+    {
+      "id": 68,
+      "name": "Compass / Boussole — Family Support",
+      "category": "Family & Children",
+      "whoItServes": "Families in crisis",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4343",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Offers family therapy, parent coaching and crisis support to help families navigate difficult situations.",
+      "descriptionFr": "Offre une thérapie familiale, un coaching parental et un soutien en cas de crise pour aider les familles à traverser des situations difficiles.",
+      "website": ""
+    },
+    {
+      "id": 69,
+      "name": "Réseau Access Network — Family and Newcomer Support",
+      "category": "Family & Children",
+      "whoItServes": "Newcomers and vulnerable families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-688-0500",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "111 Larch Street, Suite 101, Sudbury",
+      "description": "Francophone organization providing healthcare, family support and social services for vulnerable families and newcomers.",
+      "descriptionFr": "Organisation francophone offrant des soins de santé, un soutien familial et des services sociaux aux familles vulnérables et aux nouveaux arrivants.",
+      "website": ""
+    },
+    {
+      "id": 70,
+      "name": "Developmental Services Ontario — Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "People with developmental disabilities 18+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-855-376-6673",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "96 Larch Street, Unit 300, Sudbury",
+      "description": "Connects adults with developmental disabilities to residential services, day programs and community supports.",
+      "descriptionFr": "Met en relation les adultes ayant des déficiences intellectuelles avec des services résidentiels, des programmes de jour et des soutiens communautaires.",
+      "website": ""
+    },
+    {
+      "id": 71,
+      "name": "Rainbow District School Board — Student Well-Being",
+      "category": "Family & Children",
+      "whoItServes": "School-age children and their families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-522-2302",
+      "hours": "Monday–Friday 8:00 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "69 Young Street, Sudbury",
+      "description": "Provides mental health, learning support and social work services to students and families in the public school board.",
+      "descriptionFr": "Fournit des services de santé mentale, de soutien à l'apprentissage et de travail social aux élèves et aux familles du conseil scolaire public.",
+      "website": "https://www.rainbowschools.ca"
+    },
+    {
+      "id": 72,
+      "name": "Conseil scolaire catholique du Nouvel-Ontario — Services aux familles",
+      "category": "Family & Children",
+      "whoItServes": "Francophone families with school-age children",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-673-5626",
+      "hours": "Monday–Friday 8:00 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Francophone Catholic school board offering family liaison, social work and mental health support for students and parents.",
+      "descriptionFr": "Conseil scolaire catholique francophone offrant une liaison familiale, un travail social et un soutien en santé mentale pour les élèves et les parents.",
+      "website": ""
+    },
+    {
+      "id": 73,
+      "name": "The Go-Give Project — Mobile Outreach",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Unhoused people and people who use drugs",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-222-9387",
+      "hours": "Mobile outreach: call for schedule",
+      "area": "Greater Sudbury",
+      "address": "Mobile service across Sudbury",
+      "description": "Mobile outreach providing harm reduction supplies, food, wellness checks, clothing and referrals to unhoused individuals.",
+      "descriptionFr": "Service de proximité mobile fournissant du matériel de réduction des méfaits, de la nourriture, des vérifications de bien-être, des vêtements et des références aux personnes sans abri.",
+      "website": ""
+    },
+    {
+      "id": 74,
+      "name": "Narcotics Anonymous — Sudbury Meetings",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People recovering from drug addiction",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-800-767-7701",
+      "hours": "Multiple meetings weekly (see website)",
+      "area": "Greater Sudbury",
+      "address": "Greater Sudbury Public Library, 1346 Lasalle Blvd, Sudbury",
+      "description": "Free peer support meetings for people in recovery from drug addiction, following the 12-step program.",
+      "descriptionFr": "Réunions de soutien par les pairs gratuites pour les personnes en voie de guérison d'une dépendance aux drogues, suivant le programme en 12 étapes.",
+      "website": "https://www.na.org"
+    },
+    {
+      "id": 75,
+      "name": "Alcoholics Anonymous — Sudbury Area",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People recovering from alcohol addiction",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-6217",
+      "hours": "Multiple meetings daily (see website)",
+      "area": "Greater Sudbury",
+      "address": "Multiple locations across Sudbury",
+      "description": "Free peer support meetings for people seeking sobriety from alcohol, available in English and French across the Sudbury area.",
+      "descriptionFr": "Réunions de soutien par les pairs gratuites pour les personnes cherchant à se libérer de l'alcool, disponibles en anglais et en français dans toute la région de Sudbury.",
+      "website": "https://www.aa.org"
+    },
+    {
+      "id": 76,
+      "name": "Acquired Brain Injury Services — Sudbury",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People with acquired brain injuries and their families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2677",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Provides case management, rehabilitation and peer support for people living with the effects of a brain injury.",
+      "descriptionFr": "Fournit une gestion de cas, une réadaptation et un soutien par les pairs aux personnes vivant avec les effets d'une lésion cérébrale.",
+      "website": ""
+    },
+    {
+      "id": 77,
+      "name": "Réseau Access Network — Hepatitis Treatment",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People with Hepatitis C or HIV",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-465-2437",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "111 Larch Street, Suite 101, Sudbury",
+      "description": "Provides outreach, education and treatment navigation for people living with Hepatitis C, HIV and related conditions.",
+      "descriptionFr": "Fournit des services de proximité, d'éducation et d'orientation vers le traitement pour les personnes vivant avec l'hépatite C, le VIH et les conditions connexes.",
+      "website": ""
+    },
+    {
+      "id": 78,
+      "name": "Rent Bank — City of Greater Sudbury",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income tenants at risk of eviction",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-2489",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "199 Larch Street, Sudbury",
+      "description": "Provides one-time financial assistance for rent arrears to help low-income tenants avoid eviction and maintain housing stability.",
+      "descriptionFr": "Fournit une aide financière ponctuelle pour les arriérés de loyer afin d'aider les locataires à faible revenu à éviter l'expulsion et à maintenir la stabilité de leur logement.",
+      "website": "https://www.greatersudbury.ca"
+    },
+    {
+      "id": 79,
+      "name": "Canada-Ontario Housing Benefit — Sudbury",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income households",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-2489 ext. 4678",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Greater Sudbury",
+      "address": "199 Larch Street, Suite 603, Sudbury",
+      "description": "Portable monthly rent subsidy for eligible low-income households to help cover the gap between rent and income.",
+      "descriptionFr": "Subvention de loyer mensuelle portable pour les ménages à faible revenu admissibles afin de les aider à combler l'écart entre le loyer et le revenu.",
+      "website": "https://www.greatersudbury.ca"
+    },
+    {
+      "id": 80,
+      "name": "CMHA Supportive Housing Program",
+      "category": "Housing & Shelter",
+      "whoItServes": "Adults with serious mental illness",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "127 Cedar Street, Sudbury",
+      "description": "Pairs affordable housing with mental health case management for adults with serious mental illness to support independent living.",
+      "descriptionFr": "Associe un logement abordable à une gestion de cas en santé mentale pour les adultes atteints de maladies mentales graves afin de soutenir leur vie autonome.",
+      "website": "https://sm.cmha.ca"
+    },
+    {
+      "id": 81,
+      "name": "Sudbury Employment & Education Centre (SEEC)",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone seeking work or upgrading education",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-2729",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Community-based employment and literacy training centre offering job search, upgrading and employment programs.",
+      "descriptionFr": "Centre communautaire de formation à l'emploi et à la littératie offrant des programmes de recherche d'emploi, de mise à niveau et d'emploi.",
+      "website": ""
+    },
+    {
+      "id": 82,
+      "name": "Northern Ontario School of Medicine — Patient Care",
+      "category": "Senior Services",
+      "whoItServes": "All residents including seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-3030",
+      "hours": "By appointment",
+      "area": "Sudbury",
+      "address": "935 Ramsey Lake Road, Sudbury",
+      "description": "Teaching hospital providing primary and specialized care including geriatric services for seniors in Northern Ontario.",
+      "descriptionFr": "Hôpital universitaire fournissant des soins primaires et spécialisés, y compris des services gériatriques pour les personnes âgées du Nord de l'Ontario.",
+      "website": "https://www.nosm.ca"
+    },
+    {
+      "id": 83,
+      "name": "Sudbury Indie Cinema — Social Inclusion Programs",
+      "category": "Senior Services",
+      "whoItServes": "Isolated seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-222-5655",
+      "hours": "Check website for programming schedule",
+      "area": "Downtown Sudbury",
+      "address": "Downtown Sudbury",
+      "description": "Offers affordable social programs and film screenings designed to reduce isolation and encourage community participation for seniors.",
+      "descriptionFr": "Offre des programmes sociaux abordables et des projections de films conçus pour réduire l'isolement et encourager la participation communautaire des personnes âgées.",
+      "website": ""
+    },
+    {
+      "id": 84,
+      "name": "Carrefour Francophone de Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Francophone families and individuals",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-675-1221",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Community hub providing social, cultural and support services exclusively in French for the Francophone community of Sudbury.",
+      "descriptionFr": "Carrefour communautaire offrant des services sociaux, culturels et de soutien exclusivement en français pour la communauté francophone de Sudbury.",
+      "website": ""
+    },
+    {
+      "id": 85,
+      "name": "Fierté Sudbury Pride — 2SLGBTQ+ Support",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "2SLGBTQ+ individuals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-222-0484",
+      "hours": "Contact for programming schedule",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Non-profit organization supporting, educating and celebrating the 2SLGBTQ+ community with peer support and social resources.",
+      "descriptionFr": "Organisation à but non lucratif soutenant, éduquant et célébrant la communauté 2SLGBTQ+ avec du soutien par les pairs et des ressources sociales.",
+      "website": ""
+    },
+    {
+      "id": 86,
+      "name": "Second Harvest / Food Rescue Sudbury",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Food-insecure individuals via local agencies",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-9663",
+      "hours": "Call Sudbury Food Bank for pickup info",
+      "area": "Greater Sudbury",
+      "address": "1105 Webbwood Drive, Sudbury",
+      "description": "Partners with local businesses to rescue surplus food and redistribute it to food banks and meal programs across the region.",
+      "descriptionFr": "Collabore avec des entreprises locales pour récupérer les surplus alimentaires et les redistribuer aux banques alimentaires et aux programmes de repas de la région.",
+      "website": ""
+    },
+    {
+      "id": 87,
+      "name": "Sulphur Springs Food Bank — Chelmsford",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Chelmsford and Valley area residents",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-897-1212",
+      "hours": "Call for monthly schedule",
+      "area": "Chelmsford",
+      "address": "Chelmsford",
+      "description": "Community food bank serving residents of Chelmsford and surrounding Valley area with monthly food hampers.",
+      "descriptionFr": "Banque alimentaire communautaire au service des résidents de Chelmsford et de la région environnante de la vallée avec des paniers alimentaires mensuels.",
+      "website": ""
+    },
+    {
+      "id": 88,
+      "name": "Indigenous Friendship Centre of Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Indigenous people and families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2128",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "110 Elm Street, Sudbury",
+      "description": "Provides culturally appropriate programs and services for Indigenous people in Sudbury including youth, family and elder support.",
+      "descriptionFr": "Fournit des programmes et des services culturellement adaptés pour les Autochtones de Sudbury, notamment un soutien pour les jeunes, les familles et les aînés.",
+      "website": ""
+    },
+    {
+      "id": 89,
+      "name": "Centre de santé communautaire du Grand Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Francophone and vulnerable residents",
+      "languages": [
+        "French",
+        "English"
+      ],
+      "phone": "705-524-5579",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Sudbury",
+      "description": "Community health centre offering primary care, social services and mental health support primarily in French.",
+      "descriptionFr": "Centre de santé communautaire offrant des soins primaires, des services sociaux et un soutien en santé mentale principalement en français.",
+      "website": ""
+    },
+    {
+      "id": 90,
+      "name": "Horizon Jeunesse — Youth Employment",
+      "category": "Employment & Training",
+      "whoItServes": "Francophone youth seeking employment",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-524-5579",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Employment and skills development programs in French for Francophone youth entering the job market.",
+      "descriptionFr": "Programmes d'emploi et de développement des compétences en français pour les jeunes francophones qui entrent sur le marché du travail.",
+      "website": ""
+    },
+    {
+      "id": 91,
+      "name": "Laurentian University Student Services — Counselling",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Laurentian University students",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1151 ext. 3368",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Ramsey Lake / University",
+      "address": "935 Ramsey Lake Road, Sudbury",
+      "description": "Free and confidential counselling and mental health support for students enrolled at Laurentian University.",
+      "descriptionFr": "Counseling gratuit et confidentiel et soutien en santé mentale pour les étudiants inscrits à l'Université Laurentienne.",
+      "website": "https://laurentian.ca"
+    },
+    {
+      "id": 92,
+      "name": "Cambrian College — Student Wellness",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Cambrian College students",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-566-8101",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "New Sudbury",
+      "address": "1400 Barrydowne Road, Sudbury",
+      "description": "Free mental health counselling, peer support and wellness programs for students enrolled at Cambrian College.",
+      "descriptionFr": "Counseling gratuit en santé mentale, soutien par les pairs et programmes de bien-être pour les étudiants inscrits au Collège Cambrian.",
+      "website": "https://www.cambriancollege.ca"
+    },
+    {
+      "id": 93,
+      "name": "Ontario Works — Emergency Financial Assistance",
+      "category": "Employment & Training",
+      "whoItServes": "Individuals and families in financial crisis",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-2489",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "199 Larch Street, Sudbury",
+      "description": "Provides temporary financial assistance for basic needs and supports people in finding stable employment.",
+      "descriptionFr": "Fournit une aide financière temporaire pour les besoins de base et aide les personnes à trouver un emploi stable.",
+      "website": "https://www.greatersudbury.ca/live/ontario-works1"
+    },
+    {
+      "id": 94,
+      "name": "Sudbury Women's Centre",
+      "category": "Family & Children",
+      "whoItServes": "Women and gender-diverse individuals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-2200",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "Sudbury",
+      "description": "Provides a safe and welcoming space offering counselling, peer support and referrals for women who have experienced violence or hardship.",
+      "descriptionFr": "Offre un espace sûr et accueillant avec du counseling, du soutien par les pairs et des références pour les femmes qui ont subi de la violence ou des difficultés.",
+      "website": ""
+    },
+    {
+      "id": 95,
+      "name": "Réseau Access — Outreach & Harm Reduction",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone affected by HIV, Hepatitis C or substance use",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-688-0500",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "111 Larch Street, Suite 101, Sudbury",
+      "description": "Outreach and harm reduction services for people living with or at risk of HIV and Hepatitis C, and those who use drugs.",
+      "descriptionFr": "Services de proximité et de réduction des méfaits pour les personnes vivant avec le VIH et l'hépatite C ou à risque, et celles qui consomment des drogues.",
+      "website": ""
+    },
+    {
+      "id": 96,
+      "name": "Public Health Sudbury & Districts — Social Programs",
+      "category": "Family & Children",
+      "whoItServes": "All residents",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-9200",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "1300 Paris Street, Sudbury",
+      "description": "Offers community health programs including breastfeeding support, healthy eating resources and mental health promotion.",
+      "descriptionFr": "Offre des programmes de santé communautaire incluant le soutien à l'allaitement, les ressources pour une alimentation saine et la promotion de la santé mentale.",
+      "website": "https://www.phsd.ca"
+    },
+    {
+      "id": 97,
+      "name": "Sudbury East Community Health Centre",
+      "category": "Family & Children",
+      "whoItServes": "Residents of Sudbury East area",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-869-1600",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Sturgeon Falls / Sudbury East",
+      "address": "Sturgeon Falls",
+      "description": "Community health centre providing primary care, social work, mental health and nutrition services to underserved residents.",
+      "descriptionFr": "Centre de santé communautaire offrant des soins primaires, du travail social, des services de santé mentale et de nutrition aux résidents mal desservis.",
+      "website": ""
+    },
+    {
+      "id": 98,
+      "name": "Sudbury Hospitality House — Newcomer Services",
+      "category": "Family & Children",
+      "whoItServes": "Refugees and newcomers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-3605",
+      "hours": "Monday–Friday 9:00 AM–4:30 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Provides settlement support, temporary housing and integration services for refugees and newcomers arriving in Sudbury.",
+      "descriptionFr": "Fournit un soutien à l'établissement, un logement temporaire et des services d'intégration pour les réfugiés et les nouveaux arrivants à Sudbury.",
+      "website": ""
+    },
+    {
+      "id": 99,
+      "name": "211 Ontario North — Information & Referral",
+      "category": "Family & Children",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "2-1-1",
+      "hours": "24 hours a day, 7 days a week",
+      "area": "Greater Sudbury",
+      "address": "Phone and online service",
+      "description": "Free 24/7 helpline connecting anyone in Sudbury to social services, community programs and supports — just call 211.",
+      "descriptionFr": "Ligne d'assistance gratuite 24h/24, 7j/7, connectant toute personne à Sudbury aux services sociaux, aux programmes communautaires et aux soutiens — il suffit d'appeler le 211.",
+      "website": "https://211north.ca"
+    },
+    {
+      "id": 100,
+      "name": "Kidney Foundation of Canada — Sudbury Chapter",
+      "category": "Senior Services",
+      "whoItServes": "People with kidney disease and their families",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-800-387-4474",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM",
+      "area": "Greater Sudbury",
+      "address": "Phone-based service",
+      "description": "Provides financial assistance, peer support and patient education for people living with kidney disease in the Sudbury area.",
+      "descriptionFr": "Fournit une aide financière, un soutien par les pairs et une éducation aux patients pour les personnes atteintes d'une maladie rénale dans la région de Sudbury.",
+      "website": "https://www.kidney.ca"
+    },
+    {
+      "id": 101,
+      "name": "Sudbury Counselling Centre",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults seeking counselling",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-4491",
+      "hours": "Monday–Friday 9:00 AM–5:00 PM",
+      "area": "Sudbury",
+      "address": "Sudbury",
+      "description": "Provides affordable individual and group counselling services for adults dealing with anxiety, depression, grief and relationship issues.",
+      "descriptionFr": "Offre des services de counseling individuel et de groupe abordables pour les adultes aux prises avec l'anxiété, la dépression, le deuil et les problèmes relationnels.",
+      "website": ""
+    },
+    {
+      "id": 102,
+      "name": "Greater Sudbury Police Service — Victim Services",
+      "category": "Legal Aid",
+      "whoItServes": "Victims of crime",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-9171",
+      "hours": "24-hour police dispatch; victim services during business hours",
+      "area": "Greater Sudbury",
+      "address": "190 Brady Street, Sudbury",
+      "description": "Connects crime victims to crisis support, counselling referrals and navigation through the justice system.",
+      "descriptionFr": "Met les victimes de crime en contact avec un soutien en situation de crise, des références pour le counseling et une aide pour naviguer dans le système judiciaire.",
+      "website": "https://www.greatersudburypolice.ca"
+    },
+    {
+      "id": 103,
+      "name": "Sudbury Senior Citizens Organizations Inc.",
+      "category": "Senior Services",
+      "whoItServes": "Seniors 55+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1101",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Downtown Sudbury",
+      "address": "Sudbury",
+      "description": "Community hub for seniors offering social programs, fitness activities, day trips and peer support to reduce isolation.",
+      "descriptionFr": "Carrefour communautaire pour les personnes âgées offrant des programmes sociaux, des activités de conditionnement physique, des excursions d'une journée et un soutien par les pairs pour réduire l'isolement.",
+      "website": ""
+    },
+    {
+      "id": 104,
+      "name": "Capreol and Area Community Development Corporation",
+      "category": "Employment & Training",
+      "whoItServes": "Residents of Capreol and surrounding communities",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-858-2222",
+      "hours": "Monday–Friday 9:00 AM–4:00 PM",
+      "area": "Capreol",
+      "address": "Capreol",
+      "description": "Local economic development organization connecting residents to employment, training and business opportunities in Northern Sudbury.",
+      "descriptionFr": "Organisation de développement économique local qui met les résidents en contact avec des possibilités d'emploi, de formation et d'affaires dans le Nord de Sudbury.",
+      "website": ""
+    },
+    {
+      "id": 105,
+      "name": "Ontario Structured Psychotherapy (OSP) — HSN Sudbury",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults 18+ with depression or anxiety",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-7100",
+      "hours": "Monday–Friday 8:30 AM–4:30 PM",
+      "area": "Greater Sudbury",
+      "address": "Health Sciences North, 41 Ramsey Lake Road, Sudbury",
+      "description": "Free evidence-based cognitive behavioural therapy for adults 18 and older dealing with depression, anxiety or anxiety-related conditions.",
+      "descriptionFr": "Thérapie cognitivo-comportementale gratuite et fondée sur des données probantes pour les adultes de 18 ans et plus aux prises avec la dépression, l'anxiété ou des conditions liées à l'anxiété.",
+      "website": "https://hsnsudbury.ca"
+    },
+    {
+      "name": "Sudbury Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Member food banks and people needing referral",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-9663",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Distributes donated food to member food banks across Greater Sudbury.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 106
+    },
+    {
+      "name": "Salvation Army Community and Family Services Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need in catchment areas",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-5893 ext. 204",
+      "hours": "Mon/Tue/Wed/Fri 9am-2pm; Thu 10am-6pm",
+      "area": "Notre Dame / Sudbury",
+      "address": "",
+      "description": "Provides emergency food plus pet food, toiletries, and cleaning supplies when available.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 107
+    },
+    {
+      "name": "Inner City Home Food Bank - Elm Street",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need in catchment area",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-7550",
+      "hours": "Mon-Fri 1pm-4pm",
+      "area": "Downtown / Elm Street",
+      "address": "",
+      "description": "Provides non-perishable, perishable, and frozen food for households in need.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 108
+    },
+    {
+      "name": "New Sudbury Food Bank - Inner City Home Dollard Ave",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need in catchment area",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-7550",
+      "hours": "Tue and Thu 10am-12pm",
+      "area": "New Sudbury / Dollard Avenue",
+      "address": "",
+      "description": "Provides food bank support for New Sudbury residents in need.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 109
+    },
+    {
+      "name": "Better Beginnings Better Futures Emergency Food Cupboard",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in emergencies",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-1941 ext. 236",
+      "hours": "Call for current hours",
+      "area": "Donovan / Morin Avenue",
+      "address": "",
+      "description": "Gives short-term emergency food and basic supplies.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 110
+    },
+    {
+      "name": "Grace Family Church Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-1512",
+      "hours": "Call for current hours",
+      "area": "Burton Avenue / Sudbury",
+      "address": "",
+      "description": "Operates a local food bank for people needing groceries.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 111
+    },
+    {
+      "name": "Laurentian University Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Laurentian students in need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-1151 ext. 1064",
+      "hours": "Call/website for current hours",
+      "area": "Laurentian University / Ramsey Lake",
+      "address": "",
+      "description": "Offers premade emergency food packages to students.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 112
+    },
+    {
+      "name": "Holy Redeemer Minnow Lake Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-566-8330 ext. 1",
+      "hours": "Pickup Thu 3pm-5pm; call by Tue",
+      "area": "Minnow Lake / Bancroft Drive",
+      "address": "",
+      "description": "Provides about three days of food, including perishables when available.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 113
+    },
+    {
+      "name": "Pregnancy Care Centre and Infant Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Pregnant people, parents, infants and young families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-5003",
+      "hours": "Call/website for current hours",
+      "area": "Lasalle Boulevard / New Sudbury",
+      "address": "",
+      "description": "Provides formula, baby food, diapers, wipes, milk support, and parenting education.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 114
+    },
+    {
+      "name": "Cambrian College Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Cambrian College students in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-566-8101 ext. 6686",
+      "hours": "Call/website for current hours",
+      "area": "Cambrian College / Barrydowne",
+      "address": "",
+      "description": "Offers non-perishable, frozen, and refrigerated food to students.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 115
+    },
+    {
+      "name": "Afro Women and Youth Foundation Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Black, immigrant, newcomer women, youth and families; community members",
+      "languages": [
+        "English"
+      ],
+      "phone": "905-955-8667",
+      "hours": "Call/website for current hours",
+      "area": "Lansing Avenue / New Sudbury",
+      "address": "",
+      "description": "Provides food support as part of community and settlement assistance.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 116
+    },
+    {
+      "name": "Good Neighbours Valley East Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Hanmer and Valley East residents in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-562-1325",
+      "hours": "Last 2 Wed/month 12:30pm-3pm",
+      "area": "Hanmer / Valley East",
+      "address": "",
+      "description": "Provides food bank support to residents in the Hanmer area.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 117
+    },
+    {
+      "name": "Friendship House Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Azilda and Chelmsford residents in need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-855-4848",
+      "hours": "Fri 11:30am-12:30pm",
+      "area": "Chelmsford / Azilda",
+      "address": "",
+      "description": "Provides food bank support from St. Alexander’s Church.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 118
+    },
+    {
+      "name": "Garson Community Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Garson residents in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "Call/website for current phone",
+      "hours": "Call/website for current hours",
+      "area": "Garson",
+      "address": "",
+      "description": "Provides local food bank support to households in Garson.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 119
+    },
+    {
+      "name": "St. Matthews Lutheran Church Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Individuals and families in need",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-2933",
+      "hours": "Wed 9am-1pm",
+      "area": "Downtown / Mackenzie Street",
+      "address": "",
+      "description": "Provides scheduled food bank support to people needing groceries.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 120
+    },
+    {
+      "name": "St. Vincent de Paul Society Val Caron",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Val Caron residents in need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-897-1212",
+      "hours": "Third week of month 10am-1pm",
+      "area": "Val Caron",
+      "address": "",
+      "description": "Provides monthly food bank support for people in need.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 121
+    },
+    {
+      "name": "Blue Door Soup Kitchen",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone needing a free meal",
+      "languages": [
+        "English"
+      ],
+      "phone": "Call/website for current phone",
+      "hours": "Mon-Fri 11am-1:30pm",
+      "area": "Downtown / Elgin Street",
+      "address": "",
+      "description": "Serves free daytime meals to people who need food.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 122
+    },
+    {
+      "name": "Elgin Street Mission",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone needing meals or basic help",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-2163",
+      "hours": "Breakfast Mon-Fri 8am-9:30am; weekend brunch 10am-12pm; supper daily 5pm-7pm",
+      "area": "Downtown / Elgin Street",
+      "address": "",
+      "description": "Serves breakfast, supper, weekend brunch, and practical support.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 123
+    },
+    {
+      "name": "Meals on Wheels Sudbury",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Seniors, people with disabilities, and people needing meal delivery",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-525-4554",
+      "hours": "Call/website for current hours",
+      "area": "Bancroft / Greater Sudbury",
+      "address": "",
+      "description": "Delivers prepared meals to people who need food support at home.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 124
+    },
+    {
+      "name": "Our Children, Our Future Infant Food Cupboard",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Families with infants under 42 months in emergency need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-677-0931",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides emergency infant formula, milk, and diapers.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 125
+    },
+    {
+      "name": "Health Sciences North Crisis Intervention Program and Mobile Crisis Team",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People in mental health crisis",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-4760; 1-877-841-1101",
+      "hours": "Phone 24/7; in-person 8:30am-10pm daily",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides immediate crisis assessment, intervention, referrals, and mobile crisis response.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 126
+    },
+    {
+      "name": "Northeastern Regional Warm Line",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone needing pre-crisis peer support",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-866-856-9276",
+      "hours": "Daily 6pm-12am except statutory holidays",
+      "area": "Regional / phone service",
+      "address": "",
+      "description": "Offers a peer listening line before a crisis becomes urgent.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 127
+    },
+    {
+      "name": "988 Suicide Crisis Helpline",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone thinking about suicide or worried about someone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "Call or text 988",
+      "hours": "24/7",
+      "area": "Canada-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides immediate suicide crisis support by phone or text.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 128
+    },
+    {
+      "name": "Northern Initiative for Social Action (NISA)",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People with lived experience of mental health challenges",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-222-6472",
+      "hours": "Call/website for current program hours",
+      "area": "Downtown / Greater Sudbury",
+      "address": "",
+      "description": "Runs peer support and recovery programs for mental health.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 129
+    },
+    {
+      "name": "Compass Boussole Akii-izhinoogan",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Children, youth under 18, and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-815-7126",
+      "hours": "Call/website for current hours",
+      "area": "Sudbury and district",
+      "address": "",
+      "description": "Provides free mental health, developmental, and community services for children and youth.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 130
+    },
+    {
+      "name": "Health Sciences North Assertive Community Treatment Team",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults with serious mental illness and complex needs",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4988 ext. 4282",
+      "hours": "Service 24/7",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides intensive community treatment and rehabilitation for people with serious mental illness.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 131
+    },
+    {
+      "name": "Health Sciences North Early Psychosis Intervention Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Youth and adults aged 15-35 experiencing first-episode psychosis",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4988 ext. 4377",
+      "hours": "Call/website for current hours",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Helps young people understand and manage early psychosis symptoms.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 132
+    },
+    {
+      "name": "Health Sciences North Mood and Anxiety Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People 16+ with depression, bipolar disorder, anxiety, or PTSD",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4988 ext. 4242",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides group-based therapy for mood and anxiety concerns.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 133
+    },
+    {
+      "name": "Ontario Structured Psychotherapy Program - HSN",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Adults 18+ with depression, anxiety, or anxiety-related conditions",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4988 ext. 4272",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides free short-term CBT-based psychotherapy services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 134
+    },
+    {
+      "name": "Health Sciences North Perinatal Mental Health Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Pregnant and postpartum women 16+",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-4988 ext. 4242",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Supports pregnant and new mothers experiencing depression or anxiety.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 135
+    },
+    {
+      "name": "Health Sciences North Child and Adolescent Mental Health Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Children and adolescents in acute psychiatric need",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-5900 ext. 8012",
+      "hours": "24/7 hospital service",
+      "area": "Ramsey Lake / HSN",
+      "address": "",
+      "description": "Provides assessment and treatment planning for children and adolescents in acute crisis.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 136
+    },
+    {
+      "name": "Shkagamik-Kwe Health Centre Mental Wellness Programs",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Indigenous people, families, and community members",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1596",
+      "hours": "Mon-Fri 8:30am-12pm and 1pm-4:30pm",
+      "area": "Applegrove / Sudbury",
+      "address": "",
+      "description": "Offers culturally grounded mental wellness services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 137
+    },
+    {
+      "name": "ConnexOntario",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone seeking mental health, addictions, or gambling help",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-531-2600",
+      "hours": "24/7 phone/chat/text",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Connects people to local mental health, addiction, and gambling services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 138
+    },
+    {
+      "name": "Hope for Wellness Helpline",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Indigenous people across Canada",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-855-242-3310",
+      "hours": "24/7",
+      "area": "Canada-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides culturally informed counselling and crisis support for Indigenous people.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 139
+    },
+    {
+      "name": "Alcoholics Anonymous Sudbury / Area 84",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People seeking support for alcohol addiction",
+      "languages": [
+        "English"
+      ],
+      "phone": "Call/website for current phone",
+      "hours": "Meeting times vary",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Offers peer meetings for people recovering from alcohol addiction.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 140
+    },
+    {
+      "name": "Al-Anon Ontario North",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Families and friends of people with alcohol problems",
+      "languages": [
+        "English"
+      ],
+      "phone": "Call/website for current phone",
+      "hours": "Meeting times vary",
+      "area": "Greater Sudbury / regional",
+      "address": "",
+      "description": "Offers peer support for people affected by someone else’s drinking.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 141
+    },
+    {
+      "name": "Narcotics Anonymous Ontario North",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People seeking support for drug addiction",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-888-811-3887",
+      "hours": "Meeting times vary",
+      "area": "Greater Sudbury / regional",
+      "address": "",
+      "description": "Offers peer recovery meetings for people affected by drug addiction.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 142
+    },
+    {
+      "name": "Affordable Therapy Network",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People seeking low-cost therapy",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "Website only",
+      "hours": "Online directory; hours vary",
+      "area": "Online / serves Sudbury",
+      "address": "",
+      "description": "Lists therapists who offer lower-cost or sliding-scale counselling.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 143
+    },
+    {
+      "name": "Alzheimer Society Sudbury-Manitoulin North Bay and Districts",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "People with dementia, caregivers, and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-560-0603",
+      "hours": "Call/website for current hours",
+      "area": "Notre Dame / New Sudbury",
+      "address": "",
+      "description": "Provides dementia counselling, education, and support groups.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 144
+    },
+    {
+      "name": "City of Greater Sudbury Housing Services / Housing Registry",
+      "category": "Housing & Shelter",
+      "whoItServes": "People applying for rent-geared-to-income housing",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455 ext. 4678",
+      "hours": "Mon-Fri business hours; call to confirm",
+      "area": "Larch Street / Downtown",
+      "address": "",
+      "description": "Processes applications and waitlists for community housing.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 145
+    },
+    {
+      "name": "Greater Sudbury Housing Corporation",
+      "category": "Housing & Shelter",
+      "whoItServes": "Community housing tenants and applicants",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-8323",
+      "hours": "Call/website for current hours",
+      "area": "Elm Place / Downtown",
+      "address": "",
+      "description": "Manages community housing units and tenant file maintenance.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 146
+    },
+    {
+      "name": "Cedar Place Women and Family Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women 20+ and families with children needing emergency shelter",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-586-3293",
+      "hours": "24/7",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides emergency shelter, meals, washrooms, showers, and housing referrals.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 147
+    },
+    {
+      "name": "Off the Street Emergency Shelter - CMHA Sudbury Manitoulin",
+      "category": "Housing & Shelter",
+      "whoItServes": "People 16+ of all genders experiencing homelessness",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-562-8512",
+      "hours": "10pm-8am",
+      "area": "Larch Street / Downtown",
+      "address": "",
+      "description": "Provides low-barrier overnight emergency shelter and referrals.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 148
+    },
+    {
+      "name": "Safe Harbour House - Elizabeth Fry Society",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women and gender-diverse people 19+",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-885-1060; 705-674-1364",
+      "hours": "9pm-8am nightly",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides overnight shelter with showers, laundry, and light meals.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 149
+    },
+    {
+      "name": "YWCA Genevra House",
+      "category": "Housing & Shelter",
+      "whoItServes": "Women and children fleeing domestic violence",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-2210",
+      "hours": "24/7 crisis/shelter",
+      "area": "St-Raphael Street / Sudbury",
+      "address": "",
+      "description": "Provides emergency shelter, safety planning, and crisis support.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 150
+    },
+    {
+      "name": "Homelessness Network Community Homelessness Prevention Initiative",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income people homeless or at risk and not on OW/ODSP",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-6422",
+      "hours": "Call/website for current hours",
+      "area": "Frood Road / Sudbury",
+      "address": "",
+      "description": "Provides help with rent arrears, utility arrears, connection fees, and first/last month rent.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 151
+    },
+    {
+      "name": "City of Greater Sudbury Client Navigators",
+      "category": "Housing & Shelter",
+      "whoItServes": "People experiencing homelessness or housing instability",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-2411 press 0",
+      "hours": "Drop-in Mon-Fri business hours",
+      "area": "Larch Street / Downtown",
+      "address": "",
+      "description": "Connects people to housing help, income supports, and community services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 152
+    },
+    {
+      "name": "John Howard Society of Sudbury Central Intake",
+      "category": "Housing & Shelter",
+      "whoItServes": "People experiencing homelessness needing intake and case management",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-9576; 705-207-7621",
+      "hours": "Call for current hours",
+      "area": "Pine Street / Sudbury",
+      "address": "",
+      "description": "Provides intake, by-name list registration, and intensive case management.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 153
+    },
+    {
+      "name": "Centre de santé communautaire du Grand Sudbury Housing Support",
+      "category": "Housing & Shelter",
+      "whoItServes": "People experiencing chronic homelessness or needing outreach",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-618-8810; 705-280-7888; 705-207-8285",
+      "hours": "Call for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides housing support, homelessness case management, outreach, and veterans case management.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 154
+    },
+    {
+      "name": "N’Swakamok Indigenous Friendship Centre Housing Support",
+      "category": "Housing & Shelter",
+      "whoItServes": "Indigenous men, women, youth, and families at risk of homelessness",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2128",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Provides culturally relevant housing support for Indigenous community members.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 155
+    },
+    {
+      "name": "Native People of Sudbury Development Corporation",
+      "category": "Housing & Shelter",
+      "whoItServes": "Indigenous community members seeking affordable housing",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-9996",
+      "hours": "Call/website for current hours",
+      "area": "Xavier Street / Sudbury",
+      "address": "",
+      "description": "Provides rent-geared-to-income Indigenous housing in Sudbury and Espanola.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 156
+    },
+    {
+      "name": "Ontario Aboriginal Housing Services",
+      "category": "Housing & Shelter",
+      "whoItServes": "Indigenous people needing housing or homelessness support",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-866-391-1061; 705-256-1876",
+      "hours": "Call/website for current hours",
+      "area": "Elgin Street / Sudbury office",
+      "address": "",
+      "description": "Provides culturally appropriate housing and homelessness support programs.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 157
+    },
+    {
+      "name": "CMHA Sudbury Manitoulin Housing Support Services",
+      "category": "Housing & Shelter",
+      "whoItServes": "People with mental health needs needing housing support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252; 1-866-285-2642",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Provides rent supplement and short-term housing case management.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 158
+    },
+    {
+      "name": "Monarch Recovery Services Addiction Supportive Housing",
+      "category": "Housing & Shelter",
+      "whoItServes": "Men and women with substance use history at risk of homelessness",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-4193",
+      "hours": "Call/website for current hours",
+      "area": "Oak Street / Sudbury",
+      "address": "",
+      "description": "Provides rent subsidy and addiction case management for stable housing.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 159
+    },
+    {
+      "name": "Low-income Energy Assistance Program (LEAP) Sudbury access",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income households facing utility arrears",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-618-8810",
+      "hours": "Call for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides emergency help for electricity or natural gas bills.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 160
+    },
+    {
+      "name": "Ontario Electricity Support Program",
+      "category": "Housing & Shelter",
+      "whoItServes": "Low-income electricity customers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-855-831-8151",
+      "hours": "Call/website for current hours",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Applies a monthly credit to eligible household electricity bills.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 161
+    },
+    {
+      "name": "Homelessness Network Affordable Housing List",
+      "category": "Housing & Shelter",
+      "whoItServes": "People looking for affordable housing options",
+      "languages": [
+        "English"
+      ],
+      "phone": "Website only",
+      "hours": "Online; available anytime",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Publishes information about affordable housing options and homelessness resources.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 162
+    },
+    {
+      "name": "Spark Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "Job seekers and employers",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-2544",
+      "hours": "Mon-Fri 8:30am-4:30pm",
+      "area": "Notre Dame / Nolin Centre",
+      "address": "",
+      "description": "Offers job search help, workshops, e-learning, and employment counselling.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 163
+    },
+    {
+      "name": "Gezhtoojig Employment and Training",
+      "category": "Employment & Training",
+      "whoItServes": "Indigenous job seekers, trainees, and entrepreneurs",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-524-6772",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Provides Indigenous employment, training, and business development support.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 164
+    },
+    {
+      "name": "March of Dimes Canada Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "People with disabilities and employment barriers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-3188",
+      "hours": "Call/website for current hours",
+      "area": "Elm / Larch area",
+      "address": "",
+      "description": "Provides job assessment, placement, coaching, and support for people with disabilities.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 165
+    },
+    {
+      "name": "Collège Boréal Employment Options Emploi - Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "Ontario residents legally able to work",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-560-1562",
+      "hours": "Call/website for current hours",
+      "area": "Lasalle Boulevard / New Sudbury",
+      "address": "",
+      "description": "Provides job search, résumé, interview, career, and training supports.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 166
+    },
+    {
+      "name": "Employment Options Emploi - Chelmsford",
+      "category": "Employment & Training",
+      "whoItServes": "Ontario residents legally able to work",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-855-1562",
+      "hours": "Call/website for current hours",
+      "area": "Chelmsford",
+      "address": "",
+      "description": "Provides employment counselling and job search services in the west end.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 167
+    },
+    {
+      "name": "Employment Options Emploi - Val Caron",
+      "category": "Employment & Training",
+      "whoItServes": "Ontario residents legally able to work",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-897-5627",
+      "hours": "Call/website for current hours",
+      "area": "Val Caron",
+      "address": "",
+      "description": "Provides local employment and career support services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 168
+    },
+    {
+      "name": "Ontario Works - Greater Sudbury Employment Supports",
+      "category": "Employment & Training",
+      "whoItServes": "People and families needing income and employment support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-2411",
+      "hours": "Mon-Fri business hours; call to confirm",
+      "area": "Larch Street / Downtown",
+      "address": "",
+      "description": "Provides temporary financial assistance and support to find employment.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 169
+    },
+    {
+      "name": "Ontario Disability Support Program Employment Supports",
+      "category": "Employment & Training",
+      "whoItServes": "People with disabilities seeking work and income support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-4515",
+      "hours": "Mon-Fri business hours; call to confirm",
+      "area": "Larch Street / Downtown",
+      "address": "",
+      "description": "Provides income, health benefits, and help to find or keep work.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 170
+    },
+    {
+      "name": "Ministry of Labour, Immigration, Training and Skills Development - Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "Apprentices, employers, and job seekers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-3030; 1-800-603-5999",
+      "hours": "Call/website for current hours",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides apprenticeship and Employment Ontario program information.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 171
+    },
+    {
+      "name": "Canadian Hearing Services Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "Deaf and hard-of-hearing job seekers and clients",
+      "languages": [
+        "English",
+        "French",
+        "ASL"
+      ],
+      "phone": "705-522-1020",
+      "hours": "Call/website for current hours",
+      "area": "Riverside Drive / Sudbury",
+      "address": "",
+      "description": "Supports employment and accessibility for Deaf and hard-of-hearing people.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 172
+    },
+    {
+      "name": "CNIB Sudbury Employment and Skills Programs",
+      "category": "Employment & Training",
+      "whoItServes": "People who are blind or partially sighted",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-2468",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Offers employment, skills training, peer support, and assistive technology help.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 173
+    },
+    {
+      "name": "Sudbury Workers Education and Advocacy Centre",
+      "category": "Employment & Training",
+      "whoItServes": "Workers needing rights information or advocacy",
+      "languages": [
+        "English"
+      ],
+      "phone": "Call/website for current phone",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Helps workers understand rights, unpaid wages, working conditions, and referrals.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 174
+    },
+    {
+      "name": "Service Canada Sudbury - Employment Insurance",
+      "category": "Employment & Training",
+      "whoItServes": "Workers applying for EI and federal benefits",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-206-7218",
+      "hours": "Mon-Fri 8:30am-4pm",
+      "area": "Lisgar Street / Downtown",
+      "address": "",
+      "description": "Provides access to Employment Insurance and federal employment-related services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 175
+    },
+    {
+      "name": "N’Swakamok Indigenous Friendship Centre Apatisiwin Program",
+      "category": "Employment & Training",
+      "whoItServes": "Indigenous youth and adults aged 15+",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2128",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Helps Indigenous people access training and employment opportunities.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 176
+    },
+    {
+      "name": "Legal Aid Ontario",
+      "category": "Legal Aid",
+      "whoItServes": "Financially eligible low-income Ontarians",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-668-8258",
+      "hours": "Call/website for current hours",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides legal help for eligible low-income people.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 177
+    },
+    {
+      "name": "Ontario Legal Information Centre",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone in Ontario with a legal problem",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-844-343-7462",
+      "hours": "Call/website for current hours",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides bilingual legal information and referrals.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 178
+    },
+    {
+      "name": "CLEO Connect",
+      "category": "Legal Aid",
+      "whoItServes": "Community workers and people needing legal information",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "Website only",
+      "hours": "Online; available anytime",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides plain-language legal information and tools.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 179
+    },
+    {
+      "name": "John Howard Society of Sudbury Justice Programs",
+      "category": "Legal Aid",
+      "whoItServes": "People involved in the justice system",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-9576",
+      "hours": "Call/website for current hours",
+      "area": "Pine Street / Sudbury",
+      "address": "",
+      "description": "Provides justice-related programs, support, and reintegration help.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 180
+    },
+    {
+      "name": "Elizabeth Fry Society Northeastern Ontario Justice Programs",
+      "category": "Legal Aid",
+      "whoItServes": "Criminalized women, young women, and gender-diverse people",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-1364",
+      "hours": "Call/website for current hours",
+      "area": "Cedar Street / Downtown",
+      "address": "",
+      "description": "Provides programs that build life skills, coping strategies, and stability.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 181
+    },
+    {
+      "name": "N’Swakamok Indigenous Friendship Centre Court Support",
+      "category": "Legal Aid",
+      "whoItServes": "Self-identified Indigenous people going through court",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2128",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Provides culturally relevant support for Indigenous people involved in court.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 182
+    },
+    {
+      "name": "CMHA Sudbury Manitoulin Justice Program",
+      "category": "Legal Aid",
+      "whoItServes": "People with mental health or addiction concerns in the justice system",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Supports justice-involved people with mental health or addictions concerns.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 183
+    },
+    {
+      "name": "Sudbury and Area Victim Services",
+      "category": "Legal Aid",
+      "whoItServes": "Victims of crime and tragic circumstances",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-6970",
+      "hours": "Call/website for crisis/service hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides crisis intervention and support to victims and survivors.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 184
+    },
+    {
+      "name": "Health Sciences North VIPP / Voices for Women",
+      "category": "Legal Aid",
+      "whoItServes": "Survivors of violence and sexual assault",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-4743",
+      "hours": "Call/through hospital switchboard; crisis support varies",
+      "area": "Ramsey Lake / HSN",
+      "address": "",
+      "description": "Provides violence intervention, sexual assault support, and specialized assessment services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 185
+    },
+    {
+      "name": "Ontario Health atHome",
+      "category": "Senior Services",
+      "whoItServes": "Seniors, caregivers, and people needing home/community care",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "310-2222",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury / regional",
+      "address": "",
+      "description": "Connects people to home care, case management, and care coordination.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 186
+    },
+    {
+      "name": "Home Instead Senior Care Sudbury",
+      "category": "Senior Services",
+      "whoItServes": "Seniors and families needing private home care",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-805-0007",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides personal care, dementia support, meal prep, transportation, and companionship.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 187
+    },
+    {
+      "name": "Bayshore Home Health Sudbury",
+      "category": "Senior Services",
+      "whoItServes": "Seniors and people needing home health care",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-419-1745",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides personal care, nursing, dementia care, wound care, and therapy supports.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 188
+    },
+    {
+      "name": "Canadian Shield Health Care Services",
+      "category": "Senior Services",
+      "whoItServes": "Seniors and people needing home care or respite",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-618-7233",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides personal care, respite, nursing, dementia care, and wellness services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 189
+    },
+    {
+      "name": "Geriatric Mental Health Outreach Service",
+      "category": "Senior Services",
+      "whoItServes": "Older adults with complex mental health needs",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-688-7720",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury / Northeast",
+      "address": "",
+      "description": "Provides assessment, counselling, advocacy, and mental health support for seniors.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 190
+    },
+    {
+      "name": "NISA Older Adult Program",
+      "category": "Senior Services",
+      "whoItServes": "Older adults with mental health lived experience",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-222-6472",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Offers older adult peer support on-site or in the community.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 191
+    },
+    {
+      "name": "Alzheimer Society Sudbury-Manitoulin North Bay and Districts - Dementia Support",
+      "category": "Senior Services",
+      "whoItServes": "People living with dementia and caregivers",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-560-0603",
+      "hours": "Call/website for current hours",
+      "area": "Notre Dame / New Sudbury",
+      "address": "",
+      "description": "Provides dementia education, support groups, and caregiver support.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 192
+    },
+    {
+      "name": "Goshenite Senior Services",
+      "category": "Senior Services",
+      "whoItServes": "Independent seniors needing transportation",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-698-5318",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury incl. Val Caron, Hanmer, Garson, Azilda, Chelmsford, Onaping",
+      "address": "",
+      "description": "Provides door-to-door transportation and companionship for seniors.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 193
+    },
+    {
+      "name": "Canadian Red Cross Sudbury Community Support",
+      "category": "Senior Services",
+      "whoItServes": "Seniors and people needing meal or transportation support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "Call/website for local phone",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides home-support programs such as meals, dining, and transportation supports.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 194
+    },
+    {
+      "name": "Aboriginal People’s Alliance Northern Ontario Long Term Care Program",
+      "category": "Senior Services",
+      "whoItServes": "Indigenous seniors and community members",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-272-2562",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury / regional",
+      "address": "",
+      "description": "Provides congregate dining, friendly visiting, and security checks.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 195
+    },
+    {
+      "name": "City of Greater Sudbury Older Adult Clubs and Associations",
+      "category": "Senior Services",
+      "whoItServes": "Older adults and seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "311",
+      "hours": "Hours vary by club",
+      "area": "Across Greater Sudbury",
+      "address": "",
+      "description": "Lists local clubs and associations for social and recreational senior activities.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 196
+    },
+    {
+      "name": "Seniors Safety Line",
+      "category": "Senior Services",
+      "whoItServes": "Seniors experiencing or at risk of abuse",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-299-1011",
+      "hours": "24/7",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Provides confidential support and safety planning for elder abuse.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 197
+    },
+    {
+      "name": "Retirement Homes Regulatory Authority Reporting Line",
+      "category": "Senior Services",
+      "whoItServes": "Residents and families in retirement homes",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-855-275-7472",
+      "hours": "Call/website for current hours",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Receives concerns about elder abuse or safety in retirement homes.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 198
+    },
+    {
+      "name": "Long-Term Care Family Support and Action Line",
+      "category": "Senior Services",
+      "whoItServes": "Long-term care residents and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-434-0144",
+      "hours": "Call/website for current hours",
+      "area": "Ontario-wide / serves Sudbury",
+      "address": "",
+      "description": "Receives concerns and provides support related to long-term care homes.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 199
+    },
+    {
+      "name": "EarlyON Child and Family Centres Greater Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Parents, caregivers, and children 0-6",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "311 / website",
+      "hours": "Program hours vary by site",
+      "area": "Schools and community centres across Greater Sudbury",
+      "address": "",
+      "description": "Offers free child and family programs for early learning and caregiver support.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 200
+    },
+    {
+      "name": "Aboriginal EarlyON - Wingaash Gamig Indigenous EarlyON",
+      "category": "Family & Children",
+      "whoItServes": "Indigenous children 0-6, parents, and caregivers",
+      "languages": [
+        "English"
+      ],
+      "phone": "Website / call site",
+      "hours": "Program hours vary",
+      "area": "Victory Park / Sudbury",
+      "address": "",
+      "description": "Provides culturally relevant EarlyON programming for Indigenous families.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 201
+    },
+    {
+      "name": "Better Beginnings Better Futures Baby’s Breath Child and Teen Family Centre",
+      "category": "Family & Children",
+      "whoItServes": "Young parents 25 and under, pregnant youth, and young children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Call/website for current hours",
+      "area": "Morin Avenue / Donovan",
+      "address": "",
+      "description": "Provides prenatal, parenting, nutritional, and social support for young parents.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 202
+    },
+    {
+      "name": "Public Health Sudbury & Districts Breastfeeding Clinic",
+      "category": "Family & Children",
+      "whoItServes": "Breastfeeding parents and infants",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-9200 ext. 342",
+      "hours": "Call/website for clinic hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides one-on-one breastfeeding support from trained staff.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 203
+    },
+    {
+      "name": "Healthy Babies Healthy Children - Public Health Sudbury & Districts",
+      "category": "Family & Children",
+      "whoItServes": "Pregnant people and parents of children under 6 needing extra support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-9200",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides home visiting and support for pregnancy and early childhood needs.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 204
+    },
+    {
+      "name": "Public Health Sudbury & Districts Online Prenatal eClass",
+      "category": "Family & Children",
+      "whoItServes": "Expectant parents",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-9200",
+      "hours": "Online; available anytime where offered",
+      "area": "Greater Sudbury / online",
+      "address": "",
+      "description": "Provides online prenatal education for expectant families.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 205
+    },
+    {
+      "name": "Sudbury Community Midwives",
+      "category": "Family & Children",
+      "whoItServes": "Pregnant people and families",
+      "languages": [
+        "English"
+      ],
+      "phone": "Website / call for current phone",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Provides pregnancy care, birth support, resources, and classes.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 206
+    },
+    {
+      "name": "Meals on Wheels Meals for Moms",
+      "category": "Family & Children",
+      "whoItServes": "New mothers 6-8 weeks postpartum",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-525-4554",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Delivers meals to support nutrition for new mothers and children.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 207
+    },
+    {
+      "name": "Nogdawindamin Family and Community Services",
+      "category": "Family & Children",
+      "whoItServes": "First Nation children, youth, and families",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-800-465-0999",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury / regional",
+      "address": "",
+      "description": "Provides culturally relevant family, youth, child welfare, Jordan’s Principle, and children’s mental health supports.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 208
+    },
+    {
+      "name": "N’Swakamok Indigenous Friendship Centre Prenatal Nutrition Program",
+      "category": "Family & Children",
+      "whoItServes": "Indigenous pregnant women, infants, and families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-3539",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Supports Indigenous prenatal and postnatal health through community programming.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 209
+    },
+    {
+      "name": "N’Swakamok Indigenous Friendship Centre Children and Youth Programs",
+      "category": "Family & Children",
+      "whoItServes": "Indigenous children, youth under 18, and families",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-2128",
+      "hours": "Call/website for current hours",
+      "area": "Elm Street / Downtown",
+      "address": "",
+      "description": "Provides Akwe:Go, Wasa-Nabin, Healthy Kids, and other youth programs.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 210
+    },
+    {
+      "name": "Manitoulin Family Resources Child and Family Services",
+      "category": "Family & Children",
+      "whoItServes": "Parents, children, and families needing child development resources",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-368-3400",
+      "hours": "Call/website for current hours",
+      "area": "Regional / serves Sudbury-Manitoulin",
+      "address": "",
+      "description": "Connects families to child development, childcare, and parenting resources.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 211
+    },
+    {
+      "name": "Compass Child, Youth and Family Services",
+      "category": "Family & Children",
+      "whoItServes": "Children, youth under 18, and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-815-7126",
+      "hours": "Call/website for current hours",
+      "area": "Sudbury office / district",
+      "address": "",
+      "description": "Provides children’s mental health, developmental, and family community services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 212
+    },
+    {
+      "name": "Greater Sudbury Children’s Services",
+      "category": "Family & Children",
+      "whoItServes": "Families needing childcare subsidy or registry support",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "311; 705-674-4455",
+      "hours": "Mon-Fri business hours; call to confirm",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Helps families access child care information, subsidies, and local children’s services.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 213
+    },
+    {
+      "name": "Children’s Community Network",
+      "category": "Family & Children",
+      "whoItServes": "Children and youth with special needs and families",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-566-3416",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Coordinates services and supports for children and youth with complex needs.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 214
+    },
+    {
+      "name": "Child and Community Resources",
+      "category": "Family & Children",
+      "whoItServes": "Children, youth, families, and professionals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-525-0055",
+      "hours": "Call/website for current hours",
+      "area": "Greater Sudbury",
+      "address": "",
+      "description": "Supports inclusion, integration, and wellbeing of children and youth.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 215
+    },
+    {
+      "name": "Greater Sudbury Youth Centres - Capreol Youth Centre",
+      "category": "Family & Children",
+      "whoItServes": "Youth",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-858-8888",
+      "hours": "Schedule varies",
+      "area": "Capreol",
+      "address": "",
+      "description": "Provides recreational and supportive programming for youth.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 216
+    },
+    {
+      "name": "Greater Sudbury Youth Centres - Dowling Youth Centre",
+      "category": "Family & Children",
+      "whoItServes": "Youth",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-4455 ext. 4740",
+      "hours": "Schedule varies",
+      "area": "Dowling",
+      "address": "",
+      "description": "Provides youth drop-in and recreational programming.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 217
+    },
+    {
+      "name": "Greater Sudbury Youth Centres - Walden Youth Centre",
+      "category": "Family & Children",
+      "whoItServes": "Youth",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-692-1777",
+      "hours": "Schedule varies",
+      "area": "Walden / Lively area",
+      "address": "",
+      "description": "Provides youth programming and a safe place for activities.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 218
+    },
+    {
+      "name": "The Salvation Army - Notre Dame Ave",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-5893",
+      "hours": "Mon-Wed-Fri 9:30 AM - 12:00 PM & 1:00 PM - 3:30 PM",
+      "area": "Flour Mill / Notre Dame",
+      "address": "",
+      "description": "They provide emergency food hampers alongside basic hygiene items and pet supplies to individuals in need.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 219
+    },
+    {
+      "name": "Inner City Home of Sudbury - Elm St",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Families & Individuals",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7550",
+      "hours": "Mon-Fri 9:00 AM - 4:00 PM",
+      "area": "Downtown / West End",
+      "address": "",
+      "description": "They provide non-perishable and fresh frozen food supplies alongside crisis supportive counseling.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 220
+    },
+    {
+      "name": "Better Beginnings Better Futures",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Flour Mill",
+      "address": "",
+      "description": "They offer a short-term emergency food cupboard and basic household items for local neighborhood families.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 221
+    },
+    {
+      "name": "Pregnancy Care Centre & Infant Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-5003",
+      "hours": "Mon-Thu 10:00 AM - 4:00 PM",
+      "area": "LaSalle Blvd",
+      "address": "",
+      "description": "They provide baby formula",
+      "descriptionFr": "",
+      "website": "",
+      "id": 222
+    },
+    {
+      "name": "Afro Women and Youth Foundation",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "905-955-8667",
+      "hours": "By Appointment Only",
+      "area": "Lansing Ave",
+      "address": "",
+      "description": "They provide culturally specific food baskets and general food supplies to Afro-Caribbean newcomers and community members.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 223
+    },
+    {
+      "name": "Coniston Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-211-2211",
+      "hours": "Wed 1:00 PM - 3:00 PM",
+      "area": "Coniston",
+      "address": "",
+      "description": "They distribute non-perishable and seasonal fresh food items to residents of the Coniston neighborhood.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 224
+    },
+    {
+      "name": "Capreol Bread of Life Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-858-2234",
+      "hours": "Mon 12:00 PM - 2:00 PM",
+      "area": "Capreol",
+      "address": "",
+      "description": "They offer emergency grocery intervention and hampers to residents experiencing poverty in Capreol.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 225
+    },
+    {
+      "name": "Chelmsford Community Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-855-4553",
+      "hours": "Thu 1:00 PM - 3:30 PM",
+      "area": "Chelmsford",
+      "address": "",
+      "description": "They supply nutritional food boxes to residents facing short-term or chronic food insecurity in the Rayside-Balfour area.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 226
+    },
+    {
+      "name": "Lively Community Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-692-3323",
+      "hours": "Fri 10:00 AM - 12:00 PM",
+      "area": "Lively",
+      "address": "",
+      "description": "They provide emergency grocery supplies to residents of Lively",
+      "descriptionFr": "",
+      "website": "",
+      "id": 227
+    },
+    {
+      "name": "Azilda Food Bank",
+      "category": "Food Bank & Meal Program",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-983-4241",
+      "hours": "Tue 11:00 AM - 1:00 PM",
+      "area": "Azilda",
+      "address": "",
+      "description": "They distribute essential pantry staples and perishables to individuals in need within the Azilda boundary.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 228
+    },
+    {
+      "name": "CMHA Sudbury/Manitoulin - Main Branch",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They provide systemic mental health support",
+      "descriptionFr": "",
+      "website": "",
+      "id": 229
+    },
+    {
+      "name": "Health Sciences North - Crisis Intervention",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-4760",
+      "hours": "24/7 365 Days",
+      "area": "Kirkwood Site",
+      "address": "",
+      "description": "They offer around-the-clock emergency telephone and walk-in assessment services for individuals experiencing an acute mental health crisis.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 230
+    },
+    {
+      "name": "Compass (Encompass)",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-525-1008",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Pine Street",
+      "address": "",
+      "description": "They act as the lead agency for child and youth mental health",
+      "descriptionFr": "",
+      "website": "",
+      "id": 231
+    },
+    {
+      "name": "Child and Family Centre (Sudbury)",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-525-1008",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "South End",
+      "address": "",
+      "description": "They deliver early-intervention counseling",
+      "descriptionFr": "",
+      "website": "",
+      "id": 232
+    },
+    {
+      "name": "Health Sciences North - Outpatient Psychiatry",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-1151",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Ramsey Lake Road",
+      "address": "",
+      "description": "They provide physician-referred specialized psychiatric assessments",
+      "descriptionFr": "",
+      "website": "",
+      "id": 233
+    },
+    {
+      "name": "NE Specialized Geriatric Centre - Outreach",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-523-7100",
+      "hours": "Mon-Fri 8:00 AM - 4:00 PM",
+      "area": "Regent Street",
+      "address": "",
+      "description": "They provide comprehensive home-based mental health assessments and psychiatric consultations for older adults with complex needs.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 234
+    },
+    {
+      "name": "Monarch Recovery Services - Women's Site",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-4193",
+      "hours": "24/7 Intake",
+      "area": "Oak Street",
+      "address": "",
+      "description": "They deliver gender-specific residential substance use treatment and concurrent disorder therapy for women.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 235
+    },
+    {
+      "name": "Monarch Recovery Services - Men's Site",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-4193",
+      "hours": "24/7 Intake",
+      "area": "Gordon Street",
+      "address": "",
+      "description": "They offer structured live-in addiction treatment and recovery programming for men battling substance dependencies.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 236
+    },
+    {
+      "name": "Sudbury Regional Warm Line (via NISA)",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-866-856-9276",
+      "hours": "Daily 6:00 PM - 12:00 AM",
+      "area": "Phone-Based",
+      "address": "",
+      "description": "They provide non-crisis",
+      "descriptionFr": "",
+      "website": "",
+      "id": 237
+    },
+    {
+      "name": "Reseau Access Network",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-688-0500",
+      "hours": "Mon-Fri 9:00 AM - 4:30 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They deliver harm reduction",
+      "descriptionFr": "",
+      "website": "",
+      "id": 238
+    },
+    {
+      "name": "Iris Addiction Recovery for Women",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-5050",
+      "hours": "24/7 Care",
+      "area": "Algonquin Road",
+      "address": "",
+      "description": "They offer residential",
+      "descriptionFr": "",
+      "website": "",
+      "id": 239
+    },
+    {
+      "name": "Shkagamik-Kwe Health Centre",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-675-1596",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Applegrove",
+      "address": "",
+      "description": "They combine Western clinical mental health counseling with traditional Indigenous healing practices and cultural teachings.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 240
+    },
+    {
+      "name": "YMCA Youth Gambling & Addictions Program",
+      "category": "Mental Health & Addictions",
+      "whoItServes": "Students / Youth",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-9136",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Durham Street",
+      "address": "",
+      "description": "They provide targeted preventative education and individual screening/support for youth facing gaming or gambling habits.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 241
+    },
+    {
+      "name": "Genevra House (YWCA Sudbury)",
+      "category": "Housing & Shelter",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-4754",
+      "hours": "24/7 emergency line",
+      "area": "Secret Location",
+      "address": "",
+      "description": "They provide a secure emergency shelter and transition planning for women and children escaping domestic abuse.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 242
+    },
+    {
+      "name": "Elizabeth Fry Society - Housing Support",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-1364",
+      "hours": "Mon-Fri 9:00 AM - 4:30 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They offer long-term case management to help vulnerable individuals find safe and sustained market housing.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 243
+    },
+    {
+      "name": "CMHA Sudbury - Supportive Housing Program",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They secure and manage rent-supplemented private apartments for individuals recovering from serious mental illness.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 244
+    },
+    {
+      "name": "City of Greater Sudbury - Social Housing",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Cedar Street",
+      "address": "",
+      "description": "They manage the centralized waitlist for rent-geared-to-income municipal housing and public apartments.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 245
+    },
+    {
+      "name": "Off the Street Shelter (CMHA)",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7252",
+      "hours": "Nightly 10:00 PM - 8:00 AM (Seasonal)",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They offer temporary emergency overnight cots",
+      "descriptionFr": "",
+      "website": "",
+      "id": 246
+    },
+    {
+      "name": "Cedar Place (Salvation Army)",
+      "category": "Housing & Shelter",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-3757",
+      "hours": "24/7 Operations",
+      "area": "Cedar Street",
+      "address": "",
+      "description": "They operate an emergency shelter explicitly dedicated to women and families experiencing sudden homelessness.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 247
+    },
+    {
+      "name": "Samaritan Centre",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-688-0363",
+      "hours": "Mon-Fri 8:00 AM - 4:00 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They act as a multi-agency drop-in hub providing hot showers",
+      "descriptionFr": "",
+      "website": "",
+      "id": 248
+    },
+    {
+      "name": "Foyer Notre-Dame (Association des jeunes)",
+      "category": "Housing & Shelter",
+      "whoItServes": "Students / Youth",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-673-1414",
+      "hours": "24/7 Support",
+      "area": "Notre Dame Ave",
+      "address": "",
+      "description": "They provide transitional housing and independent living skills training for homeless or at-risk youth.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 249
+    },
+    {
+      "name": "Sudbury Action Centre for Youth (SACY) - Shelter",
+      "category": "Housing & Shelter",
+      "whoItServes": "Students / Youth",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-4396",
+      "hours": "Nightly 10:00 PM - 8:00 AM",
+      "area": "Pine Street",
+      "address": "",
+      "description": "They offer a safe overnight emergency youth shelter and crisis intervention framework for teenagers.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 250
+    },
+    {
+      "name": "Ontario Works (OW) Sudbury Housing Unit",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They supply specialized housing stabilization funds to cover first/last month rent or moving expenses for social assistance clients.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 251
+    },
+    {
+      "name": "John Howard Society - Bail & Housing Program",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-9576",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Pine Street",
+      "address": "",
+      "description": "They assist court-involved individuals in obtaining stable",
+      "descriptionFr": "",
+      "website": "",
+      "id": 252
+    },
+    {
+      "name": "Canadian Red Cross - Sudbury Disaster Services",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-0737",
+      "hours": "24/7 Emergency Dispatch",
+      "area": "Hawthorne Drive",
+      "address": "",
+      "description": "They deliver short-term emergency lodging",
+      "descriptionFr": "",
+      "website": "",
+      "id": 253
+    },
+    {
+      "name": "Sudbury Housing Co-operative Office",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-8344",
+      "hours": "Mon-Thu 9:00 AM - 3:00 PM",
+      "area": "Lasalle Blvd",
+      "address": "",
+      "description": "They coordinate affordable non-profit member-run cooperative housing complexes scattered across New Sudbury.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 254
+    },
+    {
+      "name": "Manitoulin-Sudbury District Services Board",
+      "category": "Housing & Shelter",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-862-7850",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Espanola / Outskirts",
+      "address": "",
+      "description": "They administer regional homelessness prevention grants and rental arrears supports for outlying district areas.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 255
+    },
+    {
+      "name": "YMCA Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-0402",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Durham Street",
+      "address": "",
+      "description": "They deliver free resume building",
+      "descriptionFr": "",
+      "website": "",
+      "id": 256
+    },
+    {
+      "name": "Georaian College Employment Services",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-561-1221",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Lasalle Blvd",
+      "address": "",
+      "description": "They offer access to a public job search lab",
+      "descriptionFr": "",
+      "website": "",
+      "id": 257
+    },
+    {
+      "name": "Collège Boréal - Options Emploi",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-560-6673",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Lasalle Blvd",
+      "address": "",
+      "description": "They supply comprehensive employment planning and career workshops delivered fully in French.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 258
+    },
+    {
+      "name": "Cambrian College - Career Centre",
+      "category": "Employment & Training",
+      "whoItServes": "Students",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-566-8101",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Barrydowne Road",
+      "address": "",
+      "description": "They connect current students and recent college alumni with targeted employers",
+      "descriptionFr": "",
+      "website": "",
+      "id": 259
+    },
+    {
+      "name": "Sudbury Vocational Resource Centre (SVRC)",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-2544",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Downtown",
+      "address": "",
+      "description": "They provide specialized vocational assessments",
+      "descriptionFr": "",
+      "website": "",
+      "id": 260
+    },
+    {
+      "name": "March of Dimes Canada - Sudbury",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1851",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Regent Street",
+      "address": "",
+      "description": "They help persons with physical disabilities find customized job opportunities and obtain workplace modifications.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 261
+    },
+    {
+      "name": "Nipissing University School of Ed Placement",
+      "category": "Employment & Training",
+      "whoItServes": "Students",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-3830",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "University Road",
+      "address": "",
+      "description": "They manage specialized teaching placements and career entry tracks for regional student educators.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 262
+    },
+    {
+      "name": "Sudbury Multicultural Folk Arts (Job Support)",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-0417",
+      "hours": "Mon-Fri 9:00 AM - 4:30 PM",
+      "area": "Van Horne Street",
+      "address": "",
+      "description": "They assist new immigrants with foreign credential recognition",
+      "descriptionFr": "",
+      "website": "",
+      "id": 263
+    },
+    {
+      "name": "Contact North - Greater Sudbury Centre",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-877-999-9149",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Online / Main Office",
+      "address": "",
+      "description": "They provide public access to computers and tech setups needed to complete online employment training courses.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 264
+    },
+    {
+      "name": "Ontario Disability Support Program (ODSP) Employment",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-4515",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Minto Street",
+      "address": "",
+      "description": "They supply financial funding for adaptive workplace clothing",
+      "descriptionFr": "",
+      "website": "",
+      "id": 265
+    },
+    {
+      "name": "Wahnapitae First Nation - Employment Unit",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-858-0610",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Capreol / Reserve",
+      "address": "",
+      "description": "They provide educational upgrading",
+      "descriptionFr": "",
+      "website": "",
+      "id": 266
+    },
+    {
+      "name": "Atikameksheng Anishnawbek Employment",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-692-3651",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Naughton / Outskirts",
+      "address": "",
+      "description": "They deliver localized job boards",
+      "descriptionFr": "",
+      "website": "",
+      "id": 267
+    },
+    {
+      "name": "Nouveau Look (YWCA)",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-4754",
+      "hours": "By Appointment",
+      "area": "Bancroft Drive",
+      "address": "",
+      "description": "They provide free professional workplace attire and styling consultations for women entering job interviews.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 268
+    },
+    {
+      "name": "Agilis Networks (Corporate Training)",
+      "category": "Employment & Training",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-1011",
+      "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+      "area": "Downtown",
+      "address": "",
+      "description": "They offer paid corporate digital literacy and enterprise IT networking training courses.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 269
+    },
+    {
+      "name": "Legal Aid Ontario - Sudbury District Office",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-9171",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Elm Street (Court)",
+      "address": "",
+      "description": "They issue legal aid certificates for qualified low-income residents needing criminal or family law attorneys.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 270
+    },
+    {
+      "name": "Elizabeth Fry Society - Court Support",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-1364",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They assist court-involved women through navigation of the criminal justice framework and personal advocacy.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 271
+    },
+    {
+      "name": "John Howard Society - Court Diversion",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-9576",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Pine Street",
+      "address": "",
+      "description": "They administer community-based pre-trial diversion strategies and extrajudicial sanctions for adult offenders.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 272
+    },
+    {
+      "name": "Sudbury Family Law Information Centre (FLIC)",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-7000",
+      "hours": "Mon-Fri 8:30 AM - 5:00 PM",
+      "area": "Elm Street (Court)",
+      "address": "",
+      "description": "They provide basic legal information",
+      "descriptionFr": "",
+      "website": "",
+      "id": 273
+    },
+    {
+      "name": "Victim Services of Sudbury District",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-6970",
+      "hours": "24/7 Emergency Support",
+      "area": "Phone / Office",
+      "address": "",
+      "description": "They deliver short-term navigation",
+      "descriptionFr": "",
+      "website": "",
+      "id": 274
+    },
+    {
+      "name": "Native Inmate Liaison (Sudbury Jail)",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-3151",
+      "hours": "Mon-Fri 8:00 AM - 4:00 PM",
+      "area": "Gore Street",
+      "address": "",
+      "description": "They offer specialized spiritual counsel",
+      "descriptionFr": "",
+      "website": "",
+      "id": 275
+    },
+    {
+      "name": "Bail Program (Indigenous Community Liaison)",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-1930",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They support Indigenous clients through the development of structured bail supervision alternatives to incarceration.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 276
+    },
+    {
+      "name": "Parlee Center - Mediation Services",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-564-6000",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Downtown",
+      "address": "",
+      "description": "They supply certified court-connected family mediation services to resolve custody disputes outside of trial.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 277
+    },
+    {
+      "name": "Centre Victoria pour femmes (Volet juridique)",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "French"
+      ],
+      "phone": "705-677-0009",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Notre Dame Ave",
+      "address": "",
+      "description": "They offer legal court navigation",
+      "descriptionFr": "",
+      "website": "",
+      "id": 278
+    },
+    {
+      "name": "Sudbury Police - Victim Witness Assistance",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-7000",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They guide victims through the criminal court sequence",
+      "descriptionFr": "",
+      "website": "",
+      "id": 279
+    },
+    {
+      "name": "Family Responsibility Office (FRO) Connection",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-267-4330",
+      "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+      "area": "Phone Support",
+      "address": "",
+      "description": "They assist individuals locally in coordinating with provincial enforcement of child and spousal support orders.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 280
+    },
+    {
+      "name": "Office of the Children's Lawyer Agent",
+      "category": "Legal Aid",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-1212",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Cedar Street",
+      "address": "",
+      "description": "They act as court-appointed legal representation protecting the explicit legal rights and interests of children in custody disputes.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 281
+    },
+    {
+      "name": "Tenant Duty Counsel (Sudbury Court)",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-3200",
+      "hours": "On Hearing Days Only",
+      "area": "Landlord Tenant Board",
+      "address": "",
+      "description": "They provide immediate",
+      "descriptionFr": "",
+      "website": "",
+      "id": 282
+    },
+    {
+      "name": "Pro Bono Ontario Legal Advice Line Office",
+      "category": "Legal Aid",
+      "whoItServes": "Anyone",
+      "languages": [
+        "English"
+      ],
+      "phone": "1-855-255-7256",
+      "hours": "Mon-Fri 6:00 AM - 4:00 PM",
+      "area": "Phone Service",
+      "address": "",
+      "description": "They deliver free 30-minute legal advice summaries on civil matters like debt",
+      "descriptionFr": "",
+      "website": "",
+      "id": 283
+    },
+    {
+      "name": "Park Avenue Pioneer Manor",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-566-4282",
+      "hours": "24/7 Long Term Care",
+      "area": "Notre Dame Ave",
+      "address": "",
+      "description": "They offer full-time",
+      "descriptionFr": "",
+      "website": "",
+      "id": 284
+    },
+    {
+      "name": "Parkside Older Adult Centre",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-673-6227",
+      "hours": "Mon-Fri 8:30 AM - 4:00 PM",
+      "area": "Durham Street",
+      "address": "",
+      "description": "They operate a community center delivering social activities",
+      "descriptionFr": "",
+      "website": "",
+      "id": 285
+    },
+    {
+      "name": "Sudbury East Seniors Support (Home and Community)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-867-5212",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Warren / Outskirts",
+      "address": "",
+      "description": "They coordinate safety checks",
+      "descriptionFr": "",
+      "website": "",
+      "id": 286
+    },
+    {
+      "name": "Alzheimer Society Sudbury-Manitoulin",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-560-0603",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Kirkwood Drive",
+      "address": "",
+      "description": "They deliver counseling",
+      "descriptionFr": "",
+      "website": "",
+      "id": 287
+    },
+    {
+      "name": "Sudbury Finnish Rest Home (Hoiva)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-524-3131",
+      "hours": "24/7 Operations",
+      "area": "Fourth Avenue",
+      "address": "",
+      "description": "They provide specialized long-term care and secure supportive housing options for senior citizens.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 288
+    },
+    {
+      "name": "St. Joseph's Villa (Sudbury)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4404",
+      "hours": "24/7 Operations",
+      "area": "South End",
+      "address": "",
+      "description": "They provide full-service complex long-term residential clinical care and palliative support for seniors.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 289
+    },
+    {
+      "name": "Home and Community Care Support Services",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-522-3461",
+      "hours": "Daily 8:30 AM - 8:30 PM",
+      "area": "Regent Street",
+      "address": "",
+      "description": "They arrange publicly funded in-home nursing care",
+      "descriptionFr": "",
+      "website": "",
+      "id": 290
+    },
+    {
+      "name": "Comfort Keepers Sudbury (Private)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-523-2223",
+      "hours": "24/7 Service Available",
+      "area": "Bancroft Drive",
+      "address": "",
+      "description": "They provide private-pay in-home companionship",
+      "descriptionFr": "",
+      "website": "",
+      "id": 291
+    },
+    {
+      "name": "The Blue Door Cafe (Seniors Community Lunch)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-7550",
+      "hours": "Tue & Thu 11:30 AM - 1:00 PM",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They host regular affordable social congregate dining lunches tailored for neighborhood seniors.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 292
+    },
+    {
+      "name": "CNIB Foundation - Sudbury Vision Loss",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-675-2468",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They deliver orientation",
+      "descriptionFr": "",
+      "website": "",
+      "id": 293
+    },
+    {
+      "name": "Hearing Society (CHS) - Senior Audiology",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-877-341-2477",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "John Street",
+      "address": "",
+      "description": "They offer specialized hearing screenings",
+      "descriptionFr": "",
+      "website": "",
+      "id": 294
+    },
+    {
+      "name": "Geneva Lake Senior Living (Villa)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-969-4424",
+      "hours": "24/7 Operations",
+      "area": "Azilda",
+      "address": "",
+      "description": "They provide independent supportive retirement living suites alongside structured wellness monitoring.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 295
+    },
+    {
+      "name": "Falconbridge Wellness (Seniors Day Care)",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-694-4747",
+      "hours": "Mon-Wed-Fri 9:00 AM - 3:00 PM",
+      "area": "Garson",
+      "address": "",
+      "description": "They provide structured day respite programs featuring exercises and meals for fragile seniors living at home.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 296
+    },
+    {
+      "name": "Nickel Centre Seniors Club",
+      "category": "Senior Services",
+      "whoItServes": "Seniors",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-693-3451",
+      "hours": "Tue & Thu 1:00 PM - 4:00 PM",
+      "area": "Garson",
+      "address": "",
+      "description": "They provide an independent",
+      "descriptionFr": "",
+      "website": "",
+      "id": 297
+    },
+    {
+      "name": "Children's Aid Society (CAS) of Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-566-3113",
+      "hours": "24/7 Emergency Line",
+      "area": "Lasalle Blvd",
+      "address": "",
+      "description": "They investigate child protection concerns and coordinate foster placements alongside supportive family counseling.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 298
+    },
+    {
+      "name": "Kina Gbezhgomi Child & Family Services",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-688-0326",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They supply culturally focused",
+      "descriptionFr": "",
+      "website": "",
+      "id": 299
+    },
+    {
+      "name": "Our Children",
+      "category": "Family & Children",
+      "whoItServes": "Family & children services",
+      "languages": [
+        "English"
+      ],
+      "phone": "Both",
+      "hours": "705-677-0440",
+      "area": "Mon-Fri 8:30 AM - 4:30 PM",
+      "address": "",
+      "description": "Albert Street",
+      "descriptionFr": "",
+      "website": "",
+      "id": 300
+    },
+    {
+      "name": "YMCA Child Care Centre - Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-674-6171",
+      "hours": "Mon-Fri 6:30 AM - 6:00 PM",
+      "area": "Durham Street",
+      "address": "",
+      "description": "They provide fully licensed",
+      "descriptionFr": "",
+      "website": "",
+      "id": 301
+    },
+    {
+      "name": "EarlyON Child and Family Centre - Elm",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Mon-Sat Variable Hours",
+      "area": "Elm Street",
+      "address": "",
+      "description": "They deliver free interactive learning programs",
+      "descriptionFr": "",
+      "website": "",
+      "id": 302
+    },
+    {
+      "name": "EarlyON Child and Family Centre - Hanmer",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-969-1541",
+      "hours": "Mon-Fri 9:00 AM - 4:00 PM",
+      "area": "Hanmer",
+      "address": "",
+      "description": "They offer localized parenting workshops",
+      "descriptionFr": "",
+      "website": "",
+      "id": 303
+    },
+    {
+      "name": "Wordplay (Jeux de mots) Preschool Speech",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-566-3416",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Barrydowne Road",
+      "address": "",
+      "description": "They provide free specialized clinical speech and language therapeutic assessments for children before kindergarten.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 304
+    },
+    {
+      "name": "Northeastern Ontario Family Medicine Clinic",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-541-7000",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Regent Street",
+      "address": "",
+      "description": "They offer comprehensive maternal-child primary healthcare alongside newborn assessment clinics.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 305
+    },
+    {
+      "name": "Big Brothers Big Sisters of Greater Sudbury",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-673-6161",
+      "hours": "Mon-Thu 9:00 AM - 4:00 PM",
+      "area": "Notre Dame Ave",
+      "address": "",
+      "description": "They match vulnerable youth with screened",
+      "descriptionFr": "",
+      "website": "",
+      "id": 306
+    },
+    {
+      "name": "Jubilee Heritage Family Resources",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-3334",
+      "hours": "Mon-Fri 7:00 AM - 5:30 PM",
+      "area": "Applegrove",
+      "address": "",
+      "description": "They provide licensed community daycare programs alongside flexible home-based childcare network supervision.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 307
+    },
+    {
+      "name": "Neech-ke-Wehn Indigenous Child Resource",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Morin Avenue",
+      "address": "",
+      "description": "They offer culturally targeted early learning playgroups",
+      "descriptionFr": "",
+      "website": "",
+      "id": 308
+    },
+    {
+      "name": "Child Care Subsidy Office (Sudbury)",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-674-4455",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Cedar Street",
+      "address": "",
+      "description": "They process municipal financial subsidies to help low-income families pay for licensed monthly childcare.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 309
+    },
+    {
+      "name": "Infant Development Program (Sudbury)",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-525-1008",
+      "hours": "Mon-Fri 8:30 AM - 4:30 PM",
+      "area": "Pine Street",
+      "address": "",
+      "description": "They deliver in-home developmental guidance and therapy for infants diagnosed with developmental delays.",
+      "descriptionFr": "",
+      "website": "",
+      "id": 310
+    },
+    {
+      "name": "Sudbury Better Beginnings Family Association",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "705-671-1941",
+      "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+      "area": "Flour Mill",
+      "address": "",
+      "description": "They administer healthy baby food programs",
+      "descriptionFr": "",
+      "website": "",
+      "id": 311
+    },
+    {
+      "name": "Autism Ontario - Sudbury Chapter Office",
+      "category": "Family & Children",
+      "whoItServes": "Families & Children",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "phone": "1-800-472-7789",
+      "hours": "Mon-Fri 9:00 AM - 4:00 PM",
+      "area": "Larch Street",
+      "address": "",
+      "description": "They deliver navigation assistance",
+      "descriptionFr": "",
+      "website": "",
+      "id": 312
+    }
+  ]
+}
