@@ -125,10 +125,16 @@ export function VoiceButton({
         : label;
 
   return (
-    <div className="voice-control">
+    <div className="flex flex-col items-center gap-2">
       <button
         type="button"
-        className={`voice-btn ${listening ? 'listening' : ''} ${processing ? 'processing' : ''}`}
+        className={`flex h-16 w-16 items-center justify-center rounded-full border-[3px] text-3xl shadow-sm transition ${
+          listening
+            ? 'border-destructive bg-destructive/15'
+            : processing
+              ? 'cursor-wait border-primary bg-primary/15 opacity-80'
+              : 'border-border bg-card hover:border-primary'
+        }`}
         title={statusLabel}
         aria-label={statusLabel}
         aria-pressed={listening}
@@ -138,8 +144,8 @@ export function VoiceButton({
       >
         {processing ? '⏳' : '🎤'}
       </button>
-      {(listening || processing) && (
-        <span className="voice-status">{statusLabel}</span>
+      {(listening || processing || liveText) && (
+        <p className="max-w-xs text-center text-base text-foreground">{statusLabel}</p>
       )}
     </div>
   );

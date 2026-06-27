@@ -6,6 +6,16 @@ type Strings = {
   english: string;
   french: string;
   whatNeed: string;
+  whatNeedSub: string;
+  aboutYouTitle: string;
+  aboutYouSub: string;
+  back: string;
+  questionOf: string;
+  tagline: string;
+  resultsEyebrow: string;
+  resultsSub: string;
+  callLabel: string;
+  languagesServed: string;
   whoAreYou: string;
   whereLive: string;
   next: string;
@@ -61,6 +71,17 @@ const en: Strings = {
   english: 'English',
   french: 'Français',
   whatNeed: 'What do you need help with?',
+  whatNeedSub: 'Pick anything that fits. You can choose more than one.',
+  aboutYouTitle: 'A bit about you',
+  aboutYouSub: 'Two quick questions.',
+  back: 'Back',
+  questionOf: 'Question',
+  tagline: 'Help finding help, in plain words.',
+  resultsEyebrow: "Here's your shortlist",
+  resultsSub:
+    "Based on what you told us, these Sudbury organizations are a good fit. Pick one to call — they'll listen and help you figure out the next step.",
+  callLabel: 'Call',
+  languagesServed: 'Languages served',
   whoAreYou: 'Who are you?',
   whereLive: 'Where in Sudbury?',
   next: 'Next →',
@@ -119,11 +140,22 @@ const en: Strings = {
 };
 
 const fr: Strings = {
-  appTitle: 'Sudbury Connect',
+  appTitle: 'Connexion Sudbury',
   pickLanguage: 'Choisissez votre langue',
   english: 'English',
   french: 'Français',
   whatNeed: 'De quoi avez-vous besoin?',
+  whatNeedSub: 'Choisissez tout ce qui s\'applique. Vous pouvez en choisir plusieurs.',
+  aboutYouTitle: 'Un peu à propos de vous',
+  aboutYouSub: 'Deux questions rapides.',
+  back: 'Retour',
+  questionOf: 'Question',
+  tagline: 'Trouver de l\'aide, en mots simples.',
+  resultsEyebrow: 'Votre liste',
+  resultsSub:
+    'Selon ce que vous nous avez dit, ces organismes de Sudbury peuvent vous aider. Choisissez-en un et appelez — ils vous écouteront.',
+  callLabel: 'Appeler',
+  languagesServed: 'Langues servies',
   whoAreYou: 'Qui êtes-vous?',
   whereLive: 'Où habitez-vous à Sudbury?',
   next: 'Suivant →',
