@@ -178,13 +178,11 @@ Then repeat from Step 2 for your next task.
 
 - [x] Person A: accept all GitHub collaborator invites for teammates
 - [x] All 3: install Git on your laptop (see Git Setup section above)
-- [ ] All 3: clone the repo and run `npm install`
-- [ ] All 3: run `npm run dev` and confirm the app opens in your browser
-- [ ] Person A: create `.env` and `.env.example` files
-- [ ] Person A: share API keys with teammates securely (NOT in group chat — use a private message)
-- [ ] All 3: create your `.env` file with the real keys
-- [ ] All 3: practice the git workflow — make a test branch, commit a small change, push it, open a PR
-- [ ] Decide who is Person A, B, and C
+- [x] All 3: clone the repo and run `npm install`
+- [x] All 3: run `npm run dev` and confirm the app opens in your browser
+- [x] Person A: create `.env` and `.env.example` files
+- [x] Person A: share API keys with teammates securely (NOT in group chat — use a private message)
+- [x] All 3: create your `.env` file with the real keys
 
 ---
 
