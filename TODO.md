@@ -2,6 +2,10 @@
 
 > **Goal:** A friendly, accessible web app that asks 4-5 questions and returns 3-5 real, relevant Sudbury community resources. Wins on: real data, bilingual, voice, accessibility, and a story judges can feel.
 
+> **HOW TO USE THIS TODO LIST:** Everyone works from their assigned Phase
+When you finish a task, check it off, commit the updated file, and message the group
+If you're blocked, jump to the demo polish tasks at the bottom
+
 ---
 
 ## Team Roles
