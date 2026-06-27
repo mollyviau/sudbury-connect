@@ -47,24 +47,9 @@
 
 > ⚠️ API keys are like passwords. Never share them, never post them in the group chat, never commit them to GitHub.
 
-### NVIDIA Nemotron (AI matching)
-1. Go to **build.nvidia.com**
-2. Click **"Get API Key"** in the top right
-3. Sign up for a free account (no credit card needed)
-4. Click **"Generate Key"**
-5. Your key will start with `nvapi-`
 
-### Apify (web scraping)
-1. Go to **apify.com**
-2. Sign up for a free account
-3. Go to Settings → Integrations → API Key
-4. Copy your key
 
-### Valsea (voice)
-1. Check hackathon materials or organizer Discord/Slack
-2. Sign up at Valsea's website if not provided
-
-### Where to put your keys
+### Where to put your keys GET FROM MOLLY
 Create a file called `.env` in the project root folder and paste your keys in:
 ```
 VITE_NVIDIA_API_KEY=nvapi-xxxxxxxxxxxx
