@@ -273,11 +273,11 @@ export async function matchResources(userAnswers: {
 
 ### 2C — Wire the App Together
 
-- [ ] Connect Screen 3 (user answers) → `matchResources()` function
-- [ ] Connect `matchResources()` results → Screen 5 (results cards)
-- [ ] Make sure the chosen language passes through every screen
-- [ ] Make sure voice input from Person C's work flows into the same matching function
-- [ ] Test the complete flow end to end with all 3 scenarios
+- [x] Connect Screen 3 (user answers) → `matchResources()` function
+- [x] Connect `matchResources()` results → Screen 5 (results cards)
+- [x] Make sure the chosen language passes through every screen
+- [x] Make sure voice input from Person C's work flows into the same matching function
+- [x] Test the complete flow end to end with all 3 scenarios
 
 ---
 
@@ -374,15 +374,15 @@ export async function matchResources(userAnswers: {
 - [ ] Test voice input in French
 
 ### 4B — Set Up Valsea Voice Output
-- [ ] Wire up the 🔊 **Read to me** button on Screen 5
-- [ ] When tapped, the app reads out loud:
+- [x] Wire up the 🔊 **Read to me** button on Screen 5
+- [x] When tapped, the app reads out loud:
   - Organization name
   - What they offer
   - Phone number
   - Hours
-- [ ] Do this for all 3-5 result cards
-- [ ] Test in English
-- [ ] Test in French
+- [x] Do this for all 3-5 result cards
+- [x] Test in English
+- [x] Test in French
 
 ### 4C — Be the Tester
 - [ ] Run through the full app flow at least 5 times
