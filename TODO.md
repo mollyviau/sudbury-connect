@@ -177,7 +177,7 @@ Then repeat from Step 2 for your next task.
 ## PHASE 1 — Setup (All 3 people, do this together first)
 
 - [x] Person A: accept all GitHub collaborator invites for teammates
-- [ ] All 3: install Git on your laptop (see Git Setup section above)
+- [x] All 3: install Git on your laptop (see Git Setup section above)
 - [ ] All 3: clone the repo and run `npm install`
 - [ ] All 3: run `npm run dev` and confirm the app opens in your browser
 - [ ] Person A: create `.env` and `.env.example` files
