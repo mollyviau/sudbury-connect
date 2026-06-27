@@ -359,19 +359,19 @@ export async function matchResources(userAnswers: {
 ## PHASE 4 — Person C: Voice & Testing
 
 ### 4A — Set Up Valsea Voice Input
-- [ ] Get Valsea API key (check hackathon materials)
-- [ ] Add `VITE_VALSEA_API_KEY` to your `.env` file
-- [ ] Tell Person A the key so they can add it to `.env.example`
-- [ ] Wire up the 🎤 button on Screen 2 so:
+- [x] Get Valsea API key (check hackathon materials)
+- [x] Add `VITE_VALSEA_API_KEY` to your `.env` file
+- [x] Tell Person A the key so they can add it to `.env.example`
+- [x] Wire up the 🎤 button on Screen 2 so:
   - User taps microphone
   - They say what they need (e.g. *"I need food and housing help"*)
   - App converts speech to text
   - Correct category buttons get selected automatically
-- [ ] Wire up the 🎤 button on Screen 3 so:
+- [x] Wire up the 🎤 button on Screen 3 so:
   - User can say who they are and where they live
   - App selects the correct options
-- [ ] Test voice input in English
-- [ ] Test voice input in French
+- [x] Test voice input in English
+- [x] Test voice input in French
 
 ### 4B — Set Up Valsea Voice Output
 - [x] Wire up the 🔊 **Read to me** button on Screen 5
