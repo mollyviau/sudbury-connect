@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Sudbury Food Bank",
+    "category": "food",
+    "whoItServes": "anyone",
+    "languages": ["English", "French"],
+    "phone": "705-555-0001",
+    "hours": "Mon-Fri 9am-4pm",
+    "area": "Downtown",
+    "description": "Provides emergency food hampers to individuals and families in need.",
+    "descriptionFr": "Fournit des paniers alimentaires d'urgence aux personnes et aux familles dans le besoin."
+  },
+  {
+    "name": "Crisis Centre North Bay & Sudbury",
+    "category": "mental health",
+    "whoItServes": "anyone",
+    "languages": ["English"],
+    "phone": "705-555-0002",
+    "hours": "24/7",
+    "area": "Downtown",
+    "description": "24/7 crisis support and mental health counselling.",
+    "descriptionFr": "Soutien en cas de crise et counselling en santé mentale, 24 h/24."
+  },
+  {
+    "name": "Réseau ACCESS Network",
+    "category": "food",
+    "whoItServes": "seniors",
+    "languages": ["English", "French"],
+    "phone": "705-555-0003",
+    "hours": "Mon-Fri 8am-5pm",
+    "area": "Downtown",
+    "description": "French-language community health and social services for seniors.",
+    "descriptionFr": "Services de santé communautaire et sociaux en français pour les aînés."
+  },
+  {
+    "name": "Sudbury District Housing Help Centre",
+    "category": "housing",
+    "whoItServes": "families",
+    "languages": ["English", "French"],
+    "phone": "705-555-0004",
+    "hours": "Mon-Fri 9am-5pm",
+    "area": "Val Caron",
+    "description": "Emergency housing support and rental assistance for families with children.",
+    "descriptionFr": "Aide d'urgence en logement et soutien au loyer pour les familles avec enfants."
+  },
+  {
+    "name": "Val Caron Family Resource Centre",
+    "category": "family",
+    "whoItServes": "families",
+    "languages": ["English", "French"],
+    "phone": "705-555-0005",
+    "hours": "Mon-Fri 8:30am-4:30pm",
+    "area": "Val Caron",
+    "description": "Programs and referrals for families with children, including housing and food support.",
+    "descriptionFr": "Programmes et références pour les familles avec enfants, incluant logement et nourriture."
+  }
+]

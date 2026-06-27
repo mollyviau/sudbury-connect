@@ -1,43 +1,118 @@
-export async function matchResources(userAnswers: {
-    categories: string[];
-    whoAreYou: string;
-    area: string;
-    language: string;
-  }) {
-    // Load our resource list
-    const resources = await import('../data/resources.json');
-  
-    const prompt = `
-      You are a community resource assistant for Sudbury, Ontario.
-      
-      A person needs help. Here is what they told us:
-      - They need help with: ${userAnswers.categories.join(', ')}
-      - They are: ${userAnswers.whoAreYou}
-      - They live in: ${userAnswers.area}
-      - Their language: ${userAnswers.language}
-      
-      Here is our list of local resources:
-      ${JSON.stringify(resources, null, 2)}
-      
-      Return ONLY a JSON array of the 3-5 most relevant resources for this person.
-      Respond in ${userAnswers.language}.
-      Format: [{ name, description, phone, hours, languages }]
-    `;
-  
-    const response = await fetch("https://integrate.api.nvidia.com/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${import.meta.env.VITE_NVIDIA_API_KEY}`
-      },
-      body: JSON.stringify({
-        model: "nvidia/nemotron-3-super-120b-a12b",
-        messages: [{ role: "user", content: prompt }],
-        max_tokens: 1000
-      })
-    });
-  
-    const data = await response.json();
-    const text = data.choices[0].message.content;
-    return JSON.parse(text);
+import { askNemotron } from './nvidiaChat';
+import {
+  displayDescription,
+  displayName,
+  loadResources,
+  resourceMatchesUserCategories,
+  userCategoriesSupported,
+  USER_AREA_TO_DATA,
+  type ResourceRecord,
+} from './loadResources';
+import type { MatchedResource, UserAnswers } from '../types';
+
+export type { MatchedResource, UserAnswers };
+
+const WHO_SERVE_MATCH: Record<string, string[]> = {
+  student: ['anyone', 'students', 'families'],
+  individual: ['anyone'],
+  senior: ['seniors', 'anyone'],
+  family: ['families', 'anyone'],
+};
+
+function areaMatches(userArea: string, resourceArea: string): boolean {
+  if (userArea === 'any') return true;
+
+  const mapped = USER_AREA_TO_DATA[userArea] ?? [userArea];
+  const resource = resourceArea.toLowerCase();
+
+  return mapped.some((a) => {
+    const area = a.toLowerCase();
+    return resource === area || resource.includes(area) || area.includes(resource);
+  });
+}
+
+function scoreResource(resource: ResourceRecord, answers: UserAnswers): number {
+  if (!resourceMatchesUserCategories(resource, answers.categories)) return 0;
+
+  let score = 20;
+
+  const serveMatches = WHO_SERVE_MATCH[answers.whoAreYou] ?? ['anyone'];
+  if (serveMatches.includes(resource.whoItServes)) {
+    score += resource.whoItServes === 'anyone' ? 4 : 10;
   }
+
+  if (answers.whoAreYou === 'senior' && resource.whoItServes === 'seniors') score += 8;
+  if (answers.whoAreYou === 'family' && resource.whoItServes === 'families') score += 8;
+
+  if (areaMatches(answers.area, resource.area)) score += 8;
+
+  if (resource.languages.includes(answers.language)) score += 5;
+
+  return score;
+}
+
+function toMatchedResource(resource: ResourceRecord, language: UserAnswers['language']): MatchedResource {
+  return {
+    name: displayName(resource, language),
+    description: displayDescription(resource, language),
+    phone: resource.phone,
+    hours: resource.hours,
+    languages: resource.languages,
+    category: resource.category,
+  };
+}
+
+function matchResourcesLocal(
+  allResources: ResourceRecord[],
+  userAnswers: UserAnswers,
+): MatchedResource[] {
+  if (!userCategoriesSupported(userAnswers.categories, allResources)) {
+    return [];
+  }
+
+  const ranked = allResources
+    .map((resource) => ({ resource, score: scoreResource(resource, userAnswers) }))
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return ranked.slice(0, 5).map(({ resource }) => toMatchedResource(resource, userAnswers.language));
+}
+
+function parseResourceArray(text: string): MatchedResource[] {
+  const cleaned = text.replace(/```(?:json)?/g, '').trim();
+  const start = cleaned.indexOf('[');
+  const end = cleaned.lastIndexOf(']');
+  if (start === -1 || end === -1 || end <= start) {
+    throw new Error(`Could not find JSON array in model response: ${text.slice(0, 300)}`);
+  }
+  return JSON.parse(cleaned.slice(start, end + 1));
+}
+
+/** Fast local matching — used by the app. */
+export async function matchResources(userAnswers: UserAnswers): Promise<MatchedResource[]> {
+  const allResources = await loadResources();
+  return matchResourcesLocal(allResources, userAnswers);
+}
+
+/** Nemotron AI matching — slower, used for integration tests. */
+export async function matchResourcesWithAI(userAnswers: UserAnswers): Promise<MatchedResource[]> {
+  const allResources = await loadResources();
+  const pool = allResources.filter((r) => resourceMatchesUserCategories(r, userAnswers.categories));
+
+  if (pool.length === 0) return [];
+
+  const prompt = `Community resource assistant for Sudbury, Ontario.
+
+Person needs: ${userAnswers.categories.join(', ')}
+Who they are: ${userAnswers.whoAreYou}
+Area: ${userAnswers.area}
+Language for descriptions: ${userAnswers.language}
+
+Resources (pick 3-5 most relevant, use exact name and phone from list):
+${JSON.stringify(pool)}
+
+Return ONLY a JSON array: [{"name":"","description":"","phone":"","hours":"","languages":[]}]`;
+
+  const text = await askNemotron(prompt, 800);
+  return parseResourceArray(text);
+}
