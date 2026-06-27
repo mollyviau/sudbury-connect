@@ -265,11 +265,11 @@ export async function matchResources(userAnswers: {
 }
 ```
 
-- [ ] Test with these 3 demo scenarios — all must return good results:
-  - [ ] **Scenario 1 (Maria):** Senior, French, needs food, downtown Sudbury
-  - [ ] **Scenario 2 (Jake):** Student, English, mental health, no specific area
-  - [ ] **Scenario 3 (The Tremblays):** Family with kids, English, housing crisis, Val Caron
-- [ ] Make sure results come back in the correct language
+- [x] Test with these 3 demo scenarios — all must return good results:
+  - [x] **Scenario 1 (Maria):** Senior, French, needs food, downtown Sudbury
+  - [x] **Scenario 2 (Jake):** Student, English, mental health, no specific area
+  - [x] **Scenario 3 (The Tremblays):** Family with kids, English, housing crisis, Val Caron
+- [x] Make sure results come back in the correct language
 
 ### 2C — Wire the App Together
 
