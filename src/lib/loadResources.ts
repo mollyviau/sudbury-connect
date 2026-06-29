@@ -1,5 +1,6 @@
 import type { Language } from '../types';
 import sudburyData from '../data/sudbury_resources.json';
+import { fetchOverpassResources, isLikelyDuplicate } from './overpassResources';
 
 export type RawResource = {
   id: number;
@@ -29,6 +30,7 @@ export type ResourceRecord = {
   website?: string;
   languages: string[];
   hours: string;
+  source: 'curated' | 'osm';
 };
 
 /** Maps app questionnaire categories to 211 / scraped data categories. */
@@ -74,11 +76,16 @@ function normalizeWhoItServes(raw: string, description: string): ResourceRecord[
   return 'anyone';
 }
 
-function isValidResource(raw: RawResource): boolean {
+function isValidCuratedResource(raw: RawResource): boolean {
   return !!(raw.name?.trim() && raw.phone?.trim() && raw.description?.trim());
 }
 
-function normalizeResource(raw: RawResource): ResourceRecord {
+function isValidOsmResource(raw: RawResource): boolean {
+  if (!raw.name?.trim() || !raw.description?.trim()) return false;
+  return !!(raw.phone?.trim() || raw.address?.trim() || raw.website?.trim());
+}
+
+function normalizeResource(raw: RawResource, source: ResourceRecord['source']): ResourceRecord {
   const langs = raw.languages?.length ? raw.languages : ['English'];
   const hasFrench = langs.some((l) => l.toLowerCase().includes('french')) || !!raw.descriptionFr?.trim();
 
@@ -97,16 +104,68 @@ function normalizeResource(raw: RawResource): ResourceRecord {
       ? [...langs, 'French']
       : langs,
     hours: raw.hours?.trim() || 'Contact for hours',
+    source,
   };
 }
 
+function loadCuratedResources(): ResourceRecord[] {
+  const bundle = sudburyData as { resources: RawResource[] };
+  return bundle.resources.filter(isValidCuratedResource).map((r) => normalizeResource(r, 'curated'));
+}
+
+function mergeResources(curated: ResourceRecord[], osmRaw: RawResource[]): ResourceRecord[] {
+  const osmResources = osmRaw
+    .filter(isValidOsmResource)
+    .map((r) => normalizeResource(r, 'osm'))
+    .filter(
+      (osm) =>
+        !curated.some(
+          (existing) =>
+            isLikelyDuplicate(existing.name, osm.name) ||
+            (existing.phone !== 'Contact for phone number' &&
+              osm.phone !== 'Contact for phone number' &&
+              existing.phone.replace(/\D/g, '') === osm.phone.replace(/\D/g, '')),
+        ),
+    );
+
+  return [...curated, ...osmResources];
+}
+
 let cached: ResourceRecord[] | null = null;
+let loadPromise: Promise<ResourceRecord[]> | null = null;
 
 export async function loadResources(): Promise<ResourceRecord[]> {
   if (cached) return cached;
-  const bundle = sudburyData as { resources: RawResource[] };
-  cached = bundle.resources.filter(isValidResource).map(normalizeResource);
-  return cached;
+  if (loadPromise) return loadPromise;
+
+  loadPromise = (async () => {
+    const curated = loadCuratedResources();
+    const osmRaw = await fetchOverpassResources();
+    cached = mergeResources(curated, osmRaw);
+    return cached;
+  })();
+
+  try {
+    return await loadPromise;
+  } finally {
+    loadPromise = null;
+  }
+}
+
+export type ResourceLoadStats = {
+  total: number;
+  curated: number;
+  osm: number;
+};
+
+export async function loadResourceStats(): Promise<ResourceLoadStats> {
+  const resources = await loadResources();
+  const osm = resources.filter((r) => r.source === 'osm').length;
+  return {
+    total: resources.length,
+    curated: resources.length - osm,
+    osm,
+  };
 }
 
 export function resourceMatchesUserCategories(
@@ -168,4 +227,13 @@ export function displayDescription(resource: ResourceRecord, language: Language)
   return language === 'French' && resource.descriptionFr
     ? resource.descriptionFr
     : resource.description;
+}
+
+/** True when the phone field is a real dialable number. */
+export function isCallablePhone(phone: string): boolean {
+  if (!phone?.trim()) return false;
+  if (phone.startsWith('See') || phone.startsWith('Contact for') || phone.includes('@')) {
+    return false;
+  }
+  return phone.replace(/\D/g, '').length >= 10;
 }

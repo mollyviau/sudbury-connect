@@ -2,7 +2,7 @@
 
 **Sudbury Connect** is a bilingual, fully accessible directory that instantly connects seniors, students, and kids to local food, mental health, or legal aid in just a few simple clicks.
 
-🌐 **Live demo:** [https://sudbury-connect.vercel.app](https://sudbury-connect.vercel.app) 
+🌐 **Live demo:** [https://sudburyconnect.ca](https://sudburyconnect.ca) 
 
 📦 **Hackathon theme:** Health, Safety & Community Well-Being
 
@@ -41,7 +41,7 @@ Sudbury is bilingual and diverse — but community resources are scattered acros
 
 ### How we built it
 
-1. **Data** — Community listings collected and structured with **Apify** (211 Ontario / Greater Sudbury sources); stored in `src/data/resources.json`.
+1. **Data** — Curated Greater Sudbury listings (211 Ontario / municipal sources) in `src/data/sudbury_resources.json`, supplemented at runtime with community places from **OpenStreetMap** via the **Overpass API**.
 2. **UI** — Five-screen flow designed for mobile, built with **React + Vite + TypeScript** in **Cursor**, with **Lovable** for visual UI polish.
 3. **Matching** — Fast local scoring by category, who you are, area, and language; **NVIDIA Nemotron** for AI-assisted matching tests and voice intent parsing.
 4. **Voice** — Browser speech recognition and read-aloud for speed; **Valsea AI** as fallback when the browser doesn’t support mic input.
@@ -183,6 +183,6 @@ Hackathon project — see repository for details.
 
 ## Links
 
-- **Live app:** [https://sudbury-connect.vercel.app](https://sudbury-connect.vercel.app)
+- **Live app:** [https://sudburyconnect.ca](https://sudburyconnect.ca)
 - **GitHub:** [https://github.com/mollyviau/sudbury-connect](https://github.com/mollyviau/sudbury-connect)
 - **Devpost:** *(add your submission URL when ready)*

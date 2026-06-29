@@ -16,6 +16,18 @@ type Strings = {
   resultsSub: string;
   callLabel: string;
   languagesServed: string;
+  resourcesPageTitle: string;
+  resourcesPageIntro: string;
+  resourcesFilterLabel: string;
+  resourcesClearFilters: string;
+  resourcesLoading: string;
+  resourcesNoMatchTitle: string;
+  resourcesNoMatchHint: string;
+  resourcesVisitWebsite: string;
+  resourcesLanguageLabel: string;
+  resourcesCountLabel: string;
+  resourcesDataSources: string;
+  resourcesOsmSource: string;
   whoAreYou: string;
   whereLive: string;
   next: string;
@@ -82,6 +94,20 @@ const en: Strings = {
     "Based on what you told us, these Sudbury organizations are a good fit. Pick one to call — they'll listen and help you figure out the next step.",
   callLabel: 'Call',
   languagesServed: 'Languages served',
+  resourcesPageTitle: 'Community resources',
+  resourcesPageIntro:
+    'Browse real Greater Sudbury organizations. Select one or more topics to filter the list.',
+  resourcesFilterLabel: 'Filter resources by topic',
+  resourcesClearFilters: 'Clear all filters',
+  resourcesLoading: 'Loading resources…',
+  resourcesNoMatchTitle: 'No resources match those topics.',
+  resourcesNoMatchHint: 'Try clearing filters or choosing a different combination.',
+  resourcesVisitWebsite: 'Visit website',
+  resourcesLanguageLabel: 'Display language',
+  resourcesCountLabel: 'resources',
+  resourcesDataSources:
+    '{total} organizations ({curated} curated + {osm} from OpenStreetMap).',
+  resourcesOsmSource: 'OpenStreetMap',
   whoAreYou: 'Who are you?',
   whereLive: 'Where in Sudbury?',
   next: 'Next →',
@@ -156,6 +182,20 @@ const fr: Strings = {
     'Selon ce que vous nous avez dit, ces organismes de Sudbury peuvent vous aider. Choisissez-en un et appelez — ils vous écouteront.',
   callLabel: 'Appeler',
   languagesServed: 'Langues servies',
+  resourcesPageTitle: 'Ressources communautaires',
+  resourcesPageIntro:
+    'Parcourez les organismes du Grand Sudbury. Choisissez un ou plusieurs sujets pour filtrer la liste.',
+  resourcesFilterLabel: 'Filtrer les ressources par sujet',
+  resourcesClearFilters: 'Effacer tous les filtres',
+  resourcesLoading: 'Chargement des ressources…',
+  resourcesNoMatchTitle: 'Aucune ressource ne correspond à ces sujets.',
+  resourcesNoMatchHint: 'Essayez d\'effacer les filtres ou de choisir une autre combinaison.',
+  resourcesVisitWebsite: 'Visiter le site web',
+  resourcesLanguageLabel: 'Langue d\'affichage',
+  resourcesCountLabel: 'ressources',
+  resourcesDataSources:
+    '{total} organismes ({curated} sélectionnés + {osm} via OpenStreetMap).',
+  resourcesOsmSource: 'OpenStreetMap',
   whoAreYou: 'Qui êtes-vous?',
   whereLive: 'Où habitez-vous à Sudbury?',
   next: 'Suivant →',

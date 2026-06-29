@@ -1,4 +1,5 @@
 import type { Language, MatchedResource } from '../types';
+import { isCallablePhone } from './loadResources';
 
 let cancelled = false;
 let keepAliveTimer: ReturnType<typeof setInterval> | null = null;
@@ -22,7 +23,7 @@ export function buildResultSpeechBlocks(
   return results.map((resource) => {
     const parts = [resource.name, `${labels.whatTheyOffer}: ${resource.description}`];
     if (resource.address) parts.push(`${labels.address}: ${resource.address}`);
-    if (resource.phone && !resource.phone.startsWith('See')) {
+    if (resource.phone && isCallablePhone(resource.phone)) {
       parts.push(`${labels.phone}: ${formatPhoneForSpeech(resource.phone)}`);
     }
     if (resource.hours && resource.hours !== 'Contact for hours') {

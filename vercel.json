@@ -3,6 +3,14 @@
     {
       "source": "/api/valsea/:path*",
       "destination": "https://api.valsea.ai/:path*"
+    },
+    {
+      "source": "/api/overpass",
+      "destination": "https://overpass-api.de/api/interpreter"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ]
 }
