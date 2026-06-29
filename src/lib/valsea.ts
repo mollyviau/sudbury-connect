@@ -12,12 +12,6 @@ export function stopValseaSpeech(): void {
   }
 }
 
-function getApiKey(): string {
-  const key = import.meta.env.VITE_VALSEA_API_KEY;
-  if (!key) throw new Error('Missing VITE_VALSEA_API_KEY');
-  return key;
-}
-
 function valseaLanguage(language: Language): string {
   return language === 'French' ? 'french-ca' : 'english-us';
 }
@@ -32,7 +26,6 @@ export async function transcribeAudio(blob: Blob, language: Language): Promise<s
 
   const response = await fetch(`${API_BASE}/v1/audio/transcriptions`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${getApiKey()}` },
     body: formData,
   });
 
@@ -48,7 +41,6 @@ export async function speakText(text: string, language: Language): Promise<void>
   const response = await fetch(`${API_BASE}/v1/audio/speech`, {
     method: 'POST',
     headers: {
-      Authorization: `Bearer ${getApiKey()}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({

@@ -1,4 +1,5 @@
 import type { Language } from '../types';
+import { t } from '../i18n';
 import sudburyData from '../data/sudbury_resources.json';
 import { fetchOverpassResources, isLikelyDuplicate } from './overpassResources';
 
@@ -224,9 +225,24 @@ export function displayLanguages(languages: string[], language: Language): strin
 }
 
 export function displayDescription(resource: ResourceRecord, language: Language): string {
-  return language === 'French' && resource.descriptionFr
-    ? resource.descriptionFr
-    : resource.description;
+  const base =
+    language === 'French' && resource.descriptionFr
+      ? resource.descriptionFr
+      : resource.description;
+
+  if (
+    language === 'French' &&
+    !resource.descriptionFr?.trim() &&
+    resource.source === 'osm'
+  ) {
+    return `${base} ${t(language).descriptionEnglishOnly}`;
+  }
+
+  if (language === 'French' && !resource.descriptionFr?.trim() && resource.source === 'curated') {
+    return `${base} ${t(language).descriptionEnglishOnly}`;
+  }
+
+  return base;
 }
 
 /** True when the phone field is a real dialable number. */

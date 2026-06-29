@@ -1,4 +1,7 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { LiveRegion } from '../components/LiveRegion';
+import { ExternalLink } from '../components/ExternalLink';
 import { Navbar } from '../components/Navbar';
 import { VoiceButton } from '../components/VoiceButton';
 import { EmergencyFooter } from '../components/EmergencyFooter';
@@ -10,8 +13,10 @@ import {
   readSegments,
   stopReading,
 } from '../lib/readAloud';
-import { persistLanguage } from '../lib/languagePreference';
+import { persistLanguage, syncDocumentLanguage } from '../lib/languagePreference';
 import { isCallablePhone } from '../lib/loadResources';
+import { buildResourcesBrowsePath } from '../lib/resourceTopics';
+import { usePageTitle } from '../hooks/usePageTitle';
 import type { AppScreen, Language, MatchedResource } from '../types';
 import {
   AREA_OPTIONS,
@@ -19,6 +24,8 @@ import {
   WHO_OPTIONS,
   areaLabel,
   PICK_LANGUAGE_BILINGUAL,
+  progressStepLabel,
+  resultsLoadedLabel,
   t,
   whoLabel,
 } from '../i18n';
@@ -28,11 +35,23 @@ function optionButtonClass(selected: boolean, compact = false): string {
     ? 'flex min-h-14 w-full items-center gap-3 rounded-xl border-2 p-4 text-left shadow-sm transition'
     : 'flex min-h-14 w-full items-center gap-4 rounded-xl border-2 p-5 text-left shadow-sm transition';
   return selected
-    ? `${base} border-primary bg-primary text-primary-foreground`
-    : `${base} border-border bg-card text-foreground hover:border-primary hover:bg-secondary`;
+    ? `${base} border-primary bg-primary text-primary-foreground focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring`
+    : `${base} border-border bg-card text-foreground hover:border-primary hover:bg-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring`;
 }
 
-function ProgressBar({ current, total, label }: { current: number; total: number; label: string }) {
+function ProgressBar({
+  current,
+  total,
+  label,
+  language,
+}: {
+  current: number;
+  total: number;
+  label: string;
+  language: Language;
+}) {
+  const stepLabel = progressStepLabel(language, current, total);
+
   return (
     <div className="mb-6 mt-2">
       <div className="text-base font-bold uppercase tracking-wider text-muted-foreground">
@@ -41,9 +60,11 @@ function ProgressBar({ current, total, label }: { current: number; total: number
       <div
         className="mt-2 flex h-4 gap-1.5"
         role="progressbar"
+        aria-label={stepLabel}
         aria-valuemin={0}
         aria-valuemax={total}
         aria-valuenow={current}
+        aria-valuetext={stepLabel}
       >
         {Array.from({ length: total }).map((_, i) => (
           <div
@@ -78,10 +99,12 @@ function PrimaryAction({
   label,
   onClick,
   disabled,
+  describedBy,
 }: {
   label: string;
   onClick: () => void;
   disabled?: boolean;
+  describedBy?: string;
 }) {
   return (
     <div className="mt-8 flex justify-center sm:justify-end">
@@ -89,7 +112,8 @@ function PrimaryAction({
         type="button"
         onClick={onClick}
         disabled={disabled}
-        className="inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+        aria-describedby={describedBy}
+        className="inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
       >
         {label}
       </button>
@@ -107,13 +131,28 @@ export default function ConnectFlow() {
   const [error, setError] = useState<string | null>(null);
   const [voiceFeedback, setVoiceFeedback] = useState<string | null>(null);
   const [readingAloud, setReadingAloud] = useState(false);
+  const [liveMessage, setLiveMessage] = useState('');
 
   const strings = t(language);
   const isFr = language === 'French';
 
+  const pageTitleByScreen: Record<AppScreen, string> = {
+    1: 'Choose language / Choisir la langue',
+    2: strings.pageTitleNeed,
+    3: strings.pageTitleAboutYou,
+    4: strings.pageTitleLoading,
+    5: strings.pageTitleResults,
+  };
+  usePageTitle(pageTitleByScreen[screen]);
+
   useEffect(() => {
     if (screen === 5) primeSpeechVoices();
   }, [screen, language]);
+
+  useEffect(() => {
+    if (screen === 1) return;
+    syncDocumentLanguage(language);
+  }, [language, screen]);
 
   const DEFAULT_WHO = 'individual';
   const DEFAULT_AREA = 'any';
@@ -176,6 +215,7 @@ export default function ConnectFlow() {
     setError(null);
     setVoiceFeedback(null);
     setScreen(4);
+    setLiveMessage(strings.loading);
     try {
       const matched = await matchResources({
         categories: cats,
@@ -185,6 +225,11 @@ export default function ConnectFlow() {
       });
       setResults(matched);
       setScreen(5);
+      setLiveMessage(
+        matched.length > 0
+          ? resultsLoadedLabel(language, matched.length)
+          : strings.noResults,
+      );
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Unknown error');
       setScreen(3);
@@ -207,6 +252,7 @@ export default function ConnectFlow() {
 
     if (!gotSomething) {
       setVoiceFeedback(`${strings.voiceNoMatch} (${strings.voiceHeard} "${text}")`);
+      setLiveMessage(`${strings.voiceNoMatch} (${strings.voiceHeard} "${text}")`);
       return;
     }
 
@@ -227,6 +273,7 @@ export default function ConnectFlow() {
     }
 
     setVoiceFeedback(`${strings.voiceHeard} "${text}"`);
+    setLiveMessage(`${strings.voiceHeard} "${text}"`);
     if (newCategories.length > 0 && screen === 2) {
       goToScreen3();
     }
@@ -275,19 +322,24 @@ export default function ConnectFlow() {
     return (
       <div className="flex min-h-dvh flex-col bg-background text-foreground">
         <Navbar />
-        <div className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-10">
+        <main
+          id="main-content"
+          className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-10"
+        >
+          <LiveRegion message={liveMessage} politeness="polite" />
           <div className="flex flex-col items-center text-center">
-            <p className="text-xl text-muted-foreground sm:text-2xl">{PICK_LANGUAGE_BILINGUAL}</p>
+            <h1 className="text-xl text-muted-foreground sm:text-2xl">{PICK_LANGUAGE_BILINGUAL}</h1>
           </div>
           <div className="grid w-full max-w-2xl gap-5 sm:grid-cols-2">
             <button
               type="button"
+              lang="en"
               onClick={() => {
                 setLanguage('English');
                 persistLanguage('English');
                 setScreen(2);
               }}
-              className="flex min-h-44 w-full flex-col items-center justify-center gap-3 rounded-xl bg-primary p-8 text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90"
+              className="flex min-h-44 w-full flex-col items-center justify-center gap-3 rounded-xl bg-primary p-8 text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
             >
               <span aria-hidden className="text-6xl">
                 EN
@@ -296,12 +348,13 @@ export default function ConnectFlow() {
             </button>
             <button
               type="button"
+              lang="fr"
               onClick={() => {
                 setLanguage('French');
                 persistLanguage('French');
                 setScreen(2);
               }}
-              className="flex min-h-44 w-full flex-col items-center justify-center gap-3 rounded-xl bg-accent p-8 text-accent-foreground shadow-sm transition hover:brightness-90 active:brightness-90"
+              className="flex min-h-44 w-full flex-col items-center justify-center gap-3 rounded-xl bg-accent p-8 text-accent-foreground shadow-sm transition hover:brightness-90 active:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
             >
               <span aria-hidden className="text-6xl">
                 FR
@@ -309,7 +362,7 @@ export default function ConnectFlow() {
               <span className="text-3xl font-bold">{strings.french}</span>
             </button>
           </div>
-        </div>
+        </main>
         <EmergencyFooter language={language} />
       </div>
     );
@@ -324,20 +377,23 @@ export default function ConnectFlow() {
           <button
             type="button"
             onClick={goBack}
-              className="inline-flex min-h-12 items-center gap-2 rounded-xl border-2 border-border bg-card px-6 text-lg font-bold text-foreground shadow-sm hover:bg-secondary"
+            className="inline-flex min-h-12 items-center gap-2 rounded-xl border-2 border-border bg-card px-6 text-lg font-bold text-foreground shadow-sm hover:bg-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
           >
             <span aria-hidden>←</span> {strings.back}
           </button>
         </div>
       )}
 
-      <main className="mx-auto w-full max-w-3xl flex-1 px-5 pb-8 pt-4 sm:pt-6">
+      <main id="main-content" className="mx-auto w-full max-w-3xl flex-1 px-5 pb-8 pt-4 sm:pt-6">
+        <LiveRegion message={liveMessage} politeness="polite" />
         {screen === 2 && (
           <>
+            <h1 className="sr-only">{strings.h1Need}</h1>
             <ProgressBar
               current={1}
               total={2}
               label={isFr ? 'Question' : strings.questionOf}
+              language={language}
             />
             <QuestionCard title={strings.whatNeed} subtitle={strings.whatNeedSub}>
               <div className="flex justify-center">
@@ -354,7 +410,7 @@ export default function ConnectFlow() {
                 {strings.voiceHintFull}
               </p>
               {voiceFeedback && (
-                <p className="mt-3 rounded-lg bg-secondary p-3 text-sm text-foreground">
+                <p className="mt-3 rounded-lg bg-secondary p-3 text-sm text-foreground" aria-live="polite">
                   {voiceFeedback}
                 </p>
               )}
@@ -363,7 +419,11 @@ export default function ConnectFlow() {
                   {strings.errorTitle}: {error}
                 </p>
               )}
-              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div
+                className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2"
+                role="group"
+                aria-label={strings.categoriesGroupLabel}
+              >
                 {CATEGORY_OPTIONS.map(({ id, icon }) => (
                   <button
                     key={id}
@@ -379,9 +439,15 @@ export default function ConnectFlow() {
                   </button>
                 ))}
               </div>
+              {categories.length === 0 && (
+                <p id="category-required-hint" className="mt-4 text-center text-base text-muted-foreground">
+                  {strings.selectCategoryHint}
+                </p>
+              )}
               <PrimaryAction
                 label={strings.next}
                 disabled={categories.length === 0}
+                describedBy={categories.length === 0 ? 'category-required-hint' : undefined}
                 onClick={handleNextFromCategories}
               />
             </QuestionCard>
@@ -390,10 +456,12 @@ export default function ConnectFlow() {
 
         {screen === 3 && (
           <>
+            <h1 className="sr-only">{strings.h1AboutYou}</h1>
             <ProgressBar
               current={2}
               total={2}
               label={isFr ? 'Question' : strings.questionOf}
+              language={language}
             />
             <QuestionCard title={strings.aboutYouTitle} subtitle={strings.aboutYouSub}>
               <div className="flex justify-center">
@@ -407,13 +475,17 @@ export default function ConnectFlow() {
                 />
               </div>
               {voiceFeedback && (
-                <p className="mt-4 rounded-lg bg-secondary p-3 text-sm text-foreground">
+                <p className="mt-4 rounded-lg bg-secondary p-3 text-sm text-foreground" aria-live="polite">
                   {voiceFeedback}
                 </p>
               )}
 
               <h3 className="mt-6 text-2xl font-bold text-foreground">{strings.whoAreYou}</h3>
-              <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <div
+                className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2"
+                role="group"
+                aria-label={strings.whoGroupLabel}
+              >
                 {WHO_OPTIONS.map(({ id, icon }) => (
                   <button
                     key={id}
@@ -434,7 +506,11 @@ export default function ConnectFlow() {
               </div>
 
               <h3 className="mt-8 text-2xl font-bold text-foreground">{strings.whereLive}</h3>
-              <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <div
+                className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2"
+                role="group"
+                aria-label={strings.areaGroupLabel}
+              >
                 {AREA_OPTIONS.map(({ id }) => (
                   <button
                     key={id}
@@ -457,9 +533,16 @@ export default function ConnectFlow() {
                 </p>
               )}
 
+              {categories.length === 0 && (
+                <p id="category-required-hint" className="mt-4 text-center text-base text-muted-foreground">
+                  {strings.selectCategoryHint}
+                </p>
+              )}
+
               <PrimaryAction
                 label={strings.findResources}
                 disabled={categories.length === 0}
+                describedBy={categories.length === 0 ? 'category-required-hint' : undefined}
                 onClick={() =>
                   findResources({
                     categories,
@@ -473,10 +556,15 @@ export default function ConnectFlow() {
         )}
 
         {screen === 4 && (
-          <div className="flex min-h-[50vh] flex-col items-center justify-center gap-6 text-center">
+          <div
+            className="flex min-h-[50vh] flex-col items-center justify-center gap-6 text-center"
+            role="status"
+            aria-live="assertive"
+          >
+            <h1 className="sr-only">{strings.h1Loading}</h1>
             <div
               className="h-14 w-14 animate-spin rounded-full border-4 border-border border-t-primary"
-              aria-hidden
+              aria-hidden="true"
             />
             <p className="text-2xl font-bold text-foreground">{strings.loading}</p>
           </div>
@@ -484,12 +572,13 @@ export default function ConnectFlow() {
 
         {screen === 5 && (
           <section className="space-y-6">
+            <h1 className="sr-only">{strings.h1Results}</h1>
             <div className="flex justify-center">
               {!readingAloud ? (
                 <button
                   type="button"
                   onClick={readResultsAloud}
-                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-accent px-6 text-xl font-bold text-accent-foreground shadow-sm transition hover:brightness-90 sm:w-auto"
+                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-accent px-6 text-xl font-bold text-accent-foreground shadow-sm transition hover:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:w-auto"
                 >
                   {strings.readToMe}
                 </button>
@@ -497,7 +586,7 @@ export default function ConnectFlow() {
                 <button
                   type="button"
                   onClick={handleStopReading}
-                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border-2 border-destructive bg-destructive/10 px-6 text-xl font-bold text-destructive shadow-sm sm:w-auto"
+                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border-2 border-destructive bg-destructive/10 px-6 text-xl font-bold text-destructive shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:w-auto"
                 >
                   {strings.stopReading}
                 </button>
@@ -607,14 +696,12 @@ export default function ConnectFlow() {
                           <div>
                             <dt className="font-bold text-foreground">{strings.website}</dt>
                             <dd>
-                              <a
+                              <ExternalLink
                                 href={resource.website.split(/\s+/)[0]}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="font-bold text-primary underline"
+                                className="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
                               >
                                 {strings.website}
-                              </a>
+                              </ExternalLink>
                             </dd>
                           </div>
                         </div>
@@ -625,11 +712,19 @@ export default function ConnectFlow() {
               </ul>
             )}
 
-            <div className="flex justify-center pt-2">
+            <div className="mx-auto flex w-full max-w-xl flex-col gap-3 pt-2">
+              {categories.length > 0 && (
+                <Link
+                  to={buildResourcesBrowsePath(categories)}
+                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border-2 border-primary bg-card px-8 text-xl font-bold text-primary shadow-sm transition hover:bg-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
+                >
+                  {strings.viewMoreResources}
+                </Link>
+              )}
               <button
                 type="button"
                 onClick={goHome}
-                className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 sm:w-auto"
+                className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
               >
                 {strings.startOver}
               </button>

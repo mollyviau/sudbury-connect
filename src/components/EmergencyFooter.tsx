@@ -16,11 +16,11 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
       className="border-t-2 border-border bg-secondary px-5 py-4"
       aria-label={strings.footerTitle}
     >
-      <p className="text-center text-base font-bold text-destructive">{strings.footerEmergency}</p>
+      <p className="text-center text-base font-bold text-[#9a2d07]">{strings.footerEmergency}</p>
       <div className="mx-auto mt-3 grid max-w-3xl grid-cols-2 gap-2 sm:grid-cols-3">
         <a
           href={`tel:${CRISIS_LOCAL}`}
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footerCrisis}
@@ -29,7 +29,7 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
         </a>
         <a
           href="tel:988"
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footerSuicide}
@@ -38,7 +38,7 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
         </a>
         <a
           href="tel:811"
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footer811}
@@ -47,7 +47,7 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
         </a>
         <a
           href="tel:211"
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footer211}
@@ -56,7 +56,7 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
         </a>
         <a
           href="tel:18006686868"
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footerKids}
@@ -65,7 +65,7 @@ export function EmergencyFooter({ language }: EmergencyFooterProps) {
         </a>
         <a
           href={`tel:${CRISIS_TOLL_FREE}`}
-          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary"
+          className="a11y-card flex min-h-14 flex-col items-center justify-center rounded-xl px-2 py-2 text-center hover:border-primary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
         >
           <span className="text-xs font-semibold leading-snug text-muted-foreground">
             {strings.footer247}

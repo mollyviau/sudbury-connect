@@ -18,14 +18,10 @@ function parseJsonFromResponse<T>(text: string): T {
 }
 
 export async function askNemotron(prompt: string, maxTokens = 300): Promise<string> {
-  const apiKey = import.meta.env.VITE_NVIDIA_API_KEY;
-  const apiBase = import.meta.env.DEV ? '/api/nvidia' : 'https://integrate.api.nvidia.com';
-
-  const response = await fetch(`${apiBase}/v1/chat/completions`, {
+  const response = await fetch('/api/nvidia/v1/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
       model: 'nvidia/nemotron-3-super-120b-a12b',

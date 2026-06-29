@@ -37,6 +37,7 @@ type Strings = {
   stopReading: string;
   home: string;
   startOver: string;
+  viewMoreResources: string;
   phone: string;
   hours: string;
   whatTheyOffer: string;
@@ -75,6 +76,33 @@ type Strings = {
   footerKids: string;
   footer247: string;
   categories: Record<string, string>;
+  skipToMain: string;
+  navHomeLabel: string;
+  navResources: string;
+  navAbout: string;
+  navMainLabel: string;
+  openMenu: string;
+  closeMenu: string;
+  mobileMenuLabel: string;
+  opensInNewTab: string;
+  categoriesGroupLabel: string;
+  whoGroupLabel: string;
+  areaGroupLabel: string;
+  progressStep: string;
+  pageTitleLanguage: string;
+  pageTitleNeed: string;
+  pageTitleAboutYou: string;
+  pageTitleLoading: string;
+  pageTitleResults: string;
+  pageTitleResources: string;
+  h1Language: string;
+  h1Need: string;
+  h1AboutYou: string;
+  h1Loading: string;
+  h1Results: string;
+  selectCategoryHint: string;
+  resultsLoaded: string;
+  descriptionEnglishOnly: string;
 };
 
 const en: Strings = {
@@ -117,6 +145,7 @@ const en: Strings = {
   stopReading: '⏹ Stop reading',
   home: 'Home',
   startOver: '🔄 Start Over',
+  viewMoreResources: 'View all matching resources →',
   phone: 'Phone',
   hours: 'Hours',
   whatTheyOffer: 'What they offer',
@@ -163,6 +192,33 @@ const en: Strings = {
     family: 'Family & Children',
     senior: 'Senior Support',
   },
+  skipToMain: 'Skip to main content',
+  navHomeLabel: 'Sudbury Connect — home',
+  navResources: 'Resources',
+  navAbout: 'About / Demo',
+  navMainLabel: 'Main navigation',
+  openMenu: 'Open menu',
+  closeMenu: 'Close menu',
+  mobileMenuLabel: 'Mobile navigation menu',
+  opensInNewTab: 'opens in a new tab',
+  categoriesGroupLabel: 'What you need help with',
+  whoGroupLabel: 'Who you are',
+  areaGroupLabel: 'Where you live in Sudbury',
+  progressStep: 'Question {current} of {total}',
+  pageTitleLanguage: 'Choose language',
+  pageTitleNeed: 'What you need',
+  pageTitleAboutYou: 'About you',
+  pageTitleLoading: 'Finding resources',
+  pageTitleResults: 'Your matches',
+  pageTitleResources: 'Community resources',
+  h1Language: 'Choose your language',
+  h1Need: 'What do you need help with?',
+  h1AboutYou: 'A bit about you',
+  h1Loading: 'Finding resources for you',
+  h1Results: 'Your matched resources',
+  selectCategoryHint: 'Select at least one topic above to continue.',
+  resultsLoaded: 'Found {count} matching resource(s).',
+  descriptionEnglishOnly: '(Description available in English only.)',
 };
 
 const fr: Strings = {
@@ -205,6 +261,7 @@ const fr: Strings = {
   stopReading: '⏹ Arrêter la lecture',
   home: 'Accueil',
   startOver: '🔄 Recommencer',
+  viewMoreResources: 'Voir toutes les ressources correspondantes →',
   phone: 'Téléphone',
   hours: 'Heures',
   whatTheyOffer: 'Ce qu\'ils offrent',
@@ -251,11 +308,52 @@ const fr: Strings = {
     family: 'Famille et enfants',
     senior: 'Soutien aux aînés',
   },
+  skipToMain: 'Passer au contenu principal',
+  navHomeLabel: 'Connexion Sudbury — accueil',
+  navResources: 'Ressources',
+  navAbout: 'À propos / Démo',
+  navMainLabel: 'Navigation principale',
+  openMenu: 'Ouvrir le menu',
+  closeMenu: 'Fermer le menu',
+  mobileMenuLabel: 'Menu de navigation mobile',
+  opensInNewTab: 's\'ouvre dans un nouvel onglet',
+  categoriesGroupLabel: 'De quoi avez-vous besoin',
+  whoGroupLabel: 'Qui êtes-vous',
+  areaGroupLabel: 'Où habitez-vous à Sudbury',
+  progressStep: 'Question {current} sur {total}',
+  pageTitleLanguage: 'Choisir la langue',
+  pageTitleNeed: 'Vos besoins',
+  pageTitleAboutYou: 'À propos de vous',
+  pageTitleLoading: 'Recherche en cours',
+  pageTitleResults: 'Vos résultats',
+  pageTitleResources: 'Ressources communautaires',
+  h1Language: 'Choisissez votre langue',
+  h1Need: 'De quoi avez-vous besoin?',
+  h1AboutYou: 'Un peu à propos de vous',
+  h1Loading: 'Nous cherchons des ressources',
+  h1Results: 'Vos ressources correspondantes',
+  selectCategoryHint: 'Sélectionnez au moins un sujet ci-dessus pour continuer.',
+  resultsLoaded: '{count} ressource(s) correspondante(s) trouvée(s).',
+  descriptionEnglishOnly: '(Description disponible en anglais seulement.)',
 };
 
 /** Language picker heading — always bilingual on the home screen. */
 export const PICK_LANGUAGE_BILINGUAL =
   'Choose your language / Choisissez votre langue';
+
+/** Skip link — bilingual for users who have not picked a language yet. */
+export const SKIP_TO_MAIN_BILINGUAL =
+  'Skip to main content / Passer au contenu principal';
+
+export function resultsLoadedLabel(language: Language, count: number): string {
+  return t(language).resultsLoaded.replace('{count}', String(count));
+}
+
+export function progressStepLabel(language: Language, current: number, total: number): string {
+  return t(language).progressStep
+    .replace('{current}', String(current))
+    .replace('{total}', String(total));
+}
 
 export function t(language: Language): Strings {
   return language === 'French' ? fr : en;

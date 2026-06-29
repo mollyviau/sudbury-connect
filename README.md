@@ -127,12 +127,15 @@ Open [http://localhost:5173](http://localhost:5173).
 Copy `.env.example` to **`.env.local`** (never commit this file):
 
 ```
-VITE_NVIDIA_API_KEY=...
-VITE_APIFY_API_KEY=...
-VITE_VALSEA_API_KEY=...
+NVIDIA_API_KEY=...
+VALSEA_API_KEY=...
 ```
 
-The demo flow works without keys (local matching + browser voice). Keys are needed for Nemotron tests and Valsea fallback.
+**Production (Vercel):** add the same variable names under Project → Settings → Environment Variables. Keys stay on the server — they are not embedded in the public JavaScript bundle.
+
+The demo flow works without keys (local matching + browser voice). Keys are needed for Nemotron tests and Valsea voice fallback.
+
+If keys were ever committed to Git, **rotate them** at [NVIDIA](https://build.nvidia.com/), [Valsea](https://valsea.ai/), and [Apify](https://console.apify.com/) and update Vercel + `.env.local`.
 
 ### Scripts
 

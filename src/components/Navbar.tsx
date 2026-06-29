@@ -1,5 +1,8 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
+import { trapFocus } from '../lib/focusTrap';
+import { useAppLanguage } from '../hooks/useAppLanguage';
+import { t } from '../i18n';
 
 const NAV_LINK_CLASS = ({ isActive }: { isActive: boolean }) =>
   `rounded-lg px-3 py-2 text-base font-semibold transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring ${
@@ -14,9 +17,12 @@ const NAV_BUTTON_CLASS = ({ isActive }: { isActive: boolean }) =>
   }`;
 
 export function Navbar() {
+  const language = useAppLanguage();
+  const strings = t(language);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuId = useId();
   const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const menuPanelRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
 
   useEffect(() => {
@@ -26,10 +32,17 @@ export function Navbar() {
   useEffect(() => {
     if (!menuOpen) return;
 
+    const firstLink = menuPanelRef.current?.querySelector<HTMLElement>('a');
+    firstLink?.focus();
+
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         setMenuOpen(false);
         menuButtonRef.current?.focus();
+        return;
+      }
+      if (menuPanelRef.current) {
+        trapFocus(menuPanelRef.current, event);
       }
     }
 
@@ -41,12 +54,12 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-[#d6e8fa] bg-background shadow-[0_1px_3px_rgba(24,95,165,0.08)]">
       <nav
         className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:px-6"
-        aria-label="Main navigation"
+        aria-label={strings.navMainLabel}
       >
         <Link
           to="/"
           className="flex min-w-0 items-center gap-2 rounded-lg focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:gap-3"
-          aria-label="Sudbury Connect — home"
+          aria-label={strings.navHomeLabel}
         >
           <img
             src="/logo-navbar.png"
@@ -67,17 +80,15 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop navigation */}
         <div className="hidden items-center gap-2 sm:flex">
           <NavLink to="/resources" className={NAV_LINK_CLASS}>
-            Resources
+            {strings.navResources}
           </NavLink>
           <NavLink to="/about" className={NAV_BUTTON_CLASS}>
-            About / Demo
+            {strings.navAbout}
           </NavLink>
         </div>
 
-        {/* Mobile navigation */}
         <div className="flex items-center sm:hidden">
           <button
             ref={menuButtonRef}
@@ -85,10 +96,10 @@ export function Navbar() {
             className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border-2 border-border bg-card text-foreground shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
             aria-expanded={menuOpen}
             aria-controls={menuId}
-            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-haspopup="dialog"
+            aria-label={menuOpen ? strings.closeMenu : strings.openMenu}
             onClick={() => setMenuOpen((open) => !open)}
           >
-            <span className="sr-only">{menuOpen ? 'Close menu' : 'Open menu'}</span>
             <svg
               aria-hidden="true"
               className="h-6 w-6"
@@ -114,10 +125,12 @@ export function Navbar() {
 
       {menuOpen && (
         <div
+          ref={menuPanelRef}
           id={menuId}
           className="border-t border-[#d6e8fa] bg-background px-4 py-3 sm:hidden"
           role="dialog"
-          aria-label="Mobile navigation menu"
+          aria-modal="true"
+          aria-label={strings.mobileMenuLabel}
         >
           <ul className="flex flex-col gap-2">
             <li>
@@ -126,7 +139,7 @@ export function Navbar() {
                 className="block min-h-11 rounded-lg px-3 py-2 text-lg font-semibold text-foreground hover:bg-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
                 onClick={() => setMenuOpen(false)}
               >
-                Resources
+                {strings.navResources}
               </NavLink>
             </li>
             <li>
@@ -135,7 +148,7 @@ export function Navbar() {
                 className="block min-h-11 rounded-lg px-3 py-2 text-lg font-semibold text-foreground hover:bg-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
                 onClick={() => setMenuOpen(false)}
               >
-                About / Demo
+                {strings.navAbout}
               </NavLink>
             </li>
           </ul>

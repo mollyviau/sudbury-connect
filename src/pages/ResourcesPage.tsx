@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { ExternalLink } from '../components/ExternalLink';
 import { Navbar } from '../components/Navbar';
 import { EmergencyFooter } from '../components/EmergencyFooter';
 import {
@@ -10,10 +12,12 @@ import {
   type ResourceRecord,
 } from '../lib/loadResources';
 import {
+  parseTopicsFromSearchParams,
   RESOURCE_TOPIC_TAGS,
   topicTagLabel,
   type ResourceTopicId,
 } from '../lib/resourceTopics';
+import { usePageTitle } from '../hooks/usePageTitle';
 import { t } from '../i18n';
 import { persistLanguage, readStoredLanguage } from '../lib/languagePreference';
 import type { Language } from '../types';
@@ -61,15 +65,15 @@ function ResourceCard({ resource, language }: { resource: ResourceRecord; langua
           </p>
         )
       )}
-      <dl className="mt-5 space-y-3 text-lg">
+      <div className="mt-5 space-y-3 text-lg">
         {resource.address && (
           <div className="flex items-start gap-3">
             <span aria-hidden className="text-xl">
               📍
             </span>
             <div>
-              <dt className="font-bold text-foreground">{strings.address}</dt>
-              <dd className="text-foreground">{resource.address}</dd>
+              <p className="font-bold text-foreground">{strings.address}</p>
+              <p className="text-foreground">{resource.address}</p>
             </div>
           </div>
         )}
@@ -78,8 +82,8 @@ function ResourceCard({ resource, language }: { resource: ResourceRecord; langua
             🕐
           </span>
           <div>
-            <dt className="font-bold text-foreground">{strings.hours}</dt>
-            <dd className="text-foreground">{resource.hours}</dd>
+            <p className="font-bold text-foreground">{strings.hours}</p>
+            <p className="text-foreground">{resource.hours}</p>
           </div>
         </div>
         <div className="flex items-start gap-3">
@@ -87,10 +91,10 @@ function ResourceCard({ resource, language }: { resource: ResourceRecord; langua
             🗣️
           </span>
           <div>
-            <dt className="font-bold text-foreground">{strings.languagesServed}</dt>
-            <dd className="text-foreground">
+            <p className="font-bold text-foreground">{strings.languagesServed}</p>
+            <p className="text-foreground">
               {displayLanguages(resource.languages, language).join(', ')}
-            </dd>
+            </p>
           </div>
         </div>
         {resource.website && (
@@ -99,21 +103,19 @@ function ResourceCard({ resource, language }: { resource: ResourceRecord; langua
               🌐
             </span>
             <div>
-              <dt className="font-bold text-foreground">{strings.website}</dt>
-              <dd>
-                <a
+              <p className="font-bold text-foreground">{strings.website}</p>
+              <p>
+                <ExternalLink
                   href={resource.website.split(/\s+/)[0]}
-                  target="_blank"
-                  rel="noreferrer"
                   className="font-bold text-primary underline focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
                 >
                   {strings.resourcesVisitWebsite}
-                </a>
-              </dd>
+                </ExternalLink>
+              </p>
             </div>
           </div>
         )}
-      </dl>
+      </div>
     </li>
   );
 }
@@ -169,14 +171,26 @@ function LanguageToggle({
 }
 
 export default function ResourcesPage() {
+  const [searchParams] = useSearchParams();
   const [language, setLanguage] = useState<Language>(readStoredLanguage);
   const [resources, setResources] = useState<ResourceRecord[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedTags, setSelectedTags] = useState<ResourceTopicId[]>([]);
+  const [selectedTags, setSelectedTags] = useState<ResourceTopicId[]>(() =>
+    parseTopicsFromSearchParams(searchParams),
+  );
   const [announcement, setAnnouncement] = useState('');
 
   const strings = t(language);
   const isFr = language === 'French';
+
+  usePageTitle(strings.pageTitleResources);
+
+  useEffect(() => {
+    const fromUrl = parseTopicsFromSearchParams(searchParams);
+    if (fromUrl.length > 0) {
+      setSelectedTags(fromUrl);
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     void loadResources().then((data) => {
@@ -234,19 +248,17 @@ export default function ResourcesPage() {
   }
 
   const countLabel =
-    loading
-      ? strings.resourcesLoading
-      : selectedTags.length === 0
-        ? `${filtered.length} ${strings.resourcesCountLabel}`
-        : isFr
-          ? `${filtered.length} ressource${filtered.length === 1 ? '' : 's'} correspondante${filtered.length === 1 ? '' : 's'}`
-          : `${filtered.length} matching resource${filtered.length === 1 ? '' : 's'}`;
+    selectedTags.length === 0
+      ? `${filtered.length} ${strings.resourcesCountLabel}`
+      : isFr
+        ? `${filtered.length} ressource${filtered.length === 1 ? '' : 's'} correspondante${filtered.length === 1 ? '' : 's'}`
+        : `${filtered.length} matching resource${filtered.length === 1 ? '' : 's'}`;
 
   return (
     <div className="flex min-h-dvh flex-col bg-background text-foreground">
       <Navbar />
 
-      <main className="mx-auto w-full max-w-3xl flex-1 px-5 py-8">
+      <main id="main-content" className="mx-auto w-full max-w-3xl flex-1 px-5 py-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <h1 className="text-3xl font-bold text-foreground sm:text-4xl">
@@ -308,9 +320,11 @@ export default function ResourcesPage() {
         <p className="sr-only" aria-live="polite" aria-atomic="true">
           {announcement}
         </p>
-        <p className="mt-6 text-base font-semibold text-foreground" aria-hidden="true">
-          {countLabel}
-        </p>
+        {!loading && (
+          <p className="mt-6 text-base font-semibold text-foreground">
+            {countLabel}
+          </p>
+        )}
 
         {loading ? (
           <p className="mt-8 text-lg text-muted-foreground">{strings.resourcesLoading}</p>

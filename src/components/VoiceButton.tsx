@@ -128,7 +128,7 @@ export function VoiceButton({
     <div className="flex flex-col items-center gap-2">
       <button
         type="button"
-        className={`flex h-16 w-16 items-center justify-center rounded-full border-[3px] text-3xl shadow-sm transition ${
+        className={`flex h-16 w-16 items-center justify-center rounded-full border-[3px] text-3xl shadow-sm transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring ${
           listening
             ? 'border-destructive bg-destructive/15'
             : processing
