@@ -132,7 +132,7 @@ export function VoiceButton({
           listening
             ? 'border-destructive bg-destructive/15'
             : processing
-              ? 'cursor-wait border-primary bg-primary/15 opacity-80'
+              ? 'cursor-wait border-primary bg-secondary'
               : 'border-border bg-card hover:border-primary'
         }`}
         title={statusLabel}
@@ -142,7 +142,7 @@ export function VoiceButton({
         disabled={processing}
         onClick={toggleListening}
       >
-        {processing ? '⏳' : '🎤'}
+        <span aria-hidden="true">{processing ? '⏳' : '🎤'}</span>
       </button>
       {(listening || processing || liveText) && (
         <p className="max-w-xs text-center text-base text-foreground">{statusLabel}</p>

@@ -88,7 +88,7 @@ function QuestionCard({
 }) {
   return (
     <section className="a11y-card rounded-xl p-6 sm:p-8">
-      <h2 className="text-3xl font-bold leading-tight text-foreground sm:text-4xl">{title}</h2>
+      <h1 className="text-3xl font-bold leading-tight text-foreground sm:text-4xl">{title}</h1>
       {subtitle && <p className="mt-3 text-lg text-muted-foreground">{subtitle}</p>}
       <div className="mt-8">{children}</div>
     </section>
@@ -113,7 +113,7 @@ function PrimaryAction({
         onClick={onClick}
         disabled={disabled}
         aria-describedby={describedBy}
-        className="inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+        className="inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-xl font-bold text-primary-foreground shadow-sm transition hover:brightness-90 active:brightness-90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring disabled:cursor-not-allowed disabled:border-2 disabled:border-border disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none sm:w-auto"
       >
         {label}
       </button>
@@ -328,7 +328,7 @@ export default function ConnectFlow() {
         >
           <LiveRegion message={liveMessage} politeness="polite" />
           <div className="flex flex-col items-center text-center">
-            <h1 className="text-xl text-muted-foreground sm:text-2xl">{PICK_LANGUAGE_BILINGUAL}</h1>
+            <h1 className="text-2xl font-bold text-foreground sm:text-3xl">{PICK_LANGUAGE_BILINGUAL}</h1>
           </div>
           <div className="grid w-full max-w-2xl gap-5 sm:grid-cols-2">
             <button
@@ -388,7 +388,6 @@ export default function ConnectFlow() {
         <LiveRegion message={liveMessage} politeness="polite" />
         {screen === 2 && (
           <>
-            <h1 className="sr-only">{strings.h1Need}</h1>
             <ProgressBar
               current={1}
               total={2}
@@ -415,7 +414,7 @@ export default function ConnectFlow() {
                 </p>
               )}
               {error && (
-                <p className="mt-3 text-sm text-destructive" role="alert">
+                <p className="mt-3 text-sm font-semibold text-destructive-text" role="alert">
                   {strings.errorTitle}: {error}
                 </p>
               )}
@@ -456,7 +455,6 @@ export default function ConnectFlow() {
 
         {screen === 3 && (
           <>
-            <h1 className="sr-only">{strings.h1AboutYou}</h1>
             <ProgressBar
               current={2}
               total={2}
@@ -528,7 +526,7 @@ export default function ConnectFlow() {
               </div>
 
               {error && (
-                <p className="mt-4 text-sm text-destructive" role="alert">
+                <p className="mt-4 text-sm font-semibold text-destructive-text" role="alert">
                   {strings.errorTitle}: {error}
                 </p>
               )}
@@ -561,18 +559,16 @@ export default function ConnectFlow() {
             role="status"
             aria-live="assertive"
           >
-            <h1 className="sr-only">{strings.h1Loading}</h1>
+            <h1 className="text-2xl font-bold text-foreground">{strings.loading}</h1>
             <div
               className="h-14 w-14 animate-spin rounded-full border-4 border-border border-t-primary"
               aria-hidden="true"
             />
-            <p className="text-2xl font-bold text-foreground">{strings.loading}</p>
           </div>
         )}
 
         {screen === 5 && (
           <section className="space-y-6">
-            <h1 className="sr-only">{strings.h1Results}</h1>
             <div className="flex justify-center">
               {!readingAloud ? (
                 <button
@@ -586,7 +582,7 @@ export default function ConnectFlow() {
                 <button
                   type="button"
                   onClick={handleStopReading}
-                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border-2 border-destructive bg-destructive/10 px-6 text-xl font-bold text-destructive shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:w-auto"
+                  className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border-2 border-destructive bg-destructive/10 px-6 text-xl font-bold text-destructive-text shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:w-auto"
                 >
                   {strings.stopReading}
                 </button>
@@ -597,9 +593,9 @@ export default function ConnectFlow() {
               <p className="text-base font-bold uppercase tracking-widest text-primary">
                 {strings.resultsEyebrow}
               </p>
-              <h2 className="mt-2 text-3xl font-bold text-foreground sm:text-4xl">
+              <h1 className="mt-2 text-3xl font-bold text-foreground sm:text-4xl">
                 {resultsHeading()}
-              </h2>
+              </h1>
               {results.length > 0 && (
                 <p className="mt-3 text-lg text-muted-foreground">{strings.resultsSub}</p>
               )}

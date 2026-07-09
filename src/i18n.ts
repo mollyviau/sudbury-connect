@@ -69,6 +69,7 @@ type Strings = {
   nextResult: string;
   footerTitle: string;
   footerEmergency: string;
+  footerCrisisGridLabel: string;
   footerCrisis: string;
   footerSuicide: string;
   footer211: string;
@@ -77,7 +78,7 @@ type Strings = {
   footer247: string;
   categories: Record<string, string>;
   skipToMain: string;
-  navHomeLabel: string;
+  navHomeSuffix: string;
   navResources: string;
   navAbout: string;
   navMainLabel: string;
@@ -177,6 +178,7 @@ const en: Strings = {
   nextResult: 'Next result',
   footerTitle: 'Need help right now?',
   footerEmergency: 'If this is an emergency, call 911.',
+  footerCrisisGridLabel: 'Crisis and support phone numbers',
   footerCrisis: 'Sudbury crisis line',
   footerSuicide: 'Suicide crisis helpline',
   footer211: 'Community & social services',
@@ -193,7 +195,7 @@ const en: Strings = {
     senior: 'Senior Support',
   },
   skipToMain: 'Skip to main content',
-  navHomeLabel: 'Sudbury Connect — home',
+  navHomeSuffix: 'home',
   navResources: 'Resources',
   navAbout: 'About / Demo',
   navMainLabel: 'Main navigation',
@@ -293,6 +295,7 @@ const fr: Strings = {
   nextResult: 'Résultat suivant',
   footerTitle: 'Besoin d\'aide immédiate?',
   footerEmergency: 'En cas d\'urgence, composez le 911.',
+  footerCrisisGridLabel: 'Numéros de crise et de soutien',
   footerCrisis: 'Ligne de crise de Sudbury',
   footerSuicide: 'Ligne d\'aide en cas de suicide',
   footer211: 'Services communautaires et sociaux',
@@ -309,7 +312,7 @@ const fr: Strings = {
     senior: 'Soutien aux aînés',
   },
   skipToMain: 'Passer au contenu principal',
-  navHomeLabel: 'Connexion Sudbury — accueil',
+  navHomeSuffix: 'accueil',
   navResources: 'Ressources',
   navAbout: 'À propos / Démo',
   navMainLabel: 'Navigation principale',

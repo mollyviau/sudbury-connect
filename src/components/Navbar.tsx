@@ -59,7 +59,6 @@ export function Navbar() {
         <Link
           to="/"
           className="flex min-w-0 items-center gap-2 rounded-lg focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring sm:gap-3"
-          aria-label={strings.navHomeLabel}
         >
           <img
             src="/logo-navbar.png"
@@ -70,14 +69,11 @@ export function Navbar() {
             height={44}
             decoding="async"
           />
-          <span className="flex min-w-0 flex-col leading-none">
-            <span className="truncate font-display text-lg font-bold text-[#0c447c] sm:text-xl">
-              Sudbury
-            </span>
-            <span className="truncate text-base font-semibold text-[#185fa5] sm:text-lg">
-              Connect
-            </span>
+          <span className="flex min-w-0 flex-col leading-tight">
+            <span className="font-display text-lg font-bold text-primary sm:text-xl">Sudbury</span>
+            <span className="text-base font-semibold text-primary sm:text-lg">Connect</span>
           </span>
+          <span className="sr-only">, {strings.navHomeSuffix}</span>
         </Link>
 
         <div className="hidden items-center gap-2 sm:flex">
@@ -96,7 +92,7 @@ export function Navbar() {
             className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border-2 border-border bg-card text-foreground shadow-sm focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring"
             aria-expanded={menuOpen}
             aria-controls={menuId}
-            aria-haspopup="dialog"
+            aria-haspopup="true"
             aria-label={menuOpen ? strings.closeMenu : strings.openMenu}
             onClick={() => setMenuOpen((open) => !open)}
           >

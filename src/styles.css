@@ -20,6 +20,8 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive-text: var(--destructive-text);
+  --color-emergency: var(--emergency);
   --color-border: var(--border);
   --color-ring: var(--ring);
   --font-display: "Fraunces", Georgia, serif;
@@ -29,8 +31,8 @@
 /*
  * Brand palette from logo-principal-clair.svg:
  * - Page background: #F0F7FF (logo light blue)
- * - Primary: #185FA5 · Headings accent: #0C447C
- * - White cards + #6b7280 borders keep UI contrast (WCAG AA)
+ * - Primary / links: #0C447C (7:1+ on background — WCAG AAA)
+ * - Accent green: #035A3D · Emergency: #732008
  */
 :root {
   --radius: 0.75rem;
@@ -38,18 +40,20 @@
   --foreground: #1a1a1a;
   --card: #ffffff;
   --card-foreground: #1a1a1a;
-  --primary: #185fa5;
+  --primary: #0c447c;
   --primary-foreground: #ffffff;
   --secondary: #e3effc;
   --secondary-foreground: #0c447c;
   --muted: #d6e8fa;
   --muted-foreground: #374151;
-  --accent: #046c48;
+  --accent: #035a3d;
   --accent-foreground: #ffffff;
   --destructive: #c2410c;
   --destructive-foreground: #ffffff;
+  --destructive-text: #8a2e0b;
+  --emergency: #732008;
   --border: #6b7280;
-  --ring: #185fa5;
+  --ring: #0c447c;
 }
 
 @layer base {

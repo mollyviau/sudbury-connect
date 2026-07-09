@@ -37,7 +37,7 @@ export default function AboutPage() {
       <Navbar />
 
       <main id="main-content" className="mx-auto w-full max-w-3xl flex-1 px-5 py-8 sm:py-10">
-        <header className="text-center">
+        <div className="text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-primary">{strings.eyebrow}</p>
           <h1 className="mt-2 font-display text-4xl font-bold text-foreground sm:text-5xl">
             {appStrings.appTitle}
@@ -49,7 +49,7 @@ export default function AboutPage() {
           >
             {strings.tryApp}
           </Link>
-        </header>
+        </div>
 
         <section className="a11y-card mt-10 rounded-xl p-6 sm:p-8" aria-labelledby="video-heading">
           <h2 id="video-heading" className="text-2xl font-bold text-foreground">
