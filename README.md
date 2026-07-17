@@ -103,78 +103,13 @@ Try these flows on the live app:
 
 ---
 
-## Getting Started (developers)
-
-### Prerequisites
-
-- Node.js 18+
-- npm
-
-### Install & run
-
-```bash
-git clone https://github.com/mollyviau/sudbury-connect.git
-cd sudbury-connect
-npm install
-cp .env.example .env.local   # add your API keys
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173).
-
-### Environment variables
-
-Copy `.env.example` to **`.env.local`** (never commit this file):
-
-```
-NVIDIA_API_KEY=...
-VALSEA_API_KEY=...
-```
-
-**Production (Vercel):** add the same variable names under Project → Settings → Environment Variables. Keys stay on the server — they are not embedded in the public JavaScript bundle.
-
-The demo flow works without keys (local matching + browser voice). Keys are needed for Nemotron tests and Valsea voice fallback.
-
-If keys were ever committed to Git, **rotate them** at [NVIDIA](https://build.nvidia.com/), [Valsea](https://valsea.ai/), and [Apify](https://console.apify.com/) and update Vercel + `.env.local`.
-
-### Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start dev server |
-| `npm run build` | Production build |
-| `npm run preview` | Preview production build |
-| `npm run test:resources` | Test local resource matching |
-| `npm run test:nemotron` | Test NVIDIA Nemotron integration |
-
----
-
-## Project Structure
-
-```
-src/
-├── App.tsx              # 5-screen user flow
-├── components/          # Header, voice button, emergency footer
-├── data/resources.json  # Community resource listings
-├── i18n.ts              # English / French strings
-└── lib/
-    ├── matchResources.ts   # Local + AI matching
-    ├── parseVoiceInput.ts  # Voice → structured answers
-    ├── browserSpeech.ts    # Browser STT
-    ├── readAloud.ts        # Browser TTS
-    ├── nvidiaChat.ts       # Nemotron API
-    └── valsea.ts           # Valsea voice fallback
-```
-
----
-
 ## Team
 
 Built at The Sudbury Cursorhackathon by a team passionate about **health, safety, and community well-being**.
 
 Molly Viau - Lead Developer  
 Audrey Goudi B - Data analysis  
-Alex Yator
+Alex Yator - UI Design
 
 ---
 
@@ -188,4 +123,4 @@ Hackathon project — see repository for details.
 
 - **Live app:** [https://sudburyconnect.ca](https://sudburyconnect.ca)
 - **GitHub:** [https://github.com/mollyviau/sudbury-connect](https://github.com/mollyviau/sudbury-connect)
-- **Devpost:** *(add your submission URL when ready)*
+- **Devpost:** [https://devpost.com/software/sudbury-connect](https://devpost.com/software/sudbury-connect)
